@@ -3522,6 +3522,31 @@
       "termen": "",
       "status": "recurent",
       "verificat": "2026-11-15"
+    },
+    {
+      "id": "crea-media-freedom-2027",
+      "titlu": "Europa Creativă: mecanism de răspuns rapid pentru libertatea presei (2027)",
+      "cod": "CREA-CROSS-2027-MFP",
+      "finantator": "Comisia Europeană (EACEA)",
+      "sursa": "UE direct",
+      "domenii": [
+        "Media",
+        "Drepturile omului"
+      ],
+      "solicitanti": [
+        "Organizații, inclusiv ONG-uri, din țările participante la Europa Creativă, în consorțiu"
+      ],
+      "ong_mic": false,
+      "valoare": "Buget total 3 milioane €",
+      "cofinantare": "Conform apelului",
+      "arie": "UE și țările participante la Europa Creativă",
+      "status": "deschis",
+      "termen": "2027-01-27",
+      "termen_text": "27 ianuarie 2027, ora 17:00 (ora Bruxelles-ului); deschis din 22 octombrie 2026",
+      "rezumat": "Finanțare pentru organizațiile care monitorizează și răspund încălcărilor libertății presei și sprijină jurnaliștii aflați în pericol în Europa.",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2027-MFP",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
     }
   ]
 }
