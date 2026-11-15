@@ -2971,6 +2971,56 @@
       "link": "https://brasov.stiintescu.ro/detalii-inscriere/",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
+    },
+    {
+      "id": "synevo-solutii-pentru-comunitate",
+      "titlu": "Synevo: Soluții pentru Comunitate (sănătate, educație, mediu)",
+      "finantator": "Synevo România și Asociația Medicover",
+      "sursa": "Privat / CSR",
+      "domenii": [
+        "Sănătate",
+        "Educație",
+        "Mediu"
+      ],
+      "solicitanti": [
+        "ONG-uri cu vechime minimă, conform regulamentului"
+      ],
+      "ong_mic": false,
+      "valoare": "Până la 15.000 € pe proiect (10 proiecte, 150.000 € în total în 2026)",
+      "cofinantare": "Nespecificată în anunț",
+      "arie": "Național",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "Anual, toamna; în 2026 înscrierile s-au închis pe 12 noiembrie",
+      "rezumat": "Campanie anuală prin care Synevo sponsorizează 10 proiecte ale ONG-urilor în sănătate, educație și mediu. Ediția 2026 a fost a cincea, iar câștigătorii se anunță pe 9 decembrie 2026.",
+      "link": "https://www.csrmedia.ro/synevo-romania-finantari-150-000-euro-pentru-ong-uri-prin-programul-solutii-pentru-comunitate/",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "fundatia-orange-super-coders",
+      "titlu": "Fundația Orange: granturi mici „Super Coders” pentru educație digitală",
+      "finantator": "Fundația Orange",
+      "sursa": "Fundație",
+      "domenii": [
+        "Educație",
+        "Digital"
+      ],
+      "solicitanti": [
+        "Organizații nonprofit",
+        "Unități de învățământ publice și biblioteci"
+      ],
+      "ong_mic": true,
+      "valoare": "Până la 15.000 lei pe proiect (ediția 2025: 150.000 lei pentru maximum 10 proiecte)",
+      "cofinantare": "Nespecificată",
+      "arie": "Național",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "Anual, vara; în 2025 apelul a fost deschis între 23 iulie și 2 septembrie",
+      "rezumat": "Concurs de finanțare pentru proiecte care dezvoltă competențele digitale ale elevilor și profesorilor, parte din programul Digitaliada. Aplicarea se face doar pe platforma proiecte.fundatiaorange.ro.",
+      "link": "https://www.fundatiaorange.ro/finantare/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
     }
   ]
 }
