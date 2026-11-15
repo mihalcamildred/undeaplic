@@ -235,7 +235,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
   <section class="hero">
     <div>
       <h1>Unde <em>aplic?</em></h1>
-      <p class="lead">Apelurile de finanțare pentru ONG-urile din România, într-un singur loc: fonduri europene, bani publici, companii și fundații. Fiecare cu termen, sumă și link direct spre apel.</p>
+      <p class="lead">Apelurile de finanțare pentru ONG-urile din România, într-un singur loc: fonduri europene, bani publici, companii, fundații, plus resursele de fundraising pe care le poți folosi oricând. Fiecare cu termen, sumă și link direct.</p>
       <p class="joke">Ca să nu mai afli de apel a doua zi după termen.</p>
     </div>
     <aside class="stamp" aria-live="polite">
@@ -271,6 +271,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       <button class="qchip" type="button" data-quick="privat" aria-pressed="false">Companii și fundații</button>
       <button class="qchip" type="button" data-quick="local" aria-pressed="false">Primării și județe</button>
       <button class="qchip" type="button" data-quick="public" aria-pressed="false">Bani publici</button>
+      <button class="qchip" type="button" data-quick="resurse" aria-pressed="false">Fundraising și resurse</button>
       <button class="qchip" type="button" data-quick="anuntate" aria-pressed="false">Anunțate</button>
     </div>
     <div class="panel" id="panel" role="dialog" aria-label="Filtre">
@@ -283,6 +284,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
           <option value="deschis">Doar deschise</option>
           <option value="anuntat">Doar anunțate</option>
           <option value="recurent">Recurente (anuale)</option>
+          <option value="permanent">Disponibile oricând</option>
           <option value="">Toate</option>
         </select>
       </div>
@@ -345,12 +347,13 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
   "use strict";
   var LUNI = ["ian", "feb", "mar", "apr", "mai", "iun", "iul", "aug", "sep", "oct", "noi", "dec"];
   var LUNI_LUNG = ["ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"];
-  var STATUS_LABEL = { deschis: "Deschis", anuntat: "Anunțat", recurent: "Anual", inchis: "Închis" };
+  var STATUS_LABEL = { deschis: "Deschis", anuntat: "Anunțat", recurent: "Anual", permanent: "Oricând", inchis: "Închis" };
   var QUICK = {
     curand: function (a) { var n = daysLeft(a.termen); return effStatus(a) === "deschis" && n != null && n <= 30; },
     mic: function (a) { return a.ong_mic; },
     ue: function (a) { return a.sursa === "UE direct" || a.sursa === "UE prin România"; },
     privat: function (a) { return a.sursa === "Privat / CSR" || a.sursa === "Fundație" || a.sursa === "Internațional"; },
+    resurse: function (a) { return a.sursa === "Fundraising și resurse"; },
     public: function (a) { return a.sursa === "Public național" || a.sursa === "Public local"; },
     local: function (a) { return a.sursa === "Public local"; },
     anuntate: function (a) { return effStatus(a) === "anuntat"; },
@@ -371,7 +374,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
   function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
   function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } }
   function sortKey(a) {
-    var st = effStatus(a), rank = { deschis: 0, anuntat: 1, recurent: 2, inchis: 3 }[st], n = daysLeft(a.termen);
+    var st = effStatus(a), rank = { deschis: 0, anuntat: 1, recurent: 2, permanent: 3, inchis: 4 }[st], n = daysLeft(a.termen);
     return [rank, n == null || n < 0 ? 9999 : n];
   }
 
@@ -381,7 +384,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       var d = parseDate(a.termen);
       left = '<span class="day">' + d.getDate() + '</span><span class="mon">' + LUNI[d.getMonth()] + " " + d.getFullYear() + '</span><span class="pill ' + urgency(n) + '">' + (st === "inchis" ? "închis" : whenText(n)) + "</span>";
     } else {
-      left = '<span class="nodate">' + (st === "anuntat" ? "Termen estimat" : "Se repetă anual") + '</span><span class="pill neutral">' + STATUS_LABEL[st] + "</span>";
+      left = '<span class="nodate">' + (st === "anuntat" ? "Termen estimat" : st === "permanent" ? "Disponibil oricând" : "Se repetă anual") + '</span><span class="pill neutral">' + STATUS_LABEL[st] + "</span>";
     }
     var chips = '<span class="chip src">' + esc(a.sursa) + "</span>";
     a.domenii.forEach(function (d) { chips += '<span class="chip">' + esc(d) + "</span>"; });
@@ -395,7 +398,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       "<div><dt>Termen</dt><dd>" + esc(termenLine) + "</dd></div>" +
       (a.cod ? '<div><dt>Cod apel</dt><dd class="code">' + esc(a.cod) + "</dd></div>" : "");
 
-    var label = a.link_tip === "presa" ? "Citește anunțul apelului" : "Deschide pagina apelului";
+    var label = a.link_tip === "presa" ? "Citește anunțul" : (a.sursa === "Fundraising și resurse" ? "Deschide pagina programului" : "Deschide pagina apelului");
     return '<article class="dosar" id="' + esc(a.id) + '">' +
       '<div class="when">' + left + "</div>" +
       '<div class="body">' +
@@ -470,7 +473,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
     $("updated").textContent = fmtDate(data.actualizat);
     var srcs = [], doms = [];
     all.forEach(function (a) { if (srcs.indexOf(a.sursa) === -1) srcs.push(a.sursa); a.domenii.forEach(function (d) { if (doms.indexOf(d) === -1) doms.push(d); }); });
-    var order = ["UE direct", "UE prin România", "Public național", "Public local", "Privat / CSR", "Fundație", "Internațional"];
+    var order = ["UE direct", "UE prin România", "Public național", "Public local", "Privat / CSR", "Fundație", "Internațional", "Fundraising și resurse"];
     srcs.sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); });
     doms.sort(function (a, b) { return a.localeCompare(b, "ro"); });
     fill("f-src", srcs); fill("f-dom", doms);
