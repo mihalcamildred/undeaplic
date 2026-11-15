@@ -235,7 +235,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
   <section class="hero">
     <div>
       <h1>Unde <em>aplic?</em></h1>
-      <p class="lead">Apelurile de finanțare pentru ONG-urile din România, într-un singur loc: fonduri europene, bani publici, companii, fundații, plus resursele de fundraising pe care le poți folosi oricând. Fiecare cu termen, sumă și link direct.</p>
+      <p class="lead">Apelurile de finanțare pentru ONG-urile din România, într-un singur loc: fonduri europene, bani publici, companii, fundații, donatori internaționali. Fiecare cu termen, sumă și link direct.</p>
       <p class="joke">Ca să nu mai afli de apel a doua zi după termen.</p>
     </div>
     <aside class="stamp" aria-live="polite">
@@ -271,7 +271,6 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       <button class="qchip" type="button" data-quick="privat" aria-pressed="false">Companii și fundații</button>
       <button class="qchip" type="button" data-quick="local" aria-pressed="false">Primării și județe</button>
       <button class="qchip" type="button" data-quick="public" aria-pressed="false">Bani publici</button>
-      <button class="qchip" type="button" data-quick="resurse" aria-pressed="false">Fundraising și resurse</button>
       <button class="qchip" type="button" data-quick="anuntate" aria-pressed="false">Anunțate</button>
     </div>
     <div class="panel" id="panel" role="dialog" aria-label="Filtre">
@@ -284,7 +283,6 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
           <option value="deschis">Doar deschise</option>
           <option value="anuntat">Doar anunțate</option>
           <option value="recurent">Recurente (anuale)</option>
-          <option value="permanent">Disponibile oricând</option>
           <option value="">Toate</option>
         </select>
       </div>
@@ -353,7 +351,6 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
     mic: function (a) { return a.ong_mic; },
     ue: function (a) { return a.sursa === "UE direct" || a.sursa === "UE prin România"; },
     privat: function (a) { return a.sursa === "Privat / CSR" || a.sursa === "Fundație" || a.sursa === "Internațional"; },
-    resurse: function (a) { return a.sursa === "Fundraising și resurse"; },
     public: function (a) { return a.sursa === "Public național" || a.sursa === "Public local"; },
     local: function (a) { return a.sursa === "Public local"; },
     anuntate: function (a) { return effStatus(a) === "anuntat"; },
@@ -398,7 +395,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       "<div><dt>Termen</dt><dd>" + esc(termenLine) + "</dd></div>" +
       (a.cod ? '<div><dt>Cod apel</dt><dd class="code">' + esc(a.cod) + "</dd></div>" : "");
 
-    var label = a.link_tip === "presa" ? "Citește anunțul" : (a.sursa === "Fundraising și resurse" ? "Deschide pagina programului" : "Deschide pagina apelului");
+    var label = a.link_tip === "presa" ? "Citește anunțul" : "Deschide pagina apelului";
     return '<article class="dosar" id="' + esc(a.id) + '">' +
       '<div class="when">' + left + "</div>" +
       '<div class="body">' +
@@ -473,7 +470,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
     $("updated").textContent = fmtDate(data.actualizat);
     var srcs = [], doms = [];
     all.forEach(function (a) { if (srcs.indexOf(a.sursa) === -1) srcs.push(a.sursa); a.domenii.forEach(function (d) { if (doms.indexOf(d) === -1) doms.push(d); }); });
-    var order = ["UE direct", "UE prin România", "Public național", "Public local", "Privat / CSR", "Fundație", "Internațional", "Fundraising și resurse"];
+    var order = ["UE direct", "UE prin România", "Public național", "Public local", "Privat / CSR", "Fundație", "Internațional"];
     srcs.sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); });
     doms.sort(function (a, b) { return a.localeCompare(b, "ro"); });
     fill("f-src", srcs); fill("f-dom", doms);

@@ -723,32 +723,6 @@
       "verificat": "2026-11-15"
     },
     {
-      "id": "ing-donations-hub",
-      "titlu": "ING Donations Hub: campanii de strângere de fonduri în Home'Bank",
-      "finantator": "ING Bank România",
-      "sursa": "Privat / CSR",
-      "domenii": [
-        "Educație",
-        "Sănătate",
-        "Mediu",
-        "Social"
-      ],
-      "solicitanti": [
-        "ONG cu minimum 2 ani de activitate"
-      ],
-      "ong_mic": false,
-      "valoare": "donații de la clienții ING (20 de locuri)",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, vara (2026: 9–30 iulie)",
-      "rezumat": "Nu e grant clasic: proiectul tău apare un an întreg în aplicația băncii, unde clienții pot dona.",
-      "link": "https://www.csrmedia.ro/ing-bank-donations-hub-2026-2027/",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
       "id": "fundatia-telus-digital",
       "titlu": "Fundația TELUS Digital România: granturi pentru ONG-uri",
       "finantator": "Fundația TELUS Digital România",
@@ -2801,337 +2775,6 @@
       "verificat": "2026-11-15"
     },
     {
-      "id": "formular-230",
-      "titlu": "Formularul 230: până la 3,5% din impozitul pe salarii",
-      "finantator": "Persoane fizice, prin ANAF",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Fundraising"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "în funcție de câți oameni redirecționează",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, până pe 25 mai; formularul poate fi depus și direct la ONG",
-      "rezumat": "Cea mai accesibilă sursă de bani pentru orice ONG: oamenii nu plătesc nimic în plus, doar aleg unde merge o parte din impozit. Verifică la ANAF condițiile pentru procentul de 3,5%.",
-      "link": "https://startupcafe.ro/redirectionarea-a-35-din-impozit-catre-ong-luni-25-mai-termen-pentru-depunerea-formularului-230-100163",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "redirectioneaza-ro",
-      "titlu": "Redirecționează.ro: colectezi online formularele 230",
-      "finantator": "Code for Romania",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Fundraising",
-        "Digitalizare"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "gratuit",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând; campaniile se fac de obicei februarie–mai",
-      "rezumat": "Platformă gratuită unde oamenii completează și semnează online formularul 230 pentru ONG-ul tău. Peste 3.700 de organizații sunt deja înscrise.",
-      "link": "https://redirectioneaza.ro",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "formular-177-sponsorizare",
-      "titlu": "Sponsorizare din impozitul pe profit (credit fiscal și Formularul 177)",
-      "finantator": "Firme plătitoare de impozit pe profit",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Fundraising"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": false,
-      "valoare": "cel mult minimul dintre 0,75% din cifra de afaceri și 20% din impozitul pe profit al firmei",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "sponsorizări tot anul; redirecționarea prin Formularul 177 până pe 25 iunie, pentru anul precedent",
-      "rezumat": "Firmele pot da bani ONG-urilor din impozitul pe care oricum îl plătesc. Condiția-cheie: ONG-ul trebuie să fie înscris în Registrul entităților/unităților de cult al ANAF.",
-      "link": "https://startupcafe.ro/joi-25-iunie-termen-pentru-formularul-177-firmele-pot-redirectiona-pana-la-20-din-impozitul-pe-profit-catre-ong-101833",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "bursa-binelui",
-      "titlu": "Bursa Binelui: donații online fără comision",
-      "finantator": "BCR",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Fundraising"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "donații de la public; banii ajung integral la ONG",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând",
-      "rezumat": "Îți pui proiectul pe platformă și primești donații fără comision. Bun pentru campanii mici, cu poveste clară.",
-      "link": "https://www.bursabinelui.ro",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "galantom",
-      "titlu": "Galantom: strângere de fonduri prin susținători",
-      "finantator": "Asociația OneKind și partenerii",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Fundraising"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "donații de la public",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând",
-      "rezumat": "Susținătorii tăi își fac pagini de fundraising (alergări, zile de naștere, provocări) și strâng bani pentru cauza ta.",
-      "link": "https://galantom.ro",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "google-ad-grants",
-      "titlu": "Google Ad Grants: publicitate gratuită pe Google",
-      "finantator": "Google",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Digitalizare",
-        "Vizibilitate"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "până la 10.000 USD pe lună în reclame gratuite",
-      "cofinantare": "",
-      "arie": "Național (programul funcționează în România)",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând, prin Google for Nonprofits",
-      "rezumat": "Reclame gratuite în căutările Google, ca să te găsească donatorii, voluntarii și beneficiarii. Cere un site funcțional și puțină atenție la reguli.",
-      "link": "https://www.google.com/intl/ro_ro/grants/program/",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "microsoft-nonprofits",
-      "titlu": "Microsoft for Nonprofits: licențe gratuite și reduceri",
-      "finantator": "Microsoft",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Digitalizare"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "Microsoft 365 Business Basic gratuit (până la 300 de utilizatori) și reduceri la alte produse",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând, după validarea organizației",
-      "rezumat": "Email profesional, Teams și stocare în cloud fără cost pentru echipa plătită și conducere.",
-      "link": "https://www.microsoft.com/nonprofits/eligibility",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "canva-nonprofits",
-      "titlu": "Canva pentru ONG-uri: Canva Pro gratuit",
-      "finantator": "Canva",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Digitalizare",
-        "Vizibilitate"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "Canva Pro gratuit",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând, după validare",
-      "rezumat": "Design de postări, afișe și prezentări fără abonament plătit.",
-      "link": "https://www.canva.com/nonprofits/",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "dam-click-pe-romania",
-      "titlu": "Dăm Click pe România: calculatoare recondiționate",
-      "finantator": "Asociația Ateliere Fără Frontiere, cu Kaufland și OMV Petrom",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Digitalizare",
-        "Educație"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "calculatoare recondiționate, gratuit",
-      "cofinantare": "",
-      "arie": "Național (prioritar comunități vulnerabile)",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "de obicei două runde pe an (2026: iunie și septembrie–octombrie)",
-      "rezumat": "Calculatoare gata de folosit pentru ONG-urile, școlile și centrele sociale din comunități vulnerabile.",
-      "link": "https://educlick.ro",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "ngo-hub",
-      "titlu": "NGO Hub: aplicații gratuite pentru ONG-uri",
-      "finantator": "Code for Romania",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Digitalizare"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "gratuit",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând",
-      "rezumat": "Suită de aplicații pentru ONG-uri: gestionare de bugete și rapoarte, donații, IT pro bono și altele.",
-      "link": "https://www.revistabiz.ro/ngo-hub-primul-ecosistem-de-solutii-digitale-dedicate-societatii-civile-din-romania/",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "amplify-ong",
-      "titlu": "AmpliFY ONG și BCR Social Finance: dezvoltare financiară și credite pentru ONG-uri",
-      "finantator": "BCR Social Finance, How to Web, cu sprijinul BCR și ERSTE Foundation",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Dezvoltare organizațională",
-        "Fundraising"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": false,
-      "valoare": "webinarii și mentorat gratuite; credite și prefinanțare pentru ONG-uri",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "permanent",
-      "termen": "",
-      "termen_text": "oricând",
-      "rezumat": "Pentru ONG-urile care vor venituri proprii mai stabile sau au nevoie de prefinanțare pentru un proiect european.",
-      "link": "https://green.start-up.ro/en/subiecte/ngo",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "marc-impact",
-      "titlu": "Marc Impact Programme: accelerator pentru ONG-uri cu activitate economică",
-      "finantator": "BCR, BCR Social Finance și Synerb, cu ERSTE Foundation",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Dezvoltare organizațională",
-        "Economie socială"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": false,
-      "valoare": "mentorat, pregătire pentru investiții, acces la finanțatori",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, toamna (2026: termen 11 octombrie)",
-      "rezumat": "Pentru ONG-urile și întreprinderile sociale care generează venituri și vor să crească.",
-      "link": "https://www.revistabiz.ro/bcr-social-finance-deschide-inscrierile-pentru-a-treia-editie-marc-impact-programme/",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "gala-societatii-civile",
-      "titlu": "Gala Societății Civile: premii și vizibilitate pentru proiecte",
-      "finantator": "The Institute",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Vizibilitate"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "premii și vizibilitate (fără bani garantați)",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, vara (2026: înscrieri până pe 10 iulie)",
-      "rezumat": "Cea mai veche competiție a sectorului ONG. Un premiu aici ajută mult la următoarele cereri de finanțare.",
-      "link": "https://startupcafe.ro/ong-uri-romanesti-inscrieri-proiecte-competitie-gala-societatii-civile-2026-101932",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "social-awards",
-      "titlu": "Social Awards: premii pentru firme și ONG-uri care schimbă orașele",
-      "finantator": "Organizatorii Social Awards",
-      "sursa": "Fundraising și resurse",
-      "domenii": [
-        "Social",
-        "Dezvoltare comunitară",
-        "Mediu"
-      ],
-      "solicitanti": [
-        "ONG",
-        "IMM"
-      ],
-      "ong_mic": false,
-      "valoare": "premii de până la 20.000 EUR (90.000 EUR în total)",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, toamna (2026: 5 octombrie – 6 noiembrie)",
-      "rezumat": "Categorie dedicată impactului social: servicii pentru copii, vârstnici și persoane cu dizabilități, incluziune, accesibilitate.",
-      "link": "https://startupcafe.ro/premii-de-90-000-eur-pentru-firmele-si-ong-urile-care-transforma-orasele-din-romania-cine-poate-obtine-pana-la-20-000-eur-si-cum-se-fac-inscrierile-107972",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
       "id": "orange-afcn-dizabilitate",
       "titlu": "Diz/Abilitatea – Incluziune prin cultură (AFCN și Fundația Orange)",
       "finantator": "AFCN și Fundația Orange",
@@ -3225,6 +2868,32 @@
       "termen_text": "mai multe apeluri pe an; peste 20 planificate până în martie 2028",
       "rezumat": "Granturi pentru cultură și solidaritate europeană. Verifică pagina de apeluri lunar.",
       "link": "https://culturalfoundation.eu/open-calls/culture-of-solidarity-fund/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "pids-victime-trafic-persoane",
+      "titlu": "Servicii integrate pentru victimele traficului de persoane (PIDS 8.2)",
+      "cod": "PIDS P08, Acțiunea 8.2",
+      "finantator": "Ministerul Investițiilor și Proiectelor Europene, Programul Incluziune și Demnitate Socială",
+      "sursa": "UE prin România",
+      "domenii": [
+        "Social",
+        "Protecția victimelor"
+      ],
+      "solicitanti": [
+        "ONG-uri specializate, acreditate ca furnizori de servicii sociale",
+        "DGASPC și furnizori publici de servicii sociale"
+      ],
+      "ong_mic": false,
+      "valoare": "201.000 – 955.577 € pe proiect (centre de criză și servicii)",
+      "cofinantare": "0% pentru ONG-uri în regiunile mai puțin dezvoltate",
+      "arie": "Național (apel separat pentru București-Ilfov)",
+      "status": "deschis",
+      "termen": "2027-01-25",
+      "termen_text": "25 ianuarie 2027, ora 16:00 (depunere în MySMIS2021 din 26 octombrie 2026)",
+      "rezumat": "Finanțare pentru centre de criză și servicii de cazare, consiliere și reintegrare pentru victimele traficului de persoane. ONG-urile trebuie să fie furnizori acreditați de servicii sociale, cu servicii licențiate, minimum 3 ani de activitate anti-trafic și un parteneriat activ cu o autoritate publică din domeniu.",
+      "link": "https://mfe.gov.ro/ghiduri_pids/ghidul-solicitantului-servicii-integrate-pentru-victimele-traficului-de-persoane/",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
     }
