@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unde Aplic?</title>
+<meta name="description" content="Toate apelurile de finanțare pentru ONG-urile din România, într-un singur loc: fonduri europene, publice, private și de la fundații.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+/* Registratură: antet cu ștampilă, rând de cifre, filtre lipite sus, dosare cu termenul în stânga */
+:root {
+  --paper: #f3f4f8;
+  --card: #ffffff;
+  --ink: #1c1a2e;
+  --muted: #5c5a72;
+  --line: #dcdce8;
+  --stamp: #3a2fc0;
+  --stamp-soft: #e8e6fb;
+  --urgent: #b4321f;
+  --urgent-soft: #fbe9e5;
+  --soon: #94600a;
+  --soon-soft: #fbf1dc;
+  --ok: #24704f;
+  --ok-soft: #e2f3ea;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --radius: 10px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14131d;
+    --card: #1d1c2a;
+    --ink: #ecebf5;
+    --muted: #a5a3bb;
+    --line: #34324a;
+    --stamp: #9d94ff;
+    --stamp-soft: #2a2650;
+    --urgent: #ff8a73;
+    --urgent-soft: #3a1f1b;
+    --soon: #f2c063;
+    --soon-soft: #352a14;
+    --ok: #6fd3a3;
+    --ok-soft: #173126;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #14131d;
+  --card: #1d1c2a;
+  --ink: #ecebf5;
+  --muted: #a5a3bb;
+  --line: #34324a;
+  --stamp: #9d94ff;
+  --stamp-soft: #2a2650;
+  --urgent: #ff8a73;
+  --urgent-soft: #3a1f1b;
+  --soon: #f2c063;
+  --soon-soft: #352a14;
+  --ok: #6fd3a3;
+  --ok-soft: #173126;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--stamp); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--stamp);
+  outline-offset: 2px;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* Antet */
+.top {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
+.brand span { color: var(--stamp); }
+.top nav { display: flex; gap: 18px; font-size: 0.95rem; }
+.top nav a { color: var(--muted); text-decoration: none; }
+.top nav a:hover { color: var(--ink); }
+.proto { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; }
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+  padding: 48px 0 36px;
+}
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(3rem, 8vw, 5.6rem);
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  margin: 0 0 18px;
+  text-wrap: balance;
+}
+.hero h1 em { font-style: normal; color: var(--stamp); }
+.hero p.lead { font-size: 1.15rem; max-width: 34em; margin: 0 0 8px; color: var(--ink); }
+.hero p.joke { color: var(--muted); margin: 0; font-style: italic; }
+
+/* Ștampila */
+.stamp {
+  justify-self: center;
+  width: min(100%, 340px);
+  border: 3px solid var(--stamp);
+  border-radius: 14px;
+  padding: 18px 20px 20px;
+  color: var(--stamp);
+  transform: rotate(-4deg);
+  position: relative;
+  background: var(--card);
+  box-shadow: 0 1px 0 var(--line);
+}
+.stamp::before {
+  content: "";
+  position: absolute; inset: 6px;
+  border: 1.5px dashed color-mix(in srgb, var(--stamp) 55%, transparent);
+  border-radius: 9px;
+  pointer-events: none;
+}
+.stamp .label { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; font-weight: 600; }
+.stamp .big { font-family: var(--font-display); font-weight: 800; font-size: 2.6rem; line-height: 1; margin: 6px 0 8px; letter-spacing: -0.02em; }
+.stamp .what { color: var(--ink); font-weight: 600; font-size: 0.98rem; line-height: 1.35; }
+.stamp .when { font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); margin-top: 6px; }
+@media (prefers-reduced-motion: no-preference) {
+  .stamp { animation: thud 520ms cubic-bezier(.2,.9,.3,1.3) 120ms both; }
+  @keyframes thud {
+    0% { transform: rotate(-4deg) scale(1.18); opacity: 0.35; }
+    100% { transform: rotate(-4deg) scale(1); opacity: 1; }
+  }
+}
+
+/* Cifre */
+.counts {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px;
+  background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  margin-bottom: 28px;
+}
+.count { background: var(--card); padding: 14px 16px; }
+.count b { display: block; font-family: var(--font-display); font-weight: 800; font-size: 1.9rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.count span { color: var(--muted); font-size: 0.88rem; }
+.count.c-urgent b { color: var(--urgent); }
+
+/* Filtre */
+.filters {
+  position: sticky; top: 0; z-index: 5;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(6px);
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 18px;
+}
+.filter-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.filter-row .search { flex: 1 1 260px; }
+input[type="search"], select, input[type="text"], input[type="url"], input[type="date"], input[type="email"], textarea {
+  font: inherit; color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 12px;
+  min-height: 42px;
+}
+input[type="search"] { width: 100%; }
+select { padding-right: 30px; }
+.check { display: inline-flex; align-items: center; gap: 8px; font-size: 0.95rem; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); cursor: pointer; min-height: 42px; }
+.check input { accent-color: var(--stamp); width: 16px; height: 16px; }
+.result-line { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 0 0 12px; color: var(--muted); font-size: 0.92rem; }
+.linkish { background: none; border: none; color: var(--stamp); font: inherit; cursor: pointer; padding: 0; text-decoration: underline; }
+
+/* Dosare */
+.list { display: grid; gap: 12px; margin-bottom: 56px; }
+.dosar {
+  display: grid;
+  grid-template-columns: 128px minmax(0, 1fr);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.dosar .when {
+  border-right: 1px dashed var(--line);
+  padding: 16px 12px;
+  text-align: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+}
+.dosar .day { font-family: var(--font-display); font-weight: 800; font-size: 2.2rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.dosar .mon { font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+.dosar .nodate { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; line-height: 1.35; }
+.pill { font-family: var(--font-mono); font-size: 0.74rem; font-weight: 600; border-radius: 999px; padding: 3px 9px; white-space: nowrap; }
+.pill.urgent { background: var(--urgent-soft); color: var(--urgent); }
+.pill.soon { background: var(--soon-soft); color: var(--soon); }
+.pill.ok { background: var(--ok-soft); color: var(--ok); }
+.pill.neutral { background: var(--stamp-soft); color: var(--stamp); }
+.pill.closed { background: var(--line); color: var(--muted); }
+
+.dosar .body { padding: 16px 18px 14px; display: grid; gap: 8px; min-width: 0; }
+.dosar .head { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; }
+.dosar h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; line-height: 1.25; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.dosar .who { color: var(--muted); font-size: 0.92rem; margin: 0; }
+.dosar .summary { margin: 0; max-width: 68ch; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 0.78rem; border: 1px solid var(--line); border-radius: 6px; padding: 1px 8px; color: var(--muted); }
+.chip.src { border-color: var(--stamp); color: var(--stamp); font-weight: 500; }
+.chip.mic { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 4px 18px; margin: 2px 0 0; font-size: 0.9rem; }
+.facts div { min-width: 0; }
+.facts dt { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.facts dd { margin: 0; }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: center; border-top: 1px solid var(--line); padding-top: 10px; margin-top: 4px; font-size: 0.88rem; }
+.foot a { font-weight: 600; text-decoration: none; }
+.foot a:hover { text-decoration: underline; }
+.foot .ver { color: var(--muted); font-family: var(--font-mono); font-size: 0.75rem; }
+.code { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); }
+.empty { background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius); padding: 28px; text-align: center; color: var(--muted); }
+
+/* Trimite un apel */
+.send {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 32px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 28px; margin-bottom: 48px;
+}
+.send h2 { font-family: var(--font-display); font-weight: 800; font-size: 1.9rem; line-height: 1.1; margin: 0 0 10px; letter-spacing: -0.02em; text-wrap: balance; }
+.send p { margin: 0 0 10px; color: var(--muted); max-width: 42ch; }
+form { display: grid; gap: 12px; }
+.field { display: grid; gap: 4px; }
+.field label { font-size: 0.88rem; font-weight: 500; }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+textarea { min-height: 80px; resize: vertical; }
+.btn { font: inherit; font-weight: 600; background: var(--stamp); color: #fff; border: none; border-radius: 8px; padding: 11px 18px; cursor: pointer; justify-self: start; min-height: 44px; }
+:root[data-theme="dark"] .btn { color: #14131d; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn { color: #14131d; } }
+.btn.ghost { background: transparent; color: var(--stamp); border: 1px solid var(--stamp); }
+.sent { display: none; border: 1px dashed var(--stamp); border-radius: 8px; padding: 14px; background: var(--stamp-soft); font-size: 0.92rem; }
+.sent.show { display: grid; gap: 8px; }
+.sent pre { white-space: pre-wrap; font-family: var(--font-mono); font-size: 0.8rem; margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 10px; overflow-x: auto; }
+
+footer.site { border-top: 1px solid var(--line); padding: 22px 0 40px; color: var(--muted); font-size: 0.88rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; }
+
+@media (max-width: 760px) {
+  .hero { grid-template-columns: 1fr; gap: 28px; padding-top: 32px; }
+  .counts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .send { grid-template-columns: 1fr; padding: 20px; }
+  .top nav { display: none; }
+}
+@media (max-width: 520px) {
+  .dosar { grid-template-columns: 1fr; }
+  .dosar .when { border-right: none; border-bottom: 1px dashed var(--line); flex-direction: row; justify-content: flex-start; gap: 10px; padding: 12px 18px; text-align: left; }
+  .dosar .day { font-size: 1.6rem; }
+  .field-row { grid-template-columns: 1fr; }
+  .filter-row select, .filter-row .check { flex: 1 1 100%; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#">Unde Aplic<span>?</span></a>
+    <nav aria-label="Navigare">
+      <a href="#apeluri">Apeluri</a>
+      <a href="#trimite">Trimite un apel</a>
+    </nav>
+    <span class="proto">Prototip</span>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Unde <em>aplic?</em></h1>
+      <p class="lead">Toate apelurile de finanțare pentru ONG-urile din România, într-un singur loc: fonduri europene, bani publici, companii și fundații. Fiecare cu termen, sumă și link spre sursă.</p>
+      <p class="joke">Ca să nu mai afli de apel a doua zi după termen.</p>
+    </div>
+    <aside class="stamp" id="stamp" aria-live="polite">
+      <div class="label">Următorul termen</div>
+      <div class="big" id="stamp-big">…</div>
+      <div class="what" id="stamp-what">Se încarcă apelurile</div>
+      <div class="when" id="stamp-when"></div>
+    </aside>
+  </section>
+
+  <section class="counts" aria-label="Pe scurt">
+    <div class="count"><b id="n-open">–</b><span>apeluri deschise acum</span></div>
+    <div class="count c-urgent"><b id="n-soon">–</b><span>se închid în 30 de zile</span></div>
+    <div class="count"><b id="n-ann">–</b><span>anunțate, pregătește-te</span></div>
+    <div class="count"><b id="n-small">–</b><span>accesibile ONG-urilor mici</span></div>
+  </section>
+
+  <section class="filters" id="apeluri" aria-label="Filtre">
+    <div class="filter-row">
+      <div class="search">
+        <label for="q" class="sr" style="position:absolute;left:-9999px">Caută</label>
+        <input type="search" id="q" placeholder="Caută: copii, cultură, Erasmus, Kaufland…" autocomplete="off">
+      </div>
+      <label for="f-src" style="position:absolute;left:-9999px">Tip de finanțator</label>
+      <select id="f-src"><option value="">Orice finanțator</option></select>
+      <label for="f-dom" style="position:absolute;left:-9999px">Domeniu</label>
+      <select id="f-dom"><option value="">Orice domeniu</option></select>
+      <label for="f-status" style="position:absolute;left:-9999px">Status</label>
+      <select id="f-status">
+        <option value="activ">Deschise + anunțate</option>
+        <option value="deschis">Doar deschise</option>
+        <option value="anuntat">Doar anunțate</option>
+        <option value="recurent">Recurente (anuale)</option>
+        <option value="">Toate, inclusiv închise</option>
+      </select>
+      <label class="check" for="f-mic"><input type="checkbox" id="f-mic"> Potrivite pentru ONG-uri mici</label>
+    </div>
+  </section>
+
+  <div class="result-line">
+    <span id="result-count">Se încarcă…</span>
+    <button class="linkish" id="reset" type="button">Resetează filtrele</button>
+  </div>
+
+  <main class="list" id="list" aria-live="polite"></main>
+
+  <section class="send" id="trimite">
+    <div>
+      <h2>Ai găsit un apel care lipsește?</h2>
+      <p>Trimite-ni-l. Îl verificăm la sursă și îl adăugăm, de obicei în aceeași zi.</p>
+      <p>Merge orice: fonduri europene, primărie, consiliu județean, fundație, program de CSR, ambasadă.</p>
+    </div>
+    <form id="send-form" novalidate>
+      <div class="field">
+        <label for="s-title">Numele apelului *</label>
+        <input type="text" id="s-title" required placeholder="ex. Granturi pentru tineret, Primăria Cluj-Napoca">
+      </div>
+      <div class="field">
+        <label for="s-link">Link spre apel *</label>
+        <input type="url" id="s-link" required placeholder="https://">
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="s-funder">Finanțator</label>
+          <input type="text" id="s-funder" placeholder="cine dă banii">
+        </div>
+        <div class="field">
+          <label for="s-date">Termen limită</label>
+          <input type="date" id="s-date">
+        </div>
+      </div>
+      <div class="field">
+        <label for="s-note">Ceva ce ar trebui să știm?</label>
+        <textarea id="s-note" placeholder="ex. e doar pentru ONG-uri din județul Sălaj"></textarea>
+      </div>
+      <div class="field">
+        <label for="s-email">Emailul tău (opțional, ca să-ți spunem când apare)</label>
+        <input type="email" id="s-email" placeholder="nume@organizatie.ro">
+      </div>
+      <button class="btn" type="submit">Trimite apelul</button>
+      <div class="sent" id="sent" role="status">
+        <strong>Mulțumim! În prototip, formularul nu trimite încă nimic automat.</strong>
+        <span>După lansare îl legăm de un formular real. Până atunci, poți copia textul de mai jos și să-l trimiți pe email la <b>contact@undeaplic.ro</b>.</span>
+        <pre id="sent-text"></pre>
+        <button class="btn ghost" type="button" id="copy">Copiază textul</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="site">
+    <span>Actualizat: <b id="updated">–</b>. Verificăm sursele zilnic.</span>
+    <span>Termenele se mai schimbă. Înainte să aplici, citește ghidul oficial.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var LUNI = ["ian", "feb", "mar", "apr", "mai", "iun", "iul", "aug", "sep", "oct", "noi", "dec"];
+  var LUNI_LUNG = ["ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"];
+  var STATUS_LABEL = { deschis: "Deschis", anuntat: "Anunțat", recurent: "Recurent", inchis: "Închis" };
+  var all = [];
+
+  function $(id) { return document.getElementById(id); }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function today() { var d = new Date(); d.setHours(0, 0, 0, 0); return d; }
+  function parseDate(s) {
+    if (!s) return null;
+    var p = s.split("-");
+    return new Date(+p[0], +p[1] - 1, +p[2]);
+  }
+  function daysLeft(dateStr) {
+    var d = parseDate(dateStr);
+    if (!d) return null;
+    return Math.round((d - today()) / 86400000);
+  }
+  function fmtDate(dateStr) {
+    var d = parseDate(dateStr);
+    return d ? d.getDate() + " " + LUNI_LUNG[d.getMonth()] + " " + d.getFullYear() : "";
+  }
+  function whenText(n) {
+    if (n === 0) return "astăzi";
+    if (n === 1) return "mâine";
+    if (n < 0) return "a trecut";
+    return "în " + n + " zile";
+  }
+  function urgency(n) {
+    if (n == null) return "neutral";
+    if (n < 0) return "closed";
+    if (n <= 7) return "urgent";
+    if (n <= 30) return "soon";
+    return "ok";
+  }
+  // Statusul real: un apel „deschis” al cărui termen a trecut devine „închis”.
+  function effStatus(a) {
+    var n = daysLeft(a.termen);
+    if (a.status === "deschis" && n != null && n < 0) return "inchis";
+    return a.status;
+  }
+  function norm(s) {
+    return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  }
+
+  function sortKey(a) {
+    var st = effStatus(a);
+    var rank = { deschis: 0, anuntat: 1, recurent: 2, inchis: 3 }[st];
+    var n = daysLeft(a.termen);
+    if (st === "recurent" && (n == null || n < 0)) n = 9999;
+    return [rank, n == null ? 9999 : n];
+  }
+
+  function card(a) {
+    var st = effStatus(a);
+    var n = daysLeft(a.termen);
+    var left;
+    if (a.termen && st !== "recurent") {
+      var d = parseDate(a.termen);
+      left = '<div class="day">' + d.getDate() + '</div><div class="mon">' + LUNI[d.getMonth()] + " " + d.getFullYear() + "</div>" +
+        '<span class="pill ' + urgency(n) + '">' + (st === "inchis" ? "închis" : whenText(n)) + "</span>";
+    } else if (a.termen && st === "recurent" && n != null && n >= 0) {
+      var d2 = parseDate(a.termen);
+      left = '<div class="day">' + d2.getDate() + '</div><div class="mon">' + LUNI[d2.getMonth()] + " " + d2.getFullYear() + "</div>" +
+        '<span class="pill ' + urgency(n) + '">' + whenText(n) + "</span>";
+    } else {
+      left = '<div class="nodate">' + (st === "anuntat" ? "Termen<br>estimat" : "Se repetă<br>anual") + "</div>" +
+        '<span class="pill neutral">' + STATUS_LABEL[st] + "</span>";
+    }
+
+    var chips = '<span class="chip src">' + esc(a.sursa) + "</span>";
+    a.domenii.forEach(function (d) { chips += '<span class="chip">' + esc(d) + "</span>"; });
+    if (a.ong_mic) chips += '<span class="chip mic">Potrivit pentru ONG-uri mici</span>';
+
+    var facts = '<div><dt>Cât</dt><dd>' + esc(a.valoare) + "</dd></div>";
+    facts += "<div><dt>Cine poate aplica</dt><dd>" + esc(a.solicitanti.join(", ")) + "</dd></div>";
+    facts += "<div><dt>Unde</dt><dd>" + esc(a.arie) + "</dd></div>";
+    if (a.cofinantare) facts += "<div><dt>Cofinanțare</dt><dd>" + esc(a.cofinantare) + "</dd></div>";
+    var termenLine = "";
+    if (a.termen) termenLine = fmtDate(a.termen) + (a.termen_text ? ", " + a.termen_text : "");
+    else termenLine = a.termen_text;
+    facts += "<div><dt>Termen</dt><dd>" + esc(termenLine) + "</dd></div>";
+
+    var linkLabel = a.link_tip === "presa" ? "Citește anunțul (presă)" : "Vezi apelul oficial";
+    var code = a.cod ? '<span class="code">Cod: ' + esc(a.cod) + "</span>" : "";
+
+    return '<article class="dosar" id="' + esc(a.id) + '">' +
+      '<div class="when">' + left + "</div>" +
+      '<div class="body">' +
+        '<div class="head"><h3>' + esc(a.titlu) + "</h3></div>" +
+        '<p class="who">' + esc(a.finantator) + "</p>" +
+        '<div class="chips">' + chips + "</div>" +
+        '<p class="summary">' + esc(a.rezumat) + "</p>" +
+        '<dl class="facts">' + facts + "</dl>" +
+        '<div class="foot"><a href="' + esc(a.link) + '" target="_blank" rel="noopener">' + linkLabel + " →</a>" + code +
+          '<span class="ver">verificat ' + esc(fmtDate(a.verificat)) + "</span></div>" +
+      "</div></article>";
+  }
+
+  function render() {
+    var q = norm($("q").value.trim());
+    var src = $("f-src").value;
+    var dom = $("f-dom").value;
+    var stf = $("f-status").value;
+    var mic = $("f-mic").checked;
+
+    var rows = all.filter(function (a) {
+      var st = effStatus(a);
+      if (stf === "activ" && !(st === "deschis" || st === "anuntat")) return false;
+      if (stf && stf !== "activ" && st !== stf) return false;
+      if (src && a.sursa !== src) return false;
+      if (dom && a.domenii.indexOf(dom) === -1) return false;
+      if (mic && !a.ong_mic) return false;
+      if (q) {
+        var hay = norm([a.titlu, a.finantator, a.rezumat, a.domenii.join(" "), a.sursa, a.cod || "", a.solicitanti.join(" ")].join(" "));
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    }).sort(function (x, y) {
+      var a = sortKey(x), b = sortKey(y);
+      return a[0] - b[0] || a[1] - b[1];
+    });
+
+    $("result-count").textContent = rows.length === 1 ? "1 apel" : rows.length + " apeluri";
+    $("list").innerHTML = rows.length ? rows.map(card).join("") :
+      '<div class="empty">Niciun apel nu se potrivește filtrelor. Încearcă alt domeniu sau bifează „Toate, inclusiv închise”.</div>';
+  }
+
+  function fillSelect(id, values) {
+    var sel = $(id);
+    values.forEach(function (v) {
+      var o = document.createElement("option");
+      o.value = v; o.textContent = v;
+      sel.appendChild(o);
+    });
+  }
+
+  function summary() {
+    var open = all.filter(function (a) { return effStatus(a) === "deschis"; });
+    var soon = open.filter(function (a) { var n = daysLeft(a.termen); return n != null && n <= 30; });
+    var ann = all.filter(function (a) { return effStatus(a) === "anuntat"; });
+    var small = all.filter(function (a) { var s = effStatus(a); return a.ong_mic && (s === "deschis" || s === "anuntat"); });
+    $("n-open").textContent = open.length;
+    $("n-soon").textContent = soon.length;
+    $("n-ann").textContent = ann.length;
+    $("n-small").textContent = small.length;
+
+    var next = open.slice().sort(function (x, y) { return daysLeft(x.termen) - daysLeft(y.termen); })[0];
+    if (next) {
+      var n = daysLeft(next.termen);
+      $("stamp-big").textContent = n === 0 ? "Astăzi" : n === 1 ? "Mâine" : "În " + n + " zile";
+      $("stamp-what").textContent = next.titlu;
+      $("stamp-when").textContent = fmtDate(next.termen);
+    } else {
+      $("stamp-big").textContent = "Liniște";
+      $("stamp-what").textContent = "Niciun apel deschis acum.";
+    }
+  }
+
+  function boot(data) {
+    all = data.apeluri || [];
+    $("updated").textContent = fmtDate(data.actualizat);
+    var srcs = [], doms = [];
+    all.forEach(function (a) {
+      if (srcs.indexOf(a.sursa) === -1) srcs.push(a.sursa);
+      a.domenii.forEach(function (d) { if (doms.indexOf(d) === -1) doms.push(d); });
+    });
+    var order = ["UE direct", "UE prin România", "Public național", "Public local", "Privat / CSR", "Fundație", "Internațional"];
+    srcs.sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); });
+    doms.sort(function (a, b) { return a.localeCompare(b, "ro"); });
+    fillSelect("f-src", srcs);
+    fillSelect("f-dom", doms);
+    summary();
+    render();
+  }
+
+  ["q", "f-src", "f-dom", "f-status", "f-mic"].forEach(function (id) {
+    $(id).addEventListener(id === "q" ? "input" : "change", render);
+  });
+  $("reset").addEventListener("click", function () {
+    $("q").value = ""; $("f-src").value = ""; $("f-dom").value = ""; $("f-status").value = "activ"; $("f-mic").checked = false;
+    render();
+  });
+
+  $("send-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var title = $("s-title"), link = $("s-link");
+    if (!title.value.trim() || !link.value.trim()) {
+      (title.value.trim() ? link : title).focus();
+      title.setAttribute("aria-invalid", !title.value.trim());
+      link.setAttribute("aria-invalid", !link.value.trim());
+      return;
+    }
+    var txt = "Apel propus pentru Unde Aplic?\n\n" +
+      "Nume: " + title.value.trim() + "\n" +
+      "Link: " + link.value.trim() + "\n" +
+      "Finanțator: " + ($("s-funder").value.trim() || "-") + "\n" +
+      "Termen: " + ($("s-date").value ? fmtDate($("s-date").value) : "-") + "\n" +
+      "Note: " + ($("s-note").value.trim() || "-") + "\n" +
+      "Email: " + ($("s-email").value.trim() || "-");
+    $("sent-text").textContent = txt;
+    $("sent").classList.add("show");
+  });
+  $("copy").addEventListener("click", function () {
+    var btn = this;
+    try {
+      navigator.clipboard.writeText($("sent-text").textContent).then(function () {
+        btn.textContent = "Copiat";
+      }, function () { btn.textContent = "Selectează textul și copiază-l manual"; });
+    } catch (err) { btn.textContent = "Selectează textul și copiază-l manual"; }
+  });
+
+  fetch("apeluri.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(boot)
+    .catch(function () {
+      $("result-count").textContent = "Nu am putut încărca apelurile.";
+      $("list").innerHTML = '<div class="empty">Lista de apeluri nu s-a încărcat. Reîncarcă pagina; dacă problema rămâne, scrie-ne.</div>';
+      $("stamp-big").textContent = "Hopa";
+      $("stamp-what").textContent = "Lista nu s-a încărcat.";
+    });
+})();
+</script>
+</body>
+</html>
