@@ -3021,6 +3021,80 @@
       "link": "https://www.fundatiaorange.ro/finantare/",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
+    },
+    {
+      "sursa": "Public local",
+      "ong_mic": true,
+      "status": "recurent",
+      "termen": "",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15",
+      "id": "baia-mare-legea-350",
+      "titlu": "Baia Mare: finanțări nerambursabile pentru cultură, tineret, mediu și sport (Legea 350)",
+      "finantator": "Primăria Municipiului Baia Mare",
+      "domenii": [
+        "Cultură",
+        "Tineret",
+        "Mediu",
+        "Sport"
+      ],
+      "solicitanti": [
+        "Asociații și fundații",
+        "Alte entități nonprofit, conform ghidurilor"
+      ],
+      "valoare": "Conform programului anual al primăriei",
+      "cofinantare": "Minimum 10% din valoarea totală a finanțării",
+      "arie": "Municipiul Baia Mare",
+      "termen_text": "Anual; sesiunile se anunță pe baiamare.ro, de obicei în prima parte a anului",
+      "rezumat": "Primăria Baia Mare acordă anual finanțări nerambursabile din bugetul local prin Legea 350/2005, cu ghiduri separate pe domenii: cultură, tineret și protecția mediului, sport.",
+      "link": "https://www.baiamare.ro/Baiamare/Anunturi%20si%20Comunicate/2024/Proiecte%20Legea%2052/PHCL%20finantari%20Cultura/2024_PHCL_-_Aprobare_Ghidul_solicitantilor_Cultura.pdf"
+    },
+    {
+      "sursa": "Public local",
+      "ong_mic": true,
+      "status": "recurent",
+      "termen": "",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15",
+      "id": "cj-botosani-tineret",
+      "titlu": "Județul Botoșani: Concursul de proiecte pentru tineret",
+      "finantator": "Consiliul Județean Botoșani",
+      "domenii": [
+        "Tineret"
+      ],
+      "solicitanti": [
+        "Organizații de și pentru tineret (Legea 350/2006)"
+      ],
+      "valoare": "Conform anunțului anual",
+      "cofinantare": "Conform ghidului",
+      "arie": "Județul Botoșani",
+      "termen_text": "Anual; ediția 2026 a fost anunțată în mai",
+      "rezumat": "Concurs anual de proiecte pentru tineret finanțat din bugetul județului. Documentele sunt pe cjbotosani.ro, la secțiunea „Proiecte pentru societatea civilă – Finanțări nerambursabile”.",
+      "link": "https://www.cjbotosani.ro/wp-content/uploads/2026/05/Anunt-concurs-PROIECTE-TINERET-2026.pdf"
+    },
+    {
+      "sursa": "Public local",
+      "ong_mic": true,
+      "status": "recurent",
+      "termen": "",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15",
+      "id": "cj-maramures-cultura-sport",
+      "titlu": "Județul Maramureș: finanțări pentru proiecte culturale și sportive",
+      "finantator": "Consiliul Județean Maramureș",
+      "domenii": [
+        "Cultură",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG-uri și structuri sportive, conform ghidurilor"
+      ],
+      "valoare": "Pentru cultură, până la 90% din valoarea proiectului",
+      "cofinantare": "Minimum 10% la proiectele culturale",
+      "arie": "Județul Maramureș",
+      "termen_text": "Anual; ghidul pentru sport 2025 a fost aprobat în aprilie",
+      "rezumat": "Consiliul Județean Maramureș finanțează proiecte culturale (OG 51/1998) și sportive (Legea 350/2005) din bugetul județului, prin ghiduri publicate pe cjmaramures.ro.",
+      "link": "https://www.cjmaramures.ro/attachments/ghiduri-finantare/Ghid-finantare-nerambursabila-sport-2025.doc"
     }
   ]
 }
