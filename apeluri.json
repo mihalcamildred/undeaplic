@@ -3095,6 +3095,284 @@
       "termen_text": "Anual; ghidul pentru sport 2025 a fost aprobat în aprilie",
       "rezumat": "Consiliul Județean Maramureș finanțează proiecte culturale (OG 51/1998) și sportive (Legea 350/2005) din bugetul județului, prin ghiduri publicate pe cjmaramures.ro.",
       "link": "https://www.cjmaramures.ro/attachments/ghiduri-finantare/Ghid-finantare-nerambursabila-sport-2025.doc"
+    },
+    {
+      "id": "cnpts-tineret-studenti",
+      "titlu": "Concursul Național de Proiecte de Tineret și Studenți (CNPTS)",
+      "finantator": "Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale",
+      "sursa": "Public național",
+      "domenii": [
+        "Tineret",
+        "Educație nonformală",
+        "Voluntariat"
+      ],
+      "solicitanti": [
+        "Organizații de și pentru tineret",
+        "Structuri studențești"
+      ],
+      "ong_mic": true,
+      "valoare": "Buget total 3 milioane lei (ediția 2026); până la 150.000 lei pe proiect",
+      "cofinantare": "Conform ghidului",
+      "arie": "Național",
+      "termen_text": "Anual, de obicei primăvara (în 2025: 15 aprilie – 14 mai)",
+      "rezumat": "Concurs anual pentru proiecte făcute de tineri și pentru tineri: educație nonformală, voluntariat, sănătate, cultură și creativitate, comunități rurale, dezvoltarea lucrătorilor de tineret.",
+      "link": "https://www.capital.ro/ministerul-muncii-lanseaza-un-nou-program-de-finantare-pentru-tineri-in-2026-proiectele-pot-primi-pana-la-150-000-de-lei-pentru-implementare.html",
+      "link_tip": "presa",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "icr-cantemir",
+      "titlu": "Institutul Cultural Român: Programul Cantemir (proiecte culturale în străinătate)",
+      "finantator": "Institutul Cultural Român",
+      "sursa": "Public național",
+      "domenii": [
+        "Cultură",
+        "Arte vizuale",
+        "Artele spectacolului"
+      ],
+      "solicitanti": [
+        "Operatori culturali, inclusiv ONG-uri, conform regulamentului"
+      ],
+      "ong_mic": false,
+      "valoare": "Până la 100.000 lei pe proiect (buget 2026: 1.000.000 lei); maximum 90% din valoarea proiectului",
+      "cofinantare": "Minimum 10%",
+      "arie": "Proiecte desfășurate în străinătate, cu un partener cultural din țara respectivă",
+      "termen_text": "Anual, primăvara (sesiunea 2026 lansată în aprilie)",
+      "rezumat": "Finanțare pentru proiecte culturale românești de arte vizuale și artele spectacolului desfășurate în străinătate, în parteneriat cu cel puțin o organizație culturală locală și adresate publicului de acolo.",
+      "link": "https://www.icr.ro/uploads/files/regulament-cantemir-2026.pdf",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "leader-gal",
+      "titlu": "LEADER: apelurile Grupurilor de Acțiune Locală (GAL) din mediul rural",
+      "finantator": "Grupurile de Acțiune Locală, prin Planul Strategic PAC 2023–2027 (AFIR)",
+      "sursa": "UE prin România",
+      "domenii": [
+        "Dezvoltare rurală",
+        "Servicii sociale",
+        "Comunitate"
+      ],
+      "solicitanti": [
+        "ONG-uri și alți actori locali din teritoriul fiecărui GAL, conform strategiei locale"
+      ],
+      "ong_mic": true,
+      "valoare": "Diferă de la un GAL la altul",
+      "cofinantare": "Conform fiecărui apel",
+      "arie": "Mediul rural și orașele mici acoperite de un GAL",
+      "termen_text": "Apeluri lansate pe tot parcursul anului de fiecare GAL",
+      "rezumat": "Peste 240 de GAL-uri din România lansează apeluri proprii, inclusiv pentru servicii sociale, sprijinirea grupurilor vulnerabile, inovare și mediu. Merită verificat ce GAL acoperă localitatea în care lucrezi și ce apeluri are deschise.",
+      "link": "https://www.capital.ro/peste-6-000-de-proiecte-pentru-comunitatile-locale-afir-finantarile-solicitate-depasesc-325-de-milioane-de-euro.html",
+      "link_tip": "presa",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "interreg-ro-bg",
+      "titlu": "Interreg VI-A România–Bulgaria",
+      "finantator": "Uniunea Europeană (FEDR), prin MDLPA – Autoritatea de Management",
+      "sursa": "UE direct",
+      "domenii": [
+        "Cooperare transfrontalieră",
+        "Mediu",
+        "Comunitate"
+      ],
+      "solicitanti": [
+        "Autorități publice, instituții, ONG-uri și alte entități din zona programului"
+      ],
+      "ong_mic": false,
+      "valoare": "Buget total program 207 milioane €",
+      "cofinantare": "Conform apelului",
+      "arie": "Județele Mehedinți, Dolj, Olt, Teleorman, Giurgiu, Călărași, Constanța și districtele din Bulgaria",
+      "termen_text": "Apeluri periodice, cu parteneri din Bulgaria",
+      "rezumat": "Program de cooperare transfrontalieră care finanțează proiecte comune România–Bulgaria. ONG-urile pot participa ca parteneri sau lideri, în funcție de apel.",
+      "link": "https://keep.eu/programmes/342",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "interreg-ro-md",
+      "titlu": "Interreg NEXT România–Republica Moldova",
+      "finantator": "Uniunea Europeană",
+      "sursa": "UE direct",
+      "domenii": [
+        "Cooperare transfrontalieră",
+        "Educație",
+        "Cultură",
+        "Sănătate"
+      ],
+      "solicitanti": [
+        "Autorități, instituții publice, instituții de învățământ, ONG-uri"
+      ],
+      "ong_mic": false,
+      "valoare": "Inclusiv proiecte cu valoare mică (small-scale projects)",
+      "cofinantare": "Conform apelului",
+      "arie": "Județele Botoșani, Iași, Vaslui, Galați și întreaga Republică Moldova",
+      "termen_text": "Apeluri periodice; al doilea apel pentru proiecte mici a fost lansat în aprilie 2025",
+      "rezumat": "Finanțează proiecte comune ale organizațiilor din România și Republica Moldova, cu parteneri de pe ambele maluri ale Prutului. Depunerea se face online, în sistemul JEMS.",
+      "link": "https://gov.md/ro/comunicate-de-presa-cancelaria-de-stat/sesiuni-de-informare-pentru-cel-de-al-doilea-apel-de",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "interreg-danube",
+      "titlu": "Interreg Regiunea Dunării (Danube Region Programme)",
+      "finantator": "Uniunea Europeană",
+      "sursa": "UE direct",
+      "domenii": [
+        "Cooperare transnațională",
+        "Mediu",
+        "Social",
+        "Guvernanță"
+      ],
+      "solicitanti": [
+        "Autorități publice, ONG-uri, universități, alte organizații din aria programului"
+      ],
+      "ong_mic": false,
+      "valoare": "Proiecte transnaționale mari, în parteneriat",
+      "cofinantare": "Conform apelului",
+      "arie": "14 țări din bazinul Dunării, inclusiv România",
+      "termen_text": "Apeluri periodice; al treilea apel a fost lansat în septembrie 2025",
+      "rezumat": "Program transnațional pentru proiecte în parteneriat cu organizații din țările dunărene. ONG-urile pot fi parteneri.",
+      "link": "https://interreg-danube.eu/what-we-finance",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "interreg-huskroua",
+      "titlu": "Interreg NEXT Ungaria–Slovacia–România–Ucraina",
+      "finantator": "Uniunea Europeană",
+      "sursa": "UE direct",
+      "domenii": [
+        "Cooperare transfrontalieră",
+        "Social",
+        "Mediu"
+      ],
+      "solicitanti": [
+        "Autorități, instituții și ONG-uri din aria programului"
+      ],
+      "ong_mic": false,
+      "valoare": "Conform apelului",
+      "cofinantare": "Conform apelului",
+      "arie": "Zona de graniță Ungaria–Slovacia–România–Ucraina (în România: Maramureș și Satu Mare)",
+      "termen_text": "Apeluri periodice; al doilea apel s-a încheiat în februarie 2026",
+      "rezumat": "Program transfrontalier pentru proiecte în parteneriat cu organizații din Ungaria, Slovacia și Ucraina.",
+      "link": "https://next.huskroua-cbc.eu/wp-content/uploads/2025/09/Guide-for-Applicants_HUSKROUA-NEXT_RO-translation_2nd-CfP_final.pdf",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "life-ngo-operating-grants",
+      "titlu": "LIFE: granturi de funcționare pentru ONG-uri de mediu și climă",
+      "finantator": "Comisia Europeană (CINEA)",
+      "sursa": "UE direct",
+      "domenii": [
+        "Mediu",
+        "Climă",
+        "Energie"
+      ],
+      "solicitanti": [
+        "ONG-uri și rețele nonprofit active la nivel european în mediu sau climă"
+      ],
+      "ong_mic": false,
+      "valoare": "Până la 700.000 € pe an (buget total 14,5 milioane €)",
+      "cofinantare": "Conform apelului",
+      "arie": "UE",
+      "termen_text": "Apelul pentru finanțarea din 2027–2028 s-a închis pe 8 și 22 septembrie 2026",
+      "rezumat": "Sprijin general de funcționare, nu pe proiect, pentru ONG-urile care contribuie la politicile de mediu și climă ale UE. Se aplică la două apeluri legate între ele (FPA și SGA).",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/LIFE-2026-NGO-OG-FPA",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "erasmus-tineret-sport-ka1",
+      "titlu": "Erasmus+: mobilități pentru tineret (KA152, KA153, KA154) și sport (KA182)",
+      "finantator": "Comisia Europeană, prin ANPCDEFP",
+      "sursa": "UE prin România",
+      "domenii": [
+        "Tineret",
+        "Sport",
+        "Educație nonformală"
+      ],
+      "solicitanti": [
+        "ONG-uri, grupuri de tineri și alte organizații active în tineret sau sport"
+      ],
+      "ong_mic": true,
+      "valoare": "Conform ghidului programului",
+      "cofinantare": "Fără cofinanțare obligatorie (costuri unitare)",
+      "arie": "Național, cu parteneri din alte țări",
+      "termen_text": "Anual, de obicei în februarie; pentru tineret există și o rundă în octombrie (în 2026: 12 februarie și 1 octombrie)",
+      "rezumat": "Schimburi de tineri, mobilități pentru lucrătorii de tineret, activități de participare a tinerilor și mobilități pentru personalul din sport.",
+      "link": "https://eur-lex.europa.eu/eli/C/2025/6080",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "citi-global-innovation-challenge",
+      "titlu": "Citi Foundation: Global Innovation Challenge (tineri și AI)",
+      "finantator": "Citi Foundation",
+      "sursa": "Privat / CSR",
+      "domenii": [
+        "Tineret",
+        "Ocupare",
+        "Digital"
+      ],
+      "solicitanti": [
+        "Organizații nonprofit înregistrate, cu programe în țările eligibile, inclusiv România"
+      ],
+      "ong_mic": false,
+      "valoare": "500.000 USD pe organizație (50 de granturi)",
+      "cofinantare": "Nu",
+      "arie": "Internațional, inclusiv România",
+      "termen_text": "Anual; ediția 2026 a avut termen pentru scrisoarea de intenție pe 6 octombrie",
+      "rezumat": "Competiție globală pentru organizațiile care pregătesc tinerii cu venituri mici pentru piața muncii. Junior Achievement România a fost printre câștigătorii ediției 2025.",
+      "link": "https://www.citigroup.com/rcs/citigpa/storage/public/Summary_and_FAQ_Fourth_Global_Innovation_Challenge_Final.pdf",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "european-ai-society-fund",
+      "titlu": "European AI & Society Fund: granturi pentru societatea civilă",
+      "finantator": "European AI & Society Fund (Network of European Foundations)",
+      "sursa": "Internațional",
+      "domenii": [
+        "Digital",
+        "Drepturile omului",
+        "Advocacy"
+      ],
+      "solicitanti": [
+        "Organizații ale societății civile din Europa, inclusiv România"
+      ],
+      "ong_mic": false,
+      "valoare": "Până la 150.000 € (programul Building Narrative Power)",
+      "cofinantare": "Nu",
+      "arie": "Europa",
+      "termen_text": "Apeluri periodice; ultimul a avut termen pe 31 august 2026",
+      "rezumat": "Fond care sprijină organizațiile ce lucrează ca inteligența artificială să servească oamenii și societatea: advocacy, responsabilizare, narațiuni publice.",
+      "link": "https://europeanaifund.org/building-narrative-power-funding-and-learning-programme/",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
     }
   ]
 }
