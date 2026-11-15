@@ -2896,6 +2896,81 @@
       "link": "https://mfe.gov.ro/ghiduri_pids/ghidul-solicitantului-servicii-integrate-pentru-victimele-traficului-de-persoane/",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
+    },
+    {
+      "id": "ro-bike-valley-2026",
+      "titlu": "RO Bike Valley 2026–2027: proiecte pentru mersul pe bicicletă",
+      "finantator": "Fundația Comunitară Timișoara, cu Decathlon România și Fundația Comunitară Banatul Montan",
+      "sursa": "Fundație",
+      "domenii": [
+        "Mobilitate",
+        "Sport",
+        "Comunitate"
+      ],
+      "solicitanti": [
+        "ONG-uri",
+        "Grupuri de inițiativă (minimum 3 persoane)"
+      ],
+      "ong_mic": true,
+      "valoare": "Până la 15.000 lei pentru ONG-uri; până la 5.000 lei pentru grupuri de inițiativă",
+      "cofinantare": "Nespecificată în anunț",
+      "arie": "Zonele Fundației Comunitare Timișoara și ale Fundației Comunitare Banatul Montan (vezi ghidul)",
+      "status": "deschis",
+      "termen": "2026-11-29",
+      "termen_text": "29 noiembrie 2026, pe fctm.opencall.ro (consilierea obligatorie se programează până pe 27 noiembrie)",
+      "rezumat": "A șasea ediție a apelului pentru proiecte legate de bicicletă. Înainte de depunere e nevoie de o întâlnire de consiliere cu fundația. Rezultatele se anunță pe 15 decembrie 2026, iar proiectele pot începe din ianuarie 2027.",
+      "link": "https://www.fundatiacomunitaratimisoara.ro/cautam-idei-pe-biciclete-am-deschis-apelul-de-proiecte-ro-bike-valley/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "stiintescu-alba-4",
+      "titlu": "Fondul Științescu Alba 4.0: proiecte STEAM pentru copii și tineri",
+      "finantator": "Fundația Comunitară Sibiu",
+      "sursa": "Fundație",
+      "domenii": [
+        "Educație",
+        "Știință și tehnologie"
+      ],
+      "solicitanti": [
+        "ONG-uri, inclusiv asociații de părinți și de absolvenți",
+        "Profesori, echipe mixte, studenți"
+      ],
+      "ong_mic": true,
+      "valoare": "Până la 20.000 lei pe proiect (buget total 125.000 lei)",
+      "cofinantare": "Nespecificată în anunț",
+      "arie": "Județul Alba (beneficiarii trebuie să fie din Alba)",
+      "status": "deschis",
+      "termen": "2026-11-18",
+      "termen_text": "18 noiembrie 2026, ora 12:00, pe sibiu.grantmanager.ro",
+      "rezumat": "Finanțare pentru proiecte educaționale care apropie copiii și tinerii de știință, tehnologie, inginerie, artă și matematică, cu accent pe inteligență artificială și robotică. Câștigătorii se anunță pe 11 decembrie 2026.",
+      "link": "https://alba24.ro/fondul-stiintescu-alba-bani-pentru-proiecte-care-aduc-stiinta-si-tehnologia-mai-aproape-de-copii-si-tineri-cum-poti-aplica-1163234.html",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "stiintescu-brasov",
+      "titlu": "Fondul Științescu Brașov: proiecte STEAM (pilonul Clasic)",
+      "finantator": "Fundația Comunitară Brașov",
+      "sursa": "Fundație",
+      "domenii": [
+        "Educație",
+        "Știință și tehnologie"
+      ],
+      "solicitanti": [
+        "ONG-uri și alte echipe eligibile conform ghidului"
+      ],
+      "ong_mic": true,
+      "valoare": "Buget total 116.813 lei în ediția 2026",
+      "cofinantare": "Nespecificată în anunț",
+      "arie": "Județul Brașov",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "Anual; în 2026 apelul s-a deschis în septembrie și a fost deschis până la finalul lunii",
+      "rezumat": "Fond care finanțează și mentorează proiecte ce dezvoltă pasiunea copiilor pentru științe. A ajuns la ediția a noua.",
+      "link": "https://brasov.stiintescu.ro/detalii-inscriere/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
     }
   ]
 }
