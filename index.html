@@ -260,7 +260,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       <div class="search">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <label for="q" class="sr">Caută un apel</label>
-        <input type="search" id="q" placeholder="Caută: copii, cultură, Erasmus, Cluj…" autocomplete="off" enterkeyhint="search">
+        <input type="search" id="q" placeholder="Caută: oraș, județ, domeniu…" autocomplete="off" enterkeyhint="search">
       </div>
       <button class="btn-filters" type="button" id="open-filters" aria-controls="panel" aria-expanded="false">Filtre <span class="n" id="nfilters"></span></button>
     </div>
@@ -269,6 +269,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       <button class="qchip" type="button" data-quick="mic" aria-pressed="false">Pentru ONG-uri mici</button>
       <button class="qchip" type="button" data-quick="ue" aria-pressed="false">Fonduri UE</button>
       <button class="qchip" type="button" data-quick="privat" aria-pressed="false">Companii și fundații</button>
+      <button class="qchip" type="button" data-quick="local" aria-pressed="false">Primării și județe</button>
       <button class="qchip" type="button" data-quick="public" aria-pressed="false">Bani publici</button>
       <button class="qchip" type="button" data-quick="anuntate" aria-pressed="false">Anunțate</button>
     </div>
@@ -278,7 +279,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       <div class="field"><label for="f-dom">Domeniu</label><select id="f-dom"><option value="">Oricare</option></select></div>
       <div class="field"><label for="f-status">Status</label>
         <select id="f-status">
-          <option value="activ">Deschise + anunțate</option>
+          <option value="activ">Toate cele valabile</option>
           <option value="deschis">Doar deschise</option>
           <option value="anuntat">Doar anunțate</option>
           <option value="recurent">Recurente (anuale)</option>
@@ -351,6 +352,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
     ue: function (a) { return a.sursa === "UE direct" || a.sursa === "UE prin România"; },
     privat: function (a) { return a.sursa === "Privat / CSR" || a.sursa === "Fundație" || a.sursa === "Internațional"; },
     public: function (a) { return a.sursa === "Public național" || a.sursa === "Public local"; },
+    local: function (a) { return a.sursa === "Public local"; },
     anuntate: function (a) { return effStatus(a) === "anuntat"; },
     deschise: function (a) { return effStatus(a) === "deschis"; }
   };
@@ -414,7 +416,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
       var st = effStatus(a);
       if (quick && QUICK[quick] && !QUICK[quick](a)) return false;
       if (!(quick === "anuntate" || quick === "deschise")) {
-        if (stf === "activ" && !(st === "deschis" || st === "anuntat")) return false;
+        if (stf === "activ" && st === "inchis") return false;
         if (stf && stf !== "activ" && st !== stf) return false;
       }
       if (src && a.sursa !== src) return false;

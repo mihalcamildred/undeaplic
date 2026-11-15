@@ -6,8 +6,14 @@
       "titlu": "Măsuri integrate de sprijin pentru familiile monoparentale vulnerabile",
       "finantator": "Programul Incluziune și Demnitate Socială (PIDS), MIPE",
       "sursa": "UE prin România",
-      "domenii": ["Social", "Copii"],
-      "solicitanti": ["Ministerul Muncii (solicitant unic)", "ONG cu experiență, doar ca partener"],
+      "domenii": [
+        "Social",
+        "Copii"
+      ],
+      "solicitanti": [
+        "Ministerul Muncii (solicitant unic)",
+        "ONG cu experiență, doar ca partener"
+      ],
       "ong_mic": false,
       "valoare": "alocare totală 65,3 mil. €",
       "cofinantare": "",
@@ -25,8 +31,13 @@
       "titlu": "Familii monoparentale în ITI Țara Făgărașului și ITI Moții (PIDS 5.5)",
       "finantator": "Programul Incluziune și Demnitate Socială (PIDS), MIPE",
       "sursa": "UE prin România",
-      "domenii": ["Social", "Copii"],
-      "solicitanti": ["Vezi ghidul (inclusiv ONG-uri)"],
+      "domenii": [
+        "Social",
+        "Copii"
+      ],
+      "solicitanti": [
+        "Vezi ghidul (inclusiv ONG-uri)"
+      ],
       "ong_mic": false,
       "valoare": "până la 534.932 € / proiect",
       "cofinantare": "",
@@ -44,8 +55,12 @@
       "titlu": "Raiffeisen Comunități, ediția a 16-a",
       "finantator": "Raiffeisen Bank România & Asociația pentru Relații Comunitare",
       "sursa": "Privat / CSR",
-      "domenii": ["Dezvoltare comunitară"],
-      "solicitanti": ["Parteneriat de 3 ONG-uri și/sau grupuri de inițiativă"],
+      "domenii": [
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "Parteneriat de 3 ONG-uri și/sau grupuri de inițiativă"
+      ],
       "ong_mic": false,
       "valoare": "250.000–350.000 lei / proiect (buget total 4 mil. lei)",
       "cofinantare": "",
@@ -63,8 +78,18 @@
       "titlu": "Start ONG 2026, ultimul apel lunar",
       "finantator": "Kaufland România & Asociația Act for Tomorrow",
       "sursa": "Privat / CSR",
-      "domenii": ["Educație", "Sănătate", "Mediu", "Cultură", "Social"],
-      "solicitanti": ["ONG mic (venituri sub 50.000 € în 2025)", "Școală", "Grup de inițiativă"],
+      "domenii": [
+        "Educație",
+        "Sănătate",
+        "Mediu",
+        "Cultură",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG mic (venituri sub 50.000 € în 2025)",
+        "Școală",
+        "Grup de inițiativă"
+      ],
       "ong_mic": true,
       "valoare": "până la 10.000 € (trei praguri)",
       "cofinantare": "0%",
@@ -82,8 +107,14 @@
       "titlu": "Școli pentru viitor",
       "finantator": "Programul Educație și Ocupare (PEO), MIPE",
       "sursa": "UE prin România",
-      "domenii": ["Educație"],
-      "solicitanti": ["Școli acreditate", "Inspectorate școlare", "CJRAE/CMBRAE"],
+      "domenii": [
+        "Educație"
+      ],
+      "solicitanti": [
+        "Școli acreditate",
+        "Inspectorate școlare",
+        "CJRAE/CMBRAE"
+      ],
       "ong_mic": false,
       "valoare": "700.000 – 1 mil. € / proiect (buget total 52,8 mil. €)",
       "cofinantare": "",
@@ -101,8 +132,13 @@
       "titlu": "Diversificarea și flexibilizarea serviciilor de educație timpurie",
       "finantator": "Programul Educație și Ocupare (PEO), MIPE",
       "sursa": "UE prin România",
-      "domenii": ["Educație", "Copii"],
-      "solicitanti": ["Vezi ghidul"],
+      "domenii": [
+        "Educație",
+        "Copii"
+      ],
+      "solicitanti": [
+        "Vezi ghidul"
+      ],
       "ong_mic": false,
       "valoare": "până la 5 mil. € / proiect (buget total peste 81,5 mil. €)",
       "cofinantare": "",
@@ -120,8 +156,13 @@
       "titlu": "STEP-VET: practica elevilor în tehnologii critice",
       "finantator": "Programul Educație și Ocupare (PEO), MIPE",
       "sursa": "UE prin România",
-      "domenii": ["Educație", "Tineret"],
-      "solicitanti": ["Învățământ profesional, tehnic și dual; parteneri – vezi ghidul"],
+      "domenii": [
+        "Educație",
+        "Tineret"
+      ],
+      "solicitanti": [
+        "Învățământ profesional, tehnic și dual; parteneri – vezi ghidul"
+      ],
       "ong_mic": false,
       "valoare": "buget total peste 45,7 mil. €",
       "cofinantare": "",
@@ -139,8 +180,12 @@
       "titlu": "Consiliul Europei: granturi pentru societatea civilă și democrație",
       "finantator": "Consiliul Europei, Divizia pentru instituții democratice și societate civilă",
       "sursa": "Internațional",
-      "domenii": ["Democrație și participare civică"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Democrație și participare civică"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": false,
       "valoare": "până la 20.000 € / proiect (3 granturi)",
       "cofinantare": "",
@@ -159,8 +204,14 @@
       "cod": "CREA-CROSS-2027-MEDIALITERACY",
       "finantator": "Comisia Europeană (EACEA)",
       "sursa": "UE direct",
-      "domenii": ["Media și jurnalism", "Educație"],
-      "solicitanti": ["ONG", "Organizație media"],
+      "domenii": [
+        "Media și jurnalism",
+        "Educație"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Organizație media"
+      ],
       "ong_mic": false,
       "valoare": "vezi documentul apelului",
       "cofinantare": "",
@@ -179,8 +230,12 @@
       "cod": "EU4H-2027-SANTE-OG",
       "finantator": "Comisia Europeană (HaDEA)",
       "sursa": "UE direct",
-      "domenii": ["Sănătate"],
-      "solicitanti": ["ONG de sănătate (de obicei rețele europene)"],
+      "domenii": [
+        "Sănătate"
+      ],
+      "solicitanti": [
+        "ONG de sănătate (de obicei rețele europene)"
+      ],
       "ong_mic": false,
       "valoare": "buget total 1,8 mil. €; 60% din costuri (80% în cazuri excepționale)",
       "cofinantare": "40%",
@@ -199,8 +254,13 @@
       "cod": "CREA-CROSS-2027-JOURPART-COLLABORATIONS",
       "finantator": "Comisia Europeană (EACEA)",
       "sursa": "UE direct",
-      "domenii": ["Media și jurnalism"],
-      "solicitanti": ["Organizație media", "ONG"],
+      "domenii": [
+        "Media și jurnalism"
+      ],
+      "solicitanti": [
+        "Organizație media",
+        "ONG"
+      ],
       "ong_mic": false,
       "valoare": "vezi documentul apelului",
       "cofinantare": "",
@@ -219,8 +279,14 @@
       "cod": "HORIZON-HLTH-2027-01-STAYHLTH-01",
       "finantator": "Comisia Europeană (Horizon Europe, Cluster Sănătate)",
       "sursa": "UE direct",
-      "domenii": ["Dizabilitate", "Sănătate", "Social"],
-      "solicitanti": ["Consorții de cercetare; ONG-urile de pacienți ca parteneri"],
+      "domenii": [
+        "Dizabilitate",
+        "Sănătate",
+        "Social"
+      ],
+      "solicitanti": [
+        "Consorții de cercetare; ONG-urile de pacienți ca parteneri"
+      ],
       "ong_mic": false,
       "valoare": "vezi documentul apelului",
       "cofinantare": "",
@@ -239,8 +305,13 @@
       "cod": "CERV-2026-CITIZENS-VALUES",
       "finantator": "Comisia Europeană (EACEA)",
       "sursa": "UE direct",
-      "domenii": ["Democrație și participare civică", "Drepturile omului"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Democrație și participare civică",
+        "Drepturile omului"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": false,
       "valoare": "vezi documentul apelului",
       "cofinantare": "",
@@ -259,8 +330,13 @@
       "cod": "CERV-2026-CITIZENS-REM-TRANSITION",
       "finantator": "Comisia Europeană (EACEA)",
       "sursa": "UE direct",
-      "domenii": ["Memorie și istorie", "Democrație și participare civică"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Memorie și istorie",
+        "Democrație și participare civică"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": false,
       "valoare": "buget total 28 mil. € (sume forfetare)",
       "cofinantare": "",
@@ -279,8 +355,14 @@
       "cod": "CREA-MEDIA-2027-AUDFILMEDU",
       "finantator": "Comisia Europeană (EACEA)",
       "sursa": "UE direct",
-      "domenii": ["Cultură", "Educație"],
-      "solicitanti": ["ONG", "Organizație culturală"],
+      "domenii": [
+        "Cultură",
+        "Educație"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Organizație culturală"
+      ],
       "ong_mic": false,
       "valoare": "buget total 7 mil. €",
       "cofinantare": "",
@@ -298,8 +380,13 @@
       "titlu": "Timișoara: Fondul pentru nevoi culturale de urgență 2026",
       "finantator": "Centrul de Proiecte al Municipiului Timișoara",
       "sursa": "Public local",
-      "domenii": ["Cultură"],
-      "solicitanti": ["ONG", "Operator cultural"],
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Operator cultural"
+      ],
       "ong_mic": true,
       "valoare": "buget total 500.000 lei",
       "cofinantare": "",
@@ -317,8 +404,14 @@
       "titlu": "Schema de minimis pentru sectorul cultural independent, următorul apel",
       "finantator": "Ministerul Culturii",
       "sursa": "Public național",
-      "domenii": ["Cultură"],
-      "solicitanti": ["ONG", "Firmă", "PFA"],
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Firmă",
+        "PFA"
+      ],
       "ong_mic": true,
       "valoare": "10.000–100.000 € / proiect",
       "cofinantare": "",
@@ -336,8 +429,16 @@
       "titlu": "CERV 2027: noile apeluri (înfrățiri de orașe, drepturi, egalitate, Daphne)",
       "finantator": "Comisia Europeană (EACEA)",
       "sursa": "UE direct",
-      "domenii": ["Democrație și participare civică", "Drepturile omului", "Egalitate de gen", "Copii"],
-      "solicitanti": ["ONG", "Autoritate locală (înfrățiri)"],
+      "domenii": [
+        "Democrație și participare civică",
+        "Drepturile omului",
+        "Egalitate de gen",
+        "Copii"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Autoritate locală (înfrățiri)"
+      ],
       "ong_mic": false,
       "valoare": "vezi fiecare apel",
       "cofinantare": "",
@@ -355,8 +456,16 @@
       "titlu": "Erasmus+ 2027: parteneriate la scară mică (KA210)",
       "finantator": "Comisia Europeană, prin ANPCDEFP",
       "sursa": "UE prin România",
-      "domenii": ["Educație", "Tineret", "Sport"],
-      "solicitanti": ["ONG mic", "ONG", "Școală"],
+      "domenii": [
+        "Educație",
+        "Tineret",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG mic",
+        "ONG",
+        "Școală"
+      ],
       "ong_mic": true,
       "valoare": "30.000 € sau 60.000 € (sumă forfetară)",
       "cofinantare": "",
@@ -374,8 +483,16 @@
       "titlu": "Erasmus+ 2027: parteneriate de cooperare (KA220)",
       "finantator": "Comisia Europeană, prin ANPCDEFP",
       "sursa": "UE prin România",
-      "domenii": ["Educație", "Tineret", "Sport"],
-      "solicitanti": ["ONG", "Școală", "Universitate"],
+      "domenii": [
+        "Educație",
+        "Tineret",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Școală",
+        "Universitate"
+      ],
       "ong_mic": false,
       "valoare": "sume forfetare, vezi Ghidul Erasmus+ 2027",
       "cofinantare": "",
@@ -393,8 +510,15 @@
       "titlu": "Corpul European de Solidaritate 2027: proiecte de solidaritate și voluntariat",
       "finantator": "Comisia Europeană, prin ANPCDEFP",
       "sursa": "UE prin România",
-      "domenii": ["Tineret", "Voluntariat", "Dezvoltare comunitară"],
-      "solicitanti": ["Grup de tineri", "ONG"],
+      "domenii": [
+        "Tineret",
+        "Voluntariat",
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "Grup de tineri",
+        "ONG"
+      ],
       "ong_mic": true,
       "valoare": "vezi ghidul programului",
       "cofinantare": "",
@@ -412,8 +536,15 @@
       "titlu": "AFCN: proiecte culturale, sesiunea II/2027",
       "finantator": "Administrația Fondului Cultural Național",
       "sursa": "Public național",
-      "domenii": ["Cultură"],
-      "solicitanti": ["ONG", "Instituție culturală", "PFA", "Firmă"],
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Instituție culturală",
+        "PFA",
+        "Firmă"
+      ],
       "ong_mic": true,
       "valoare": "în sesiunea I/2027: până la 220.000 lei / proiect",
       "cofinantare": "minimum 10% (în sesiunile anterioare)",
@@ -431,8 +562,14 @@
       "titlu": "AFCN: proiecte editoriale (sesiunea III)",
       "finantator": "Administrația Fondului Cultural Național",
       "sursa": "Public național",
-      "domenii": ["Cultură"],
-      "solicitanti": ["ONG", "Editură", "PFA"],
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Editură",
+        "PFA"
+      ],
       "ong_mic": true,
       "valoare": "vezi ghidul sesiunii",
       "cofinantare": "",
@@ -450,8 +587,17 @@
       "titlu": "Departamentul pentru Românii de Pretutindeni: finanțări nerambursabile",
       "finantator": "Departamentul pentru Românii de Pretutindeni",
       "sursa": "Public național",
-      "domenii": ["Diaspora", "Educație", "Cultură", "Media și jurnalism"],
-      "solicitanti": ["ONG din România sau din străinătate", "Unitate de cult", "PFA"],
+      "domenii": [
+        "Diaspora",
+        "Educație",
+        "Cultură",
+        "Media și jurnalism"
+      ],
+      "solicitanti": [
+        "ONG din România sau din străinătate",
+        "Unitate de cult",
+        "PFA"
+      ],
       "ong_mic": true,
       "valoare": "vezi ghidul (în edițiile trecute, până la 500.000 lei / proiect)",
       "cofinantare": "",
@@ -469,8 +615,15 @@
       "titlu": "Departamentul pentru Relația cu Republica Moldova: finanțări nerambursabile",
       "finantator": "Departamentul pentru Relația cu Republica Moldova",
       "sursa": "Public național",
-      "domenii": ["Diaspora", "Cooperare regională", "Educație", "Cultură"],
-      "solicitanti": ["ONG din România sau din Republica Moldova"],
+      "domenii": [
+        "Diaspora",
+        "Cooperare regională",
+        "Educație",
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG din România sau din Republica Moldova"
+      ],
       "ong_mic": true,
       "valoare": "vezi ghidul",
       "cofinantare": "",
@@ -488,8 +641,16 @@
       "titlu": "Fondul SEE pentru Societatea Civilă (Granturi SEE și Norvegiene 2021–2028)",
       "finantator": "Islanda, Liechtenstein, Norvegia; operat de FDSC și parteneri",
       "sursa": "Internațional",
-      "domenii": ["Democrație și participare civică", "Drepturile omului", "Incluziunea romilor", "Egalitate de gen", "Dezvoltare organizațională"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Democrație și participare civică",
+        "Drepturile omului",
+        "Incluziunea romilor",
+        "Egalitate de gen",
+        "Dezvoltare organizațională"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": true,
       "valoare": "15.000–350.000 €, în funcție de apel",
       "cofinantare": "",
@@ -507,8 +668,14 @@
       "titlu": "Programul de Implicare Civică (Contribuția Elvețiană)",
       "finantator": "Guvernul Elveției; implementat de FDSC, Fundația pentru Parteneriat și KEK-CDC",
       "sursa": "Internațional",
-      "domenii": ["Democrație și participare civică", "Grupuri vulnerabile", "Mediu"],
-      "solicitanti": ["ONG cu experiență în domeniu"],
+      "domenii": [
+        "Democrație și participare civică",
+        "Grupuri vulnerabile",
+        "Mediu"
+      ],
+      "solicitanti": [
+        "ONG cu experiență în domeniu"
+      ],
       "ong_mic": false,
       "valoare": "în apelul 2: 50.000–200.000 CHF",
       "cofinantare": "",
@@ -526,8 +693,12 @@
       "titlu": "Subvenții pentru servicii sociale (Legea 34/1998)",
       "finantator": "Ministerul Muncii, prin AJPIS; unele primării au apeluri proprii",
       "sursa": "Public național",
-      "domenii": ["Social"],
-      "solicitanti": ["ONG acreditat ca furnizor de servicii sociale"],
+      "domenii": [
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG acreditat ca furnizor de servicii sociale"
+      ],
       "ong_mic": false,
       "valoare": "subvenție lunară pe beneficiar",
       "cofinantare": "",
@@ -545,8 +716,15 @@
       "titlu": "Cluj-Napoca: finanțări nerambursabile de la bugetul local (Legea 350/2005)",
       "finantator": "Primăria și Consiliul Local Cluj-Napoca",
       "sursa": "Public local",
-      "domenii": ["Cultură", "Tineret", "Social", "Sport"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Cultură",
+        "Tineret",
+        "Social",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": true,
       "valoare": "peste 49 mil. lei în total (2026)",
       "cofinantare": "",
@@ -564,8 +742,14 @@
       "titlu": "Consiliul Județean Cluj: finanțări pentru ONG-uri, sport și culte",
       "finantator": "Consiliul Județean Cluj",
       "sursa": "Public local",
-      "domenii": ["Cultură", "Sport", "Social"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Cultură",
+        "Sport",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": true,
       "valoare": "peste 6,7 mil. lei în total (2026)",
       "cofinantare": "",
@@ -583,8 +767,18 @@
       "titlu": "Bistrița: programul anual de finanțări nerambursabile (Legea 350/2005)",
       "finantator": "Municipiul Bistrița",
       "sursa": "Public local",
-      "domenii": ["Tineret", "Sport", "Educație", "Mediu", "Social", "Cultură"],
-      "solicitanti": ["ONG", "Persoane fizice"],
+      "domenii": [
+        "Tineret",
+        "Sport",
+        "Educație",
+        "Mediu",
+        "Social",
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Persoane fizice"
+      ],
       "ong_mic": true,
       "valoare": "vezi ghidurile anuale",
       "cofinantare": "",
@@ -602,8 +796,18 @@
       "titlu": "ONJN: „Conștient și Liber”, prevenirea dependenței de jocuri de noroc",
       "finantator": "Oficiul Național pentru Jocuri de Noroc",
       "sursa": "Public național",
-      "domenii": ["Sănătate", "Tineret", "Social"],
-      "solicitanti": ["Asociații și fundații", "Spitale", "Autorități locale", "GAL", "Instituții de învățământ"],
+      "domenii": [
+        "Sănătate",
+        "Tineret",
+        "Social"
+      ],
+      "solicitanti": [
+        "Asociații și fundații",
+        "Spitale",
+        "Autorități locale",
+        "GAL",
+        "Instituții de învățământ"
+      ],
       "ong_mic": false,
       "valoare": "până la 100.000 € / proiect",
       "cofinantare": "",
@@ -621,8 +825,15 @@
       "titlu": "ING Donations Hub: campanii de strângere de fonduri în Home'Bank",
       "finantator": "ING Bank România",
       "sursa": "Privat / CSR",
-      "domenii": ["Educație", "Sănătate", "Mediu", "Social"],
-      "solicitanti": ["ONG cu minimum 2 ani de activitate"],
+      "domenii": [
+        "Educație",
+        "Sănătate",
+        "Mediu",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG cu minimum 2 ani de activitate"
+      ],
       "ong_mic": false,
       "valoare": "donații de la clienții ING (20 de locuri)",
       "cofinantare": "",
@@ -640,8 +851,14 @@
       "titlu": "Fundația TELUS Digital România: granturi pentru ONG-uri",
       "finantator": "Fundația TELUS Digital România",
       "sursa": "Fundație",
-      "domenii": ["Educație", "Sănătate", "Mediu"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Educație",
+        "Sănătate",
+        "Mediu"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": true,
       "valoare": "până la 10.000 USD / proiect",
       "cofinantare": "",
@@ -659,8 +876,15 @@
       "titlu": "Fundația Dacia pentru România: Mobilitatea contează",
       "finantator": "Fundația Dacia pentru România",
       "sursa": "Fundație",
-      "domenii": ["Educație", "Piața muncii", "Cultură", "Social"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Educație",
+        "Piața muncii",
+        "Cultură",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": false,
       "valoare": "fond total 1 mil. € pe ediție",
       "cofinantare": "",
@@ -678,8 +902,14 @@
       "titlu": "Fundația OMV Petrom: Azi. Împreună.",
       "finantator": "Fundația OMV Petrom",
       "sursa": "Fundație",
-      "domenii": ["Educație", "Sănătate", "Mediu"],
-      "solicitanti": ["ONG cu buget sub 5 mil. lei"],
+      "domenii": [
+        "Educație",
+        "Sănătate",
+        "Mediu"
+      ],
+      "solicitanti": [
+        "ONG cu buget sub 5 mil. lei"
+      ],
       "ong_mic": false,
       "valoare": "40.000–250.000 lei (ediția 2025)",
       "cofinantare": "",
@@ -697,8 +927,13 @@
       "titlu": "MOL România: Spații Verzi",
       "finantator": "Grupul MOL România & Fundația pentru Parteneriat",
       "sursa": "Privat / CSR",
-      "domenii": ["Mediu"],
-      "solicitanti": ["ONG", "Școală"],
+      "domenii": [
+        "Mediu"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Școală"
+      ],
       "ong_mic": true,
       "valoare": "850.000 lei în total (ediția 2026)",
       "cofinantare": "",
@@ -716,8 +951,12 @@
       "titlu": "Lidl & Fundațiile Comunitare: granturi pentru educație în orașe mici",
       "finantator": "Lidl România & Federația Fundațiile Comunitare din România",
       "sursa": "Privat / CSR",
-      "domenii": ["Educație"],
-      "solicitanti": ["ONG"],
+      "domenii": [
+        "Educație"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
       "ong_mic": true,
       "valoare": "1,24 mil. lei împărțiți pe cinci zone (ediția anterioară)",
       "cofinantare": "",
@@ -735,8 +974,14 @@
       "titlu": "Storia & Fundația Comunitară București: spații verzi, mobilitate și siguranță",
       "finantator": "Storia & Fundația Comunitară București",
       "sursa": "Privat / CSR",
-      "domenii": ["Mediu", "Dezvoltare comunitară"],
-      "solicitanti": ["ONG", "Școală"],
+      "domenii": [
+        "Mediu",
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Școală"
+      ],
       "ong_mic": false,
       "valoare": "până la 100.000 € / proiect (buget total 150.000 €)",
       "cofinantare": "",
@@ -754,8 +999,14 @@
       "titlu": "„În Zona Ta”: inițiative de mediu în Cluj-Napoca",
       "finantator": "Fundația Comunitară Cluj & ING Bank România",
       "sursa": "Fundație",
-      "domenii": ["Mediu", "Dezvoltare comunitară"],
-      "solicitanti": ["ONG", "Grup de inițiativă"],
+      "domenii": [
+        "Mediu",
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Grup de inițiativă"
+      ],
       "ong_mic": true,
       "valoare": "84.000 lei în total pentru 10 proiecte (2026)",
       "cofinantare": "",
@@ -773,8 +1024,13 @@
       "titlu": "Cercul de Donatori Brașov",
       "finantator": "Fundația Comunitară Brașov & Transilvania Investments",
       "sursa": "Fundație",
-      "domenii": ["Dezvoltare comunitară", "Social"],
-      "solicitanti": ["ONG local"],
+      "domenii": [
+        "Dezvoltare comunitară",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG local"
+      ],
       "ong_mic": true,
       "valoare": "peste 60.000 lei strânși pentru 3 proiecte (2026)",
       "cofinantare": "",
@@ -792,8 +1048,12 @@
       "titlu": "Fondul Cultura Face Bine: micro-granturi „La firul ierbii”",
       "finantator": "Companiile afiliate Cultura Face Bine, coordonat de Centrul Cultural Clujean",
       "sursa": "Fundație",
-      "domenii": ["Cultură"],
-      "solicitanti": ["Organizații culturale afiliate Cultura Face Bine"],
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "Organizații culturale afiliate Cultura Face Bine"
+      ],
       "ong_mic": true,
       "valoare": "2.000 € / proiect",
       "cofinantare": "0%",
@@ -811,8 +1071,13 @@
       "titlu": "Com'ON Cluj-Napoca: bugetare participativă pentru tineri",
       "finantator": "Grupul PONT & Federația Tinerilor din Cluj, cu Primăria Cluj-Napoca și Fondation Botnar",
       "sursa": "Fundație",
-      "domenii": ["Tineret", "Dezvoltare comunitară"],
-      "solicitanti": ["Grupuri de tineri"],
+      "domenii": [
+        "Tineret",
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "Grupuri de tineri"
+      ],
       "ong_mic": true,
       "valoare": "până la 5.000 lei / idee",
       "cofinantare": "",
@@ -830,8 +1095,14 @@
       "titlu": "European Youth Foundation (Consiliul Europei): activități internaționale de tineret",
       "finantator": "Consiliul Europei – European Youth Foundation",
       "sursa": "Internațional",
-      "domenii": ["Tineret", "Drepturile omului", "Democrație și participare civică"],
-      "solicitanti": ["ONG de tineret înregistrat la EYF"],
+      "domenii": [
+        "Tineret",
+        "Drepturile omului",
+        "Democrație și participare civică"
+      ],
+      "solicitanti": [
+        "ONG de tineret înregistrat la EYF"
+      ],
       "ong_mic": true,
       "valoare": "până la 25.000 € (activități punctuale) sau 60.000 € (proiecte pe termen lung)",
       "cofinantare": "",
@@ -849,8 +1120,15 @@
       "titlu": "Fondul Internațional Vișegrad: Visegrad Grants",
       "finantator": "Fondul Internațional Vișegrad",
       "sursa": "Internațional",
-      "domenii": ["Cultură", "Educație", "Tineret", "Cooperare regională"],
-      "solicitanti": ["ONG (alături de minimum 3 organizații din țări V4)"],
+      "domenii": [
+        "Cultură",
+        "Educație",
+        "Tineret",
+        "Cooperare regională"
+      ],
+      "solicitanti": [
+        "ONG (alături de minimum 3 organizații din țări V4)"
+      ],
       "ong_mic": false,
       "valoare": "de regulă 25.000–35.000 €",
       "cofinantare": "",
@@ -868,8 +1146,13 @@
       "titlu": "ROVA: granturi pentru ONG-uri rome și pro-rome",
       "finantator": "Asociația Nevo Parudimos, în rețeaua ERGO (finanțare UE și Fundația EVZ)",
       "sursa": "Internațional",
-      "domenii": ["Incluziunea romilor", "Drepturile omului"],
-      "solicitanti": ["ONG rom sau pro-rom din România"],
+      "domenii": [
+        "Incluziunea romilor",
+        "Drepturile omului"
+      ],
+      "solicitanti": [
+        "ONG rom sau pro-rom din România"
+      ],
       "ong_mic": true,
       "valoare": "până la 25.000 € / proiect, fără cofinanțare",
       "cofinantare": "0%",
@@ -879,6 +1162,458 @@
       "termen_text": "apelul 2026 s-a închis pe 16 martie; proiectul ROVA rulează până la sfârșitul lui 2027",
       "rezumat": "Granturi și sprijin pentru organizațiile rome și pro-rome care promovează valorile UE și cooperarea dintre romi și ne-romi.",
       "link": "https://ergonetwork.org/wp-content/uploads/2026/01/ROVA2026_RO_Call-for-proposals.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "arcub-bucuresti",
+      "titlu": "București: programul de finanțare culturală ARCUB",
+      "finantator": "Primăria Municipiului București, prin ARCUB",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "PFA",
+        "Firmă cu activitate culturală",
+        "Instituție culturală (nesubordonată PMB)"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "București",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: lansat pe 23 aprilie, termen 22 mai)",
+      "rezumat": "Principalul program prin care Primăria Capitalei finanțează proiecte culturale independente. Cere surse complementare de finanțare.",
+      "link": "https://arcub.ro/storage/uploads/f03eeb78-d50a-4658-9863-56115e6b24ad/Anunt-public-de-lansare-2026.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "pmb-legea-350",
+      "titlu": "București: finanțări Legea 350 (mediu, protecția animalelor, social)",
+      "finantator": "Primăria Municipiului București (inclusiv DGASMB pentru social)",
+      "sursa": "Public local",
+      "domenii": [
+        "Mediu",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "până la 200.000 lei / proiect (regulamentul în vigoare)",
+      "cofinantare": "",
+      "arie": "București",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "sesiuni anuale, de obicei vara",
+      "rezumat": "Pe lângă cultură, Primăria Capitalei finanțează proiecte de mediu, protecția animalelor și asistență socială. Sesiunea socială trece prin Direcția Generală de Asistență Socială.",
+      "link": "https://economedia.ro/?p=187397",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "sector1-legea-350",
+      "titlu": "Sectorul 1: finanțări pentru ONG-uri (inclusiv „apartenență la cartier”)",
+      "finantator": "Primăria Sectorului 1",
+      "sursa": "Public local",
+      "domenii": [
+        "Educație",
+        "Social",
+        "Sport",
+        "Mediu",
+        "Tineret",
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "8 mil. lei în total (2026), din care 2 mil. pentru „apartenență la cartier”",
+      "cofinantare": "",
+      "arie": "Sectorul 1, București",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (în 2025, termen în iunie)",
+      "rezumat": "Unul dintre cele mai generoase bugete de sector din București, cu o linie dedicată proiectelor care întăresc viața de cartier.",
+      "link": "https://www.stiripesurse.ro/primaria-sectorului-1-ofera-opt-milioane-de-lei-pentru-proiectele-ong-urilor-in-2026_3891352",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "sector2-legea-350",
+      "titlu": "Sectorul 2: finanțări Legea 350 pentru activități nonprofit",
+      "finantator": "Primăria Sectorului 2",
+      "sursa": "Public local",
+      "domenii": [
+        "Social",
+        "Sport",
+        "Educație",
+        "Mediu"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi programul anual",
+      "cofinantare": "",
+      "arie": "Sectorul 2, București",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (în 2025 s-au depus 59 de proiecte)",
+      "rezumat": "Sesiune anuală pentru proiecte sociale, sportive, educaționale și de mediu în Sectorul 2.",
+      "link": "https://public.ps2.ro/Public/Legea%20350/Arhiva/2025/Raport%20anual/Raport_anual_L350_2025_detaliat_2.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "timisoara-tineret-in-actiune",
+      "titlu": "Timișoara: Tineret în acțiune",
+      "finantator": "Centrul de Proiecte al Municipiului Timișoara",
+      "sursa": "Public local",
+      "domenii": [
+        "Tineret",
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Operator cultural"
+      ],
+      "ong_mic": true,
+      "valoare": "proiecte mari până la 150.000 lei (2026)",
+      "cofinantare": "",
+      "arie": "Timișoara",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: lansat în aprilie)",
+      "rezumat": "Proiecte culturale gândite de și pentru tineri, din bugetul local al Timișoarei.",
+      "link": "https://centruldeproiecte.ro/wp-content/uploads/2026/04/Anexa-1-Anuntul-de-lansare-a-programului-de-finantare_Tineret-in-actiune-2026_actualizat_020620261700.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "timisoara-cultura-in-prezent",
+      "titlu": "Timișoara: Cultura în prezent",
+      "finantator": "Centrul de Proiecte al Municipiului Timișoara",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Operator cultural"
+      ],
+      "ong_mic": true,
+      "valoare": "proiecte medii și mari, vezi ghidul",
+      "cofinantare": "",
+      "arie": "Timișoara",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara",
+      "rezumat": "Programul general pentru cultură al Timișoarei: evenimente, festivaluri, activarea spațiilor publice.",
+      "link": "https://centruldeproiecte.ro/wp-content/uploads/2026/04/Anexa-2-Ghidul-solicitantului_Cultura-in-prezent-2026_.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "timisoara-obiectiv-cinema",
+      "titlu": "Timișoara – Obiectiv Cinema",
+      "finantator": "Centrul de Proiecte al Municipiului Timișoara",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Operator cultural"
+      ],
+      "ong_mic": true,
+      "valoare": "până la 100.000 lei / proiect (2026)",
+      "cofinantare": "",
+      "arie": "Timișoara",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: lansat în aprilie)",
+      "rezumat": "Singurul program local din țară dedicat exclusiv festivalurilor și evenimentelor de film, în cinematografele administrate de oraș.",
+      "link": "https://zilesinopti.ro/2026/04/01/finantare-evenimente-cinematografice/",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "timisoara-mobilitati",
+      "titlu": "Timișoara: Mobilități pentru profesioniști din cultură",
+      "finantator": "Centrul de Proiecte al Municipiului Timișoara",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "Profesioniști culturali",
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "granturi de călătorie (inbound și outbound)",
+      "cofinantare": "",
+      "arie": "Timișoara, deplasări naționale și internaționale",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (ediția 2026 lansată în iulie)",
+      "rezumat": "Bani de drum: pentru profesioniști din Timișoara care pleacă la rezidențe sau conferințe și pentru cei invitați în oraș.",
+      "link": "https://centruldeproiecte.ro/wp-content/uploads/2026/07/Anexa-1-Anuntul-de-lansare-a-programului-de-finantare_Mobilitati-2026.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "timisoara-orasul-in-miscare",
+      "titlu": "Timișoara: Orașul în mișcare (sport)",
+      "finantator": "Sport Club Municipal Timișoara",
+      "sursa": "Public local",
+      "domenii": [
+        "Sport"
+      ],
+      "solicitanti": [
+        "Structuri sportive cu certificat de identitate sportivă"
+      ],
+      "ong_mic": false,
+      "valoare": "vezi ghidul",
+      "cofinantare": "",
+      "arie": "Timișoara",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara",
+      "rezumat": "Finanțare din bugetul local pentru proiecte sportive și sport de masă în Timișoara.",
+      "link": "https://proiecte.scmtimisoara.ro/wp-content/uploads/2026/04/Anexa-2-Ghidul-solicitantului_Orasul-in-miscare-2026.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-timis-timcultura",
+      "titlu": "Județul Timiș: Tim Cultura (cultură și tineret)",
+      "finantator": "Consiliul Județean Timiș, prin Centrul de Cultură și Artă",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Tineret"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi ghidul anual",
+      "cofinantare": "",
+      "arie": "Județul Timiș",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (ghidul 2026 aprobat pe 29 aprilie)",
+      "rezumat": "Programul județean pentru proiecte cultural-artistice și de tineret în Timiș.",
+      "link": "https://timcultura.cjtimis.ro/wp-content/uploads/2020/07/anunt-de-participare.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "sibiu-agenda-culturala",
+      "titlu": "Sibiu: Agenda Culturală a Primăriei",
+      "finantator": "Primăria Municipiului Sibiu",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "Operator cultural",
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "aproximativ 7 mil. lei pe an",
+      "cofinantare": "",
+      "arie": "Sibiu",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual; selecția se face înainte de sezonul de festivaluri",
+      "rezumat": "Agenda care ține în viață festivalurile Sibiului de aproape 20 de ani. Există și agende separate pentru sport și comunitate.",
+      "link": "https://zilesinopti.ro/?p=475268",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-sibiu-agende",
+      "titlu": "Județul Sibiu: agendele culturală, sportivă, educațională și de tineret",
+      "finantator": "Consiliul Județean Sibiu",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Sport",
+        "Educație",
+        "Tineret",
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "ONG",
+        "Școli din rural și orașe mici (agenda educațională)"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi bugetul anual al fiecărei agende",
+      "cofinantare": "",
+      "arie": "Județul Sibiu",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (în 2022: martie)",
+      "rezumat": "Patru agende județene cu depunere separată. Agenda educațională încurajează școlile din rural și din orașele mici.",
+      "link": "https://zilesinopti.ro/?p=247902",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-mures-legea-350",
+      "titlu": "Județul Mureș: finanțări pentru cultură, culte, sport, social și tineret",
+      "finantator": "Consiliul Județean Mureș",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Sport",
+        "Social",
+        "Tineret"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "la cultură: 400.000 lei în total, maximum 3.000 lei / proiect (2026)",
+      "cofinantare": "",
+      "arie": "Județul Mureș",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: program aprobat pe 7 mai)",
+      "rezumat": "Sume mici pe proiect, dar și dosar mai simplu. În 2026 s-au depus 173 de proiecte doar la cultură.",
+      "link": "https://ro.cjmures.ro/wp-content/uploads/2026/07/raport-intermediar-cultura-2026.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-constanta-legea-350",
+      "titlu": "Județul Constanța: programul anual de finanțări nerambursabile",
+      "finantator": "Consiliul Județean Constanța",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Turism",
+        "Dezvoltare comunitară"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "13 mil. lei în total (2024)",
+      "cofinantare": "",
+      "arie": "Județul Constanța",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, la începutul anului (programul 2024: februarie)",
+      "rezumat": "Unul dintre cele mai mari bugete județene pentru ONG-uri, cu accent pe cultură și turism.",
+      "link": "https://www.ziuaconstanta.ro/images/stories/2024/02/28/01-program-finantari-nerambursabile.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-iasi-legea-350",
+      "titlu": "Județul Iași: finanțări pentru activități nonprofit de interes județean",
+      "finantator": "Consiliul Județean Iași",
+      "sursa": "Public local",
+      "domenii": [
+        "Social",
+        "Cultură",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "1,8 mil. lei în total (2023)",
+      "cofinantare": "",
+      "arie": "Județul Iași",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (în 2023: termen 18 aprilie)",
+      "rezumat": "Sesiune județeană anuală pe Legea 350, inclusiv pentru sportul de performanță.",
+      "link": "https://www.bzi.ro/s-a-dat-startul-sesiunii-de-selectie-a-proiectelor-cu-finantare-nerambursabila-valoarea-totala-este-de-18-milioane-de-lei-4667719",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "iasi-legea-350",
+      "titlu": "Iași: programul municipal de finanțare a societății civile",
+      "finantator": "Primăria Municipiului Iași",
+      "sursa": "Public local",
+      "domenii": [
+        "Social",
+        "Sănătate",
+        "Educație",
+        "Mediu",
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "vezi programul anual",
+      "cofinantare": "",
+      "arie": "Iași",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "o sesiune pe an",
+      "rezumat": "Programul anual al municipiului Iași pentru proiectele ONG-urilor din oraș.",
+      "link": "https://www.bzi.ro/s-a-dat-startul-finantarilor-pentru-ong-urile-din-municipiu-3902278",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "brasov-ghid-unic",
+      "titlu": "Brașov: Ghidul unic pentru educație, mediu, social și sport de masă",
+      "finantator": "Primăria Municipiului Brașov",
+      "sursa": "Public local",
+      "domenii": [
+        "Educație",
+        "Mediu",
+        "Social",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi ghidul",
+      "cofinantare": "",
+      "arie": "Brașov",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual; atenție: ghidul pentru cultură nu a mai fost lansat în 2025 și 2026",
+      "rezumat": "Ghid comun pentru mai multe domenii. Finanțarea pentru cultura independentă a fost suspendată, iar organizațiile locale cer reluarea ei.",
+      "link": "https://www.brasovcity.ro/file-zone/proiecte/hotarare/PFNBV/4.%20Ghidul_Unic_al_solicitantului_Legea%20350.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "nouanepasa-granturi",
+      "titlu": "Fundația Nouă ne pasă: granturi pentru educație",
+      "finantator": "Fundația Nouă ne pasă",
+      "sursa": "Fundație",
+      "domenii": [
+        "Educație"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi pagina programului",
+      "cofinantare": "",
+      "arie": "Național",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "periodic",
+      "rezumat": "Granturi pentru programe educaționale derulate de ONG-uri.",
+      "link": "https://www.nouanepasa.ro/granturi",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
     }
