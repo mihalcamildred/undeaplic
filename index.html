@@ -247,10 +247,10 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
   </section>
 
   <section class="counts" aria-label="Pe scurt">
-    <button class="count" type="button" data-quick="deschise"><b id="n-open">–</b><span>apeluri deschise acum</span></button>
+    <button class="count" type="button" data-quick="toate"><b id="n-all">–</b><span>apeluri și programe în listă</span></button>
+    <button class="count" type="button" data-quick="deschise"><b id="n-open">–</b><span>deschise acum</span></button>
     <button class="count c-urgent" type="button" data-quick="curand"><b id="n-soon">–</b><span>se închid în 30 de zile</span></button>
-    <button class="count" type="button" data-quick="anuntate"><b id="n-ann">–</b><span>anunțate, pregătește-te</span></button>
-    <button class="count" type="button" data-quick="mic"><b id="n-small">–</b><span>pentru ONG-uri mici</span></button>
+    <button class="count" type="button" data-quick="local"><b id="n-local">–</b><span>de la primării și județe</span></button>
   </section>
 </div>
 
@@ -442,6 +442,7 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
   }
 
   function setQuick(k) {
+    if (k === "toate") k = "";
     quick = quick === k ? "" : k;
     document.querySelectorAll(".qchip").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-quick") === quick ? "true" : "false"); });
     render();
@@ -453,8 +454,8 @@ footer.site { border-top: 1px solid var(--line); padding: 20px 0 40px; color: va
     var open = all.filter(function (a) { return effStatus(a) === "deschis"; });
     $("n-open").textContent = open.length;
     $("n-soon").textContent = all.filter(QUICK.curand).length;
-    $("n-ann").textContent = all.filter(QUICK.anuntate).length;
-    $("n-small").textContent = all.filter(function (a) { var s = effStatus(a); return a.ong_mic && (s === "deschis" || s === "anuntat"); }).length;
+    $("n-all").textContent = all.filter(function (a) { return effStatus(a) !== "inchis"; }).length;
+    $("n-local").textContent = all.filter(QUICK.local).length;
     var next = open.filter(function (a) { return a.termen; }).sort(function (x, y) { return daysLeft(x.termen) - daysLeft(y.termen); })[0];
     if (next) {
       var n = daysLeft(next.termen);
