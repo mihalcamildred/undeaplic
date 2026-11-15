@@ -2,31 +2,6 @@
   "actualizat": "2026-11-15",
   "apeluri": [
     {
-      "id": "pids-familii-monoparentale-national",
-      "titlu": "Măsuri integrate de sprijin pentru familiile monoparentale vulnerabile",
-      "finantator": "Programul Incluziune și Demnitate Socială (PIDS), MIPE",
-      "sursa": "UE prin România",
-      "domenii": [
-        "Social",
-        "Copii"
-      ],
-      "solicitanti": [
-        "Ministerul Muncii (solicitant unic)",
-        "ONG cu experiență, doar ca partener"
-      ],
-      "ong_mic": false,
-      "valoare": "alocare totală 65,3 mil. €",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "deschis",
-      "termen": "2026-11-16",
-      "termen_text": "ora 16:00, în MySMIS2021 (prelungit prin corrigendum)",
-      "rezumat": "Apelul național e rezervat Ministerului Muncii. ONG-urile cu experiență pe familii monoparentale pot intra doar ca parteneri, deci merită un telefon la minister, nu o cerere proprie.",
-      "link": "https://mfe.gov.ro/poids-ghidul-solicitantului-masuri-integrate-de-sprijin-pentru-familiile-monoparentale-vulnerabile-din-romania/",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
       "id": "pids-familii-monoparentale-iti",
       "titlu": "Familii monoparentale în ITI Țara Făgărașului și ITI Moții (PIDS 5.5)",
       "finantator": "Programul Incluziune și Demnitate Socială (PIDS), MIPE",
@@ -36,7 +11,7 @@
         "Copii"
       ],
       "solicitanti": [
-        "Vezi ghidul (inclusiv ONG-uri)"
+        "Furnizori de servicii sociale acreditați, inclusiv ONG-uri (verifică ghidul)"
       ],
       "ong_mic": false,
       "valoare": "până la 534.932 € / proiect",
@@ -100,79 +75,6 @@
       "rezumat": "Cel mai simplu grant pentru ONG-urile mici, școli și grupuri de inițiativă. Runda din decembrie se umple repede, așa că pregătește dosarul înainte de 1 decembrie.",
       "link": "https://startong.ro/inscriere",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "peo-scoli-pentru-viitor",
-      "titlu": "Școli pentru viitor",
-      "finantator": "Programul Educație și Ocupare (PEO), MIPE",
-      "sursa": "UE prin România",
-      "domenii": [
-        "Educație"
-      ],
-      "solicitanti": [
-        "Școli acreditate",
-        "Inspectorate școlare",
-        "CJRAE/CMBRAE"
-      ],
-      "ong_mic": false,
-      "valoare": "700.000 – 1 mil. € / proiect (buget total 52,8 mil. €)",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "deschis",
-      "termen": "2026-11-27",
-      "termen_text": "în MySMIS2021",
-      "rezumat": "Pregătire suplimentară, alfabetizare funcțională și performanță STEAM, cu minimum 400 de elevi pe proiect. ONG-urile nu depun direct; pot colabora cu școlile solicitante.",
-      "link": "https://www.edupedu.ro/scolile-inspectoratele-si-cjrae-pot-aplica-pentru-fonduri-de-peste-52-de-milioane-de-euro-pentru-alfabetizare-functionala-pregatire-pentru-evaluare-nationala-si-bac-dar-si-pentru-performanta-steam/",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "peo-educatie-timpurie",
-      "titlu": "Diversificarea și flexibilizarea serviciilor de educație timpurie",
-      "finantator": "Programul Educație și Ocupare (PEO), MIPE",
-      "sursa": "UE prin România",
-      "domenii": [
-        "Educație",
-        "Copii"
-      ],
-      "solicitanti": [
-        "Vezi ghidul"
-      ],
-      "ong_mic": false,
-      "valoare": "până la 5 mil. € / proiect (buget total peste 81,5 mil. €)",
-      "cofinantare": "",
-      "arie": "Regiunile mai puțin dezvoltate (fără București-Ilfov)",
-      "status": "deschis",
-      "termen": "2026-11-27",
-      "termen_text": "ora 16:00",
-      "rezumat": "Servicii pentru copiii între 3 luni și 6 ani, cu minimum 65 de copii și 20 de părinți pe proiect. Apel mare, pentru organizații obișnuite cu fondurile europene.",
-      "link": "https://www.mediafax.ro/social/mipe-a-inceput-depunerea-proiectelor-pentru-educatia-timpurie-finantari-de-pana-la-5-milioane-de-euro-pentru-un-proiect-23818402",
-      "link_tip": "presa",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "peo-step-vet",
-      "titlu": "STEP-VET: practica elevilor în tehnologii critice",
-      "finantator": "Programul Educație și Ocupare (PEO), MIPE",
-      "sursa": "UE prin România",
-      "domenii": [
-        "Educație",
-        "Tineret"
-      ],
-      "solicitanti": [
-        "Învățământ profesional, tehnic și dual; parteneri – vezi ghidul"
-      ],
-      "ong_mic": false,
-      "valoare": "buget total peste 45,7 mil. €",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "deschis",
-      "termen": "2026-12-31",
-      "termen_text": "ora 16:00, în MySMIS2021",
-      "rezumat": "Orientare în carieră, mentorat și stagii de practică pentru elevi, pe tehnologii digitale, curate și biotehnologii. Relevant pentru ONG-urile de educație care lucrează cu licee tehnologice.",
-      "link": "https://www.edupedu.ro/peste-457-milioane-de-euro-pentru-practica-elevilor-din-invatamantul-profesional-dual-si-postliceal-in-tehnologii-critice-proiectele-se-depun-pana-pe-31-decembrie-2026/",
-      "link_tip": "presa",
       "verificat": "2026-11-15"
     },
     {
@@ -285,7 +187,7 @@
         "Social"
       ],
       "solicitanti": [
-        "Consorții de cercetare; ONG-urile de pacienți ca parteneri"
+        "ONG ca partener într-un consorțiu (primește bani din proiect)"
       ],
       "ong_mic": false,
       "valoare": "vezi documentul apelului",
@@ -733,8 +635,8 @@
       "termen": "",
       "termen_text": "anual, primăvara (2026: lansat la sfârșitul lui aprilie)",
       "rezumat": "Unul dintre cele mai mari bugete locale pentru ONG-uri din țară, pe cultură, tineret, social și sport.",
-      "link": "https://actualdecluj.ro/peste-49-de-milioane-de-lei-pentru-proiecte-culturale-sociale-si-sportive-la-cluj-primaria-a-deschis-apelul-de-finantare/",
-      "link_tip": "presa",
+      "link": "https://primariaclujnapoca.ro/finantari-nerambursabile/activitati-non-profit-de-interes-general/",
+      "link_tip": "oficial",
       "verificat": "2026-11-15"
     },
     {
@@ -1232,15 +1134,15 @@
         "ONG"
       ],
       "ong_mic": true,
-      "valoare": "8 mil. lei în total (2026), din care 2 mil. pentru „apartenență la cartier”",
-      "cofinantare": "",
+      "valoare": "până la 180.000 lei / proiect pe linia Legea 350 (5 mil. lei în total), plus 3 mil. lei pentru cultură",
+      "cofinantare": "minimum 10%",
       "arie": "Sectorul 1, București",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual (în 2025, termen în iunie)",
+      "termen_text": "anual, vara (2026: 15 iunie – 15 iulie, depunere online)",
       "rezumat": "Unul dintre cele mai generoase bugete de sector din București, cu o linie dedicată proiectelor care întăresc viața de cartier.",
-      "link": "https://www.stiripesurse.ro/primaria-sectorului-1-ofera-opt-milioane-de-lei-pentru-proiectele-ong-urilor-in-2026_3891352",
-      "link_tip": "presa",
+      "link": "https://primariasector1.ro/sectorul-1-deschide-finantarile-nerambursabile-in-2026-cu-un-buget-total-de-8-milioane-de-lei/",
+      "link_tip": "oficial",
       "verificat": "2026-11-15"
     },
     {
@@ -1562,10 +1464,10 @@
       "arie": "Iași",
       "status": "recurent",
       "termen": "",
-      "termen_text": "o sesiune pe an",
+      "termen_text": "o sesiune pe an; doar proiecte anuale (regulamentul 2026)",
       "rezumat": "Programul anual al municipiului Iași pentru proiectele ONG-urilor din oraș.",
-      "link": "https://www.bzi.ro/s-a-dat-startul-finantarilor-pentru-ong-urile-din-municipiu-3902278",
-      "link_tip": "presa",
+      "link": "https://www.primaria-iasi.ro/dm_iasi/portal.nsf/atasament/7E96C47584BD9FA2C2258DFD002F1D10/$FILE/Regulament%20Lege%20350%20-%202026.pdf",
+      "link_tip": "oficial",
       "verificat": "2026-11-15"
     },
     {
@@ -1614,6 +1516,705 @@
       "termen_text": "periodic",
       "rezumat": "Granturi pentru programe educaționale derulate de ONG-uri.",
       "link": "https://www.nouanepasa.ro/granturi",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "oradea-legea-350",
+      "titlu": "Oradea: finanțări pentru activități nonprofit de interes local",
+      "finantator": "Primăria Municipiului Oradea",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Educație",
+        "Sport",
+        "Tineret",
+        "Mediu",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "500.000 lei în total, din care 100.000 lei pentru tineret (2026)",
+      "cofinantare": "",
+      "arie": "Oradea",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: termen 20 mai); depunere doar pe email",
+      "rezumat": "Buget mic, procedură scurtă: dosarul se trimite pe email de pe adresa oficială a organizației.",
+      "link": "https://oradea.ro/primaria-oradea/informatii-financiare/finantari-nerambursabile/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-bihor-legea-350",
+      "titlu": "Județul Bihor: finanțări pentru activități nonprofit",
+      "finantator": "Consiliul Județean Bihor",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Social",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi anunțul anual (la cultură: 150.000 lei)",
+      "cofinantare": "",
+      "arie": "Județul Bihor",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual",
+      "rezumat": "Sesiunea județeană pentru asociațiile și fundațiile din Bihor.",
+      "link": "https://www.cjbihor.ro/informatii-publice/finantari-nerambursabile-pentru-activitati-non-profit/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "craiova-legea-350",
+      "titlu": "Craiova: finanțări pentru educație civică, mediu, asistență socială și cultură",
+      "finantator": "Primăria Municipiului Craiova",
+      "sursa": "Public local",
+      "domenii": [
+        "Democrație și participare civică",
+        "Mediu",
+        "Social",
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "8.000–45.000 lei (civic, mediu, social) și 25.000–65.000 lei (cultură); 150.000 lei în total",
+      "cofinantare": "",
+      "arie": "Craiova",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, vara (2026: termen 17 iulie); include un vot public",
+      "rezumat": "Depunere pe platforma 350.primariacraiova.ro. Proiectele eligibile trec și printr-un vot al craiovenilor, care aduce puncte în plus.",
+      "link": "http://350.primariacraiova.ro/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-galati-legea-350",
+      "titlu": "Județul Galați: proiecte sociale și sportive",
+      "finantator": "Consiliul Județean Galați",
+      "sursa": "Public local",
+      "domenii": [
+        "Social",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "la social: 2.099.000 lei (2026)",
+      "cofinantare": "",
+      "arie": "Județul Galați",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, vara (2026: anunț pe 19 iunie, termen redus la 15 zile)",
+      "rezumat": "Unul dintre puținele consilii județene cu buget consistent pentru proiecte sociale ale ONG-urilor.",
+      "link": "https://cjgalati.ro/legea-350/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "ploiesti-legea-350",
+      "titlu": "Ploiești: finanțări pentru activități nonprofit de interes general",
+      "finantator": "Primăria Municipiului Ploiești",
+      "sursa": "Public local",
+      "domenii": [
+        "Educație",
+        "Cultură",
+        "Sport",
+        "Sănătate",
+        "Mediu",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "în jur de 2 mil. lei pe an (2025: 25 de proiecte)",
+      "cofinantare": "",
+      "arie": "Ploiești",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (2026: programul și ghidul au intrat în consultare la sfârșitul lui mai)",
+      "rezumat": "Program anual cu domenii largi, de la incluziune socială la cultură și sport.",
+      "link": "https://ploiesti.ro/stiri/noi-proiecte-pentru-comunitate-supuse-aprobarii-consiliului-local-ploiesti/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-arad-cultura",
+      "titlu": "Județul Arad: proiecte culturale prin Centrul Cultural Județean",
+      "finantator": "Consiliul Județean Arad, prin Centrul Cultural Județean Arad",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "Județul Arad (și organizații din afara județului, cu activități în Arad)",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (ultimul anunț găsit: aprilie 2025)",
+      "rezumat": "Pot aplica și organizații din alte județe, dacă proiectul se desfășoară în Arad.",
+      "link": "https://www.cjarad.ro/wp-content/uploads/2025/04/Anexa-1-3.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-suceava-legea-350",
+      "titlu": "Județul Suceava: social, cultură, tineret, educație civică, sănătate, sport",
+      "finantator": "Consiliul Județean Suceava",
+      "sursa": "Public local",
+      "domenii": [
+        "Social",
+        "Cultură",
+        "Tineret",
+        "Democrație și participare civică",
+        "Sănătate",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "6,5 mil. lei în total (2026), din care 5,44 mil. pentru sport, 400.000 lei social, 300.000 lei cultură",
+      "cofinantare": "",
+      "arie": "Județul Suceava",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (programul 2026 aprobat în mai)",
+      "rezumat": "Cea mai mare parte merge la sport, dar există linii separate pentru social, cultură, tineret și sănătate publică.",
+      "link": "https://www.monitorulsv.ro/cj-suceava-a-aprobat-programul-de-finantari-nerambursabile-pentru-anul-2026_7d2e88/",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "radauti-legea-350",
+      "titlu": "Rădăuți: finanțări pentru asociații și fundații (social)",
+      "finantator": "Primăria Municipiului Rădăuți",
+      "sursa": "Public local",
+      "domenii": [
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "50.000 lei pentru asociații și fundații (2026)",
+      "cofinantare": "",
+      "arie": "Rădăuți",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "planul 2026 aprobat pe 24 septembrie 2026; urmărește anunțul de participare",
+      "rezumat": "Sumă mică, dar program recent aprobat. Verifică pagina primăriei pentru termen.",
+      "link": "https://primariaradauti.ro/finantari-nerambursabile/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "bacau-tineret",
+      "titlu": "Bacău: proiecte de tineret (Legea 350)",
+      "finantator": "Primăria Municipiului Bacău",
+      "sursa": "Public local",
+      "domenii": [
+        "Tineret"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "50.000 lei în total (2026)",
+      "cofinantare": "",
+      "arie": "Bacău",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, vara (2026: termen 13 iulie)",
+      "rezumat": "Buget modest, dar singura linie municipală dedicată tinerilor la Bacău.",
+      "link": "https://municipiulbacau.ro/finantari-nerambursabile/legea-350-2005/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-bacau-legea-350",
+      "titlu": "Județul Bacău: educație și social",
+      "finantator": "Consiliul Județean Bacău",
+      "sursa": "Public local",
+      "domenii": [
+        "Educație",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "Județul Bacău",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (contractele 2026 atribuite în septembrie)",
+      "rezumat": "Sesiune județeană anuală pentru proiecte educaționale și sociale.",
+      "link": "https://csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/finantari-nerambursabile-pentru-activitati-nonprofit-de-interes-public-judetean-pentru-anul-2026-00038396?OpenDocument=",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "pitesti-sport",
+      "titlu": "Pitești: sport pentru copii și juniori",
+      "finantator": "Primăria Municipiului Pitești",
+      "sursa": "Public local",
+      "domenii": [
+        "Sport"
+      ],
+      "solicitanti": [
+        "Asociații și fundații sportive"
+      ],
+      "ong_mic": false,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "Pitești",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara",
+      "rezumat": "Pentru asociațiile sportive din Pitești care lucrează cu copii și juniori.",
+      "link": "https://www.primariapitesti.ro/anunt-de-participare-sport-copii-i-juniori-p1818",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-vaslui-legea-350",
+      "titlu": "Județul Vaslui: cultură, social, tineret și sport",
+      "finantator": "Consiliul Județean Vaslui",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Social",
+        "Tineret",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "Județul Vaslui",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: 6–22 mai)",
+      "rezumat": "Sesiune scurtă, de două săptămâni, la începutul lui mai.",
+      "link": "https://cjvs.eu/finantari-nerambursabile-2026/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-vrancea-legea-350",
+      "titlu": "Județul Vrancea: educație-tineret, cultură, sport, sănătate, mediu",
+      "finantator": "Consiliul Județean Vrancea",
+      "sursa": "Public local",
+      "domenii": [
+        "Educație",
+        "Tineret",
+        "Cultură",
+        "Sport",
+        "Sănătate",
+        "Mediu"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "500.000 lei în total (2026)",
+      "cofinantare": "",
+      "arie": "Județul Vrancea",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: termen 29 mai)",
+      "rezumat": "Program județean cu domenii largi și buget mic, deci proiecte de dimensiuni modeste.",
+      "link": "https://cjvrancea.ro/en/finantari-pe-legea-350-2005/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "lupeni-legea-350",
+      "titlu": "Lupeni: finanțări pentru activități nonprofit",
+      "finantator": "Primăria Municipiului Lupeni",
+      "sursa": "Public local",
+      "domenii": [
+        "Sport",
+        "Cultură",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "1,6 mil. lei (2026), din care 1,4 mil. pentru sport",
+      "cofinantare": "",
+      "arie": "Lupeni",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, vara (2026: anunț pe 12 iunie)",
+      "rezumat": "Majoritatea banilor merg la sport; restul de 200.000 lei acoperă alte domenii.",
+      "link": "https://www.municipiullupeni.ro/dm_lupeni/portal.nsf/AllByUNID/legea-nr-3502005-privind-regimul-finantarilor-nerambursabile-din-fonduri-publice-alocate-pentru-activitati-nonprofit-de-interes-general-0000c48a?OpenDocument=",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "roman-legea-350",
+      "titlu": "Roman: cultură, tineret și învățământ",
+      "finantator": "Primăria Municipiului Roman",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Tineret",
+        "Educație"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "câte 50.000 lei pe domeniu (2026)",
+      "cofinantare": "",
+      "arie": "Roman",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara",
+      "rezumat": "Sume mici, potrivite pentru proiecte locale de cultură și tineret.",
+      "link": "https://primariaroman.ro/wp-content/uploads/2026/05/008-Program-finantari-350.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "dej-legea-350",
+      "titlu": "Dej: cultură, educație, social",
+      "finantator": "Primăria Municipiului Dej",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Educație",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "Dej",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual",
+      "rezumat": "Pagina primăriei are anunțul, ghidul și formularele pentru anul curent.",
+      "link": "https://primariadej.ro/Informa%C8%9Bii-de-interes-public/Finan%C8%9B%C4%83ri-nerambursabile",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-braila-cultura",
+      "titlu": "Județul Brăila: proiecte culturale",
+      "finantator": "Consiliul Județean Brăila",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "200.000 lei în total (2026); în 2025 maximum 50.000 lei / proiect",
+      "cofinantare": "minimum 10%",
+      "arie": "Județul Brăila",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (programul 2026 aprobat pe 29 mai)",
+      "rezumat": "În 2026 programul județean e dedicat exclusiv culturii.",
+      "link": "https://news-braila.ro/programul-de-finantare-nerambursabila-pentru-cultura-din-braila-buget-de-200-000-lei-in-2026-ce-conditii-vizeaza-sectorul-nonprofit/",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-buzau-tineret",
+      "titlu": "Județul Buzău: proiecte de tineret",
+      "finantator": "Consiliul Județean Buzău",
+      "sursa": "Public local",
+      "domenii": [
+        "Tineret"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "Județul Buzău",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: evaluare 3–5 iunie)",
+      "rezumat": "Depunere și prin portalul online al Consiliului Județean Buzău.",
+      "link": "https://laramnicusarat.ro/consiliul-judetean-buzau-invita-persoanele-juridice-fara-scop-patrimonial-respectiv-asociatii-ori-fundatii-constituite-conform-legii-sa-depuna-oferta-in-scopul-atribuirii-contractelor-de-finantare-ne",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-satu-mare-legea-350",
+      "titlu": "Județul Satu Mare: cultură, sport și tineret",
+      "finantator": "Consiliul Județean Satu Mare",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Sport",
+        "Tineret"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "450.000 lei cultură, 200.000 lei sport, 50.000 lei tineret (2026)",
+      "cofinantare": "",
+      "arie": "Județul Satu Mare",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, vara (2026: termen 1 iulie)",
+      "rezumat": "La cultură există o linie separată pentru evenimente mari și una pentru proiecte mai mici.",
+      "link": "https://www.cjsm.ro/finantari-nerambursabile-cultura-2026",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "satu-mare-legea-350",
+      "titlu": "Satu Mare: „Împreună dăm culoare orașului”",
+      "finantator": "Primăria Satu Mare, prin Centrul Cultural G.M. Zamfirescu",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Sport",
+        "Tineret"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "650.000 lei în total (2026): 400.000 cultură, 200.000 sport pentru toți, 50.000 tineret",
+      "cofinantare": "",
+      "arie": "Satu Mare",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: termen 25 mai)",
+      "rezumat": "Concursul anual al orașului pentru ONG-urile din Satu Mare.",
+      "link": "https://gmz.ro/finantari-legea-350",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "zalau-cultura",
+      "titlu": "Zalău: proiecte culturale",
+      "finantator": "Primăria Municipiului Zalău",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "100.000 lei în total (2026)",
+      "cofinantare": "",
+      "arie": "Zalău",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, vara (2026: termen 22 iunie)",
+      "rezumat": "Linie municipală dedicată exclusiv culturii.",
+      "link": "https://zalausj.ro/portal/zalau/portal.nsf/1D59A845E074E517C2258E100043D171/$FILE/08062026.pdf",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-salaj-teatru",
+      "titlu": "Județul Sălaj: teatru amator",
+      "finantator": "Consiliul Județean Sălaj",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "70.000 lei în total (2026)",
+      "cofinantare": "",
+      "arie": "Județul Sălaj",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: termen 8 iunie)",
+      "rezumat": "O linie rară: bani doar pentru trupele de teatru amator.",
+      "link": "https://www.ztv.ro/social/asociatiile-si-fundatiile-pot-accesa-o-noua-linie-de-finantare-nerambursabila",
+      "link_tip": "presa",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "alba-iulia-legea-350",
+      "titlu": "Alba Iulia: educație, cultură, sport, social, mediu, tineret, protecția animalelor",
+      "finantator": "Primăria Municipiului Alba Iulia",
+      "sursa": "Public local",
+      "domenii": [
+        "Educație",
+        "Cultură",
+        "Sport",
+        "Social",
+        "Mediu",
+        "Tineret",
+        "Protecția animalelor"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "1.190.000 lei în total (2026)",
+      "cofinantare": "",
+      "arie": "Alba Iulia",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, vara (2026: termen 22 iunie)",
+      "rezumat": "Unul dintre puținele programe municipale cu linie pentru protecția și bunăstarea animalelor.",
+      "link": "https://www.apulum.ro/index.php/primaria/finantari_detail/10752",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "deva-legea-350",
+      "titlu": "Deva: cultură, sport, tineret și social",
+      "finantator": "Primăria Municipiului Deva",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Sport",
+        "Tineret",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi anunțul anual",
+      "cofinantare": "",
+      "arie": "Deva",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: 19 mai – 19 iunie)",
+      "rezumat": "Proiectele se derulează până la sfârșitul lui noiembrie.",
+      "link": "https://www.primariadeva.ro/index.php/primaria/finantari_nerambursabile",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "piatra-neamt-legea-350",
+      "titlu": "Piatra Neamț: cultură, social și sport",
+      "finantator": "Primăria Municipiului Piatra Neamț",
+      "sursa": "Public local",
+      "domenii": [
+        "Cultură",
+        "Social",
+        "Sport"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi ghidurile anuale",
+      "cofinantare": "",
+      "arie": "Piatra Neamț",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, primăvara (2026: lansat pe 8 mai)",
+      "rezumat": "Din 2026, finanțarea poate acoperi o parte mai mare din proiectele sociale și culturale.",
+      "link": "https://www.primariapn.ro/anunturi",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-valcea-legea-350",
+      "titlu": "Județul Vâlcea: sport, tineret și culte",
+      "finantator": "Consiliul Județean Vâlcea",
+      "sursa": "Public local",
+      "domenii": [
+        "Sport",
+        "Tineret"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "vezi anunțurile anuale",
+      "cofinantare": "",
+      "arie": "Județul Vâlcea",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (rezultatele 2026 publicate în iulie)",
+      "rezumat": "Sesiuni separate pentru programe sportive și pentru tineret.",
+      "link": "https://cjvalcea.ro/2026/07/23/anunt-privind-rezultatul-final-al-procedurii-de-evaluare-si-selectie-a-proiectelor-depuse-in-vederea-acordarii-finantarii-nerambursabile-in-baza-legii-nr-350-2005-din-bugetul-propriu-al-judetului-v-5/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "cj-harghita-programe",
+      "titlu": "Județul Harghita: programe pentru tineri, sport, port popular și pompieri voluntari",
+      "finantator": "Consiliul Județean Harghita",
+      "sursa": "Public local",
+      "domenii": [
+        "Tineret",
+        "Sport",
+        "Cultură"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": true,
+      "valoare": "vezi fiecare program",
+      "cofinantare": "",
+      "arie": "Județul Harghita",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, după aprobarea bugetului (2026: aprilie)",
+      "rezumat": "Mai multe programe mici, cu pagini separate pe site-ul județului.",
+      "link": "https://judetulharghita.ro/proiecte/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "anabi-victime",
+      "titlu": "ANABI: sprijin pentru victime și comunitate („Infractorii plătesc”)",
+      "finantator": "Agenția Națională de Administrare a Bunurilor Indisponibilizate",
+      "sursa": "Public național",
+      "domenii": [
+        "Social",
+        "Drepturile omului"
+      ],
+      "solicitanti": [
+        "ONG"
+      ],
+      "ong_mic": false,
+      "valoare": "1 mil. lei în total (2026)",
+      "cofinantare": "",
+      "arie": "Național",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual (2026: anunț pe 18 mai, evaluare în iunie–iulie)",
+      "rezumat": "Bani confiscați de la infractori, redistribuiți către ONG-urile care sprijină victimele. Proiectele durează cel mult 4 luni.",
+      "link": "https://anabi.just.ro/info/finantari-nerambursabile-asociatii-si-fundatii",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
     }
