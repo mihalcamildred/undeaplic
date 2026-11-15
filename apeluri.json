@@ -3373,6 +3373,155 @@
       "termen": "",
       "status": "recurent",
       "verificat": "2026-11-15"
+    },
+    {
+      "id": "fcb-orange-rezilienta-climatica",
+      "titlu": "Platforma de mediu pentru București: reziliență climatică (Fundația Comunitară București și Orange)",
+      "finantator": "Fundația Comunitară București, cu Orange România",
+      "sursa": "Fundație",
+      "domenii": [
+        "Mediu",
+        "Climă",
+        "Spații publice"
+      ],
+      "solicitanti": [
+        "ONG-uri și grupuri de inițiativă"
+      ],
+      "ong_mic": false,
+      "valoare": "Până la 500.000 lei în total pe rundă; finanțare suplimentară posibilă până la 3 ani",
+      "cofinantare": "Nespecificată",
+      "arie": "București",
+      "termen_text": "Anual, iarna; runda anterioară a fost deschisă între 12 noiembrie 2025 și 11 ianuarie 2026",
+      "rezumat": "Finanțare pentru proiecte de infrastructură verde care aduc umbră, răcoare și apă în spațiile publice din București. Fundația incubează și câteva idei aflate încă la început.",
+      "link": "https://www.revistabiz.ro/fundatia-comunitara-bucuresti-capitala-are-nevoie-urgenta-de-o-strategie-de-rezilienta-climatica/",
+      "link_tip": "presa",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "brasov-heroes",
+      "titlu": "Brașov Heroes: strângere de fonduri pentru proiecte locale (Fundația Comunitară Brașov)",
+      "finantator": "Fundația Comunitară Brașov",
+      "sursa": "Fundație",
+      "domenii": [
+        "Social",
+        "Sănătate",
+        "Educație",
+        "Cultură",
+        "Protecția animalelor"
+      ],
+      "solicitanti": [
+        "ONG-uri și grupuri de inițiativă"
+      ],
+      "ong_mic": true,
+      "valoare": "Prin cele 12 ediții: peste 2,2 milioane lei pentru 135 de proiecte",
+      "cofinantare": "Nu",
+      "arie": "Brașov",
+      "termen_text": "Anual, iarna; în 2026 înscrierile s-au închis pe 9 februarie",
+      "rezumat": "Proiectele selectate primesc mentorat și strâng bani prin echipe de alergători la un eveniment caritabil, iar fundația le acordă apoi finanțarea.",
+      "link": "https://zilesinopti.ro/?p=798357",
+      "link_tip": "presa",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "stiintescu-oradea",
+      "titlu": "Fondul Științescu Oradea: proiecte STEAM pentru copii",
+      "finantator": "Fundația Comunitară Oradea",
+      "sursa": "Fundație",
+      "domenii": [
+        "Educație",
+        "Știință și tehnologie"
+      ],
+      "solicitanti": [
+        "ONG-uri și echipe eligibile conform ghidului"
+      ],
+      "ong_mic": true,
+      "valoare": "Între 15.000 și 25.000 lei pe proiect (ediția 6.0)",
+      "cofinantare": "Conform ghidului",
+      "arie": "Județul Bihor",
+      "termen_text": "Anual, de obicei toamna",
+      "rezumat": "Fond pentru proiecte care fac știința mai atractivă pentru copiii și tinerii între 6 și 19 ani. Participarea la cel puțin două sesiuni de consultare este obligatorie.",
+      "link": "https://fundatiacomunitaraoradea.ro/wp-content/uploads/2023/10/Ghidul-aplicantului-Stiintescu-Oradea-6.0-.docx-1.pdf",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "boardul-sustenabilitate-ploiesti",
+      "titlu": "Boardul de Sustenabilitate: micro-granturi „Sustenabil în Cartier” (Ploiești)",
+      "finantator": "Federația Fundațiile Comunitare din România și Coca-Cola HBC, cu PENNY și Fundația Comunitară Prahova",
+      "sursa": "Privat / CSR",
+      "domenii": [
+        "Mediu",
+        "Comunitate"
+      ],
+      "solicitanti": [
+        "ONG-uri locale"
+      ],
+      "ong_mic": true,
+      "valoare": "Micro-granturi",
+      "cofinantare": "Nespecificată",
+      "arie": "Ploiești",
+      "termen_text": "Program lansat în 2025; urmărește apelurile noi",
+      "rezumat": "Apel de micro-granturi pentru micro-comunități verzi în Ploiești, parte dintr-un program național de sustenabilitate urbană.",
+      "link": "https://www.revistabiz.ro/penny-contribuie-la-dezvoltarea-unui-model-colaborativ-de-sustenabilitate-urbana/",
+      "link_tip": "presa",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "unhcr-grant-agreements",
+      "titlu": "UNHCR România: acorduri de grant cu organizații comunitare și conduse de refugiați",
+      "finantator": "UNHCR (Agenția ONU pentru Refugiați) România",
+      "sursa": "Internațional",
+      "domenii": [
+        "Refugiați",
+        "Protecție",
+        "Incluziune"
+      ],
+      "solicitanti": [
+        "Organizații nonprofit comunitare și organizații conduse de refugiați"
+      ],
+      "ong_mic": true,
+      "valoare": "Conform apelului",
+      "cofinantare": "Nu",
+      "arie": "România",
+      "termen_text": "Anual; în 2026 apelul a fost publicat pe 20 ianuarie, cu termen pe 7 februarie",
+      "rezumat": "Granturi pentru organizațiile de la firul ierbii care oferă advocacy, protecție și asistență comunitară persoanelor refugiate și apatride. Aplicarea se face pe UN Partner Portal.",
+      "link": "https://www.unhcr.org/ro/node/427",
+      "link_tip": "oficial",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
+    },
+    {
+      "id": "anpdpd-proiecte-ong",
+      "titlu": "Autoritatea pentru Persoanele cu Dizabilități: finanțarea proiectelor ONG-urilor",
+      "finantator": "Autoritatea Națională pentru Protecția Drepturilor Persoanelor cu Dizabilități (ANPDPD)",
+      "sursa": "Public național",
+      "domenii": [
+        "Dizabilitate",
+        "Social"
+      ],
+      "solicitanti": [
+        "ONG-uri cu activitate în protecția persoanelor cu dizabilități"
+      ],
+      "ong_mic": false,
+      "valoare": "Conform metodologiei anuale",
+      "cofinantare": "Conform metodologiei",
+      "arie": "Național",
+      "termen_text": "Anual, după aprobarea metodologiei prin ordin de ministru; termenul de depunere este de 30 de zile de la publicarea anunțului",
+      "rezumat": "ANPDPD finanțează din bugetul de stat proiecte ale ONG-urilor din domeniul dizabilității, prin selecție publică. Anunțul apare în Monitorul Oficial, într-un cotidian central și pe anpd.gov.ro.",
+      "link": "https://legeaz.net/monitorul-oficial-53-2016/ordin-mmfpspv-61-2016-metodologie-selectare-finantare-proiecte-persoane-dezabilitati",
+      "link_tip": "presa",
+      "termen": "",
+      "status": "recurent",
+      "verificat": "2026-11-15"
     }
   ]
 }
