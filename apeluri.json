@@ -1368,56 +1368,6 @@
       "verificat": "2026-11-17"
     },
     {
-      "id": "cj-constanta-legea-350",
-      "titlu": "Județul Constanța: programul anual de finanțări nerambursabile",
-      "finantator": "Consiliul Județean Constanța",
-      "sursa": "Public local",
-      "domenii": [
-        "Cultură",
-        "Turism",
-        "Dezvoltare comunitară"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": false,
-      "valoare": "13 mil. lei în total (2024)",
-      "cofinantare": "",
-      "arie": "Județul Constanța",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, la începutul anului (programul 2024: februarie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
-      "rezumat": "Unul dintre cele mai mari bugete județene pentru ONG-uri, cu accent pe cultură și turism.",
-      "link": "https://www.ziuaconstanta.ro/images/stories/2024/02/28/01-program-finantari-nerambursabile.pdf",
-      "link_tip": "oficial",
-      "verificat": "2026-11-17"
-    },
-    {
-      "id": "cj-iasi-legea-350",
-      "titlu": "Județul Iași: finanțări pentru activități nonprofit de interes județean",
-      "finantator": "Consiliul Județean Iași",
-      "sursa": "Public local",
-      "domenii": [
-        "Social",
-        "Cultură",
-        "Sport"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "1,8 mil. lei în total (2023)",
-      "cofinantare": "",
-      "arie": "Județul Iași",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, primăvara (în 2023: termen 18 aprilie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
-      "rezumat": "Sesiune județeană anuală pe Legea 350, inclusiv pentru sportul de performanță.",
-      "link": "https://www.bzi.ro/s-a-dat-startul-sesiunii-de-selectie-a-proiectelor-cu-finantare-nerambursabila-valoarea-totala-este-de-18-milioane-de-lei-4667719",
-      "link_tip": "presa",
-      "verificat": "2026-11-17"
-    },
-    {
       "id": "iasi-legea-350",
       "titlu": "Iași: programul municipal de finanțare a societății civile",
       "finantator": "Primăria Municipiului Iași",
@@ -2521,32 +2471,6 @@
       "termen_text": "anual (2026: anunț pe 18 iunie)",
       "rezumat": "Ghiduri separate pentru sport și tineret.",
       "link": "https://www.calarasi.ro/ova_por/finantari-nerambursabile-2026-conform-legii-350-2005-privind-regimul-finantarilor-nerambursabile-din-fonduri-publice-alocate-pentru-activitati-nonprofit-de-interes-general-pe-anul-2026/",
-      "link_tip": "oficial",
-      "verificat": "2026-11-17"
-    },
-    {
-      "id": "tulcea-legea-350",
-      "titlu": "Tulcea: activități nonprofit de interes local",
-      "finantator": "Primăria Municipiului Tulcea",
-      "sursa": "Public local",
-      "domenii": [
-        "Cultură",
-        "Social",
-        "Sport",
-        "Tineret"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "vezi ghidul anual",
-      "cofinantare": "",
-      "arie": "Tulcea",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "anual, primăvara (2025: anunț în aprilie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
-      "rezumat": "Ghid al solicitantului publicat pe pagina primăriei.",
-      "link": "https://www.primariatulcea.ro/finantari/",
       "link_tip": "oficial",
       "verificat": "2026-11-17"
     },
