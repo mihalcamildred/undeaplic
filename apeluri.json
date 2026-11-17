@@ -1,5 +1,5 @@
 {
-  "actualizat": "2026-11-15",
+  "actualizat": "2026-11-17",
   "apeluri": [
     {
       "id": "pids-familii-monoparentale-iti",
@@ -23,7 +23,7 @@
       "rezumat": "Varianta teritorială a apelului pentru familii monoparentale, pentru cele două zone ITI din Regiunea Centru. Potrivit organizațiilor care lucrează deja acolo.",
       "link": "https://rcgconsulting.ro/pids-5-5-familii-monoparentale-iti-fagaras-motii/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "raiffeisen-comunitati-16",
@@ -46,7 +46,7 @@
       "rezumat": "Trei organizații non-profit lucrează împreună pe o nevoie reală a comunității, legată de un Obiectiv de Dezvoltare Durabilă. Include incubare și mentorat, iar românii din diaspora pot fi parteneri.",
       "link": "https://www.raiffeisencomunitati.org/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "start-ong-2026",
@@ -75,7 +75,7 @@
       "rezumat": "Cel mai simplu grant pentru ONG-urile mici, școli și grupuri de inițiativă. Runda din decembrie se umple repede, așa că pregătește dosarul înainte de 1 decembrie.",
       "link": "https://startong.ro/inscriere",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "coe-ngo-grant-2027",
@@ -98,7 +98,7 @@
       "rezumat": "Trei granturi pentru proiecte care întăresc democrația și legătura dintre societatea civilă și Consiliul Europei, derulate între februarie și octombrie 2027.",
       "link": "https://www.juridice.ro/868070/consiliul-europei-ofera-granturi-organizatiilor-societatii-civile.html",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "crea-media-literacy-2027",
@@ -299,7 +299,7 @@
       "rezumat": "Pentru intervenții culturale care nu pot aștepta următoarea sesiune: trebuie să arăți de ce amânarea ar strica ceva concret pentru comunitate.",
       "link": "https://centruldeproiecte.ro/wp-content/uploads/2026/08/Anexa-1-Anuntul-de-lansare-a-programului-de-finantare_Fondul-pentru-nevoi-culturale-de-urgenta-2026.docx.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "mc-minimis-cultura",
@@ -1467,29 +1467,6 @@
       "termen_text": "anual; atenție: ghidul pentru cultură nu a mai fost lansat în 2025 și 2026",
       "rezumat": "Ghid comun pentru mai multe domenii. Finanțarea pentru cultura independentă a fost suspendată, iar organizațiile locale cer reluarea ei.",
       "link": "https://www.brasovcity.ro/file-zone/proiecte/hotarare/PFNBV/4.%20Ghidul_Unic_al_solicitantului_Legea%20350.pdf",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "nouanepasa-granturi",
-      "titlu": "Fundația Nouă ne pasă: granturi pentru educație",
-      "finantator": "Fundația Nouă ne pasă",
-      "sursa": "Fundație",
-      "domenii": [
-        "Educație"
-      ],
-      "solicitanti": [
-        "ONG"
-      ],
-      "ong_mic": true,
-      "valoare": "vezi pagina programului",
-      "cofinantare": "",
-      "arie": "Național",
-      "status": "recurent",
-      "termen": "",
-      "termen_text": "periodic",
-      "rezumat": "Granturi pentru programe educaționale derulate de ONG-uri.",
-      "link": "https://www.nouanepasa.ro/granturi",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
     },
@@ -2921,7 +2898,7 @@
       "rezumat": "A șasea ediție a apelului pentru proiecte legate de bicicletă. Înainte de depunere e nevoie de o întâlnire de consiliere cu fundația. Rezultatele se anunță pe 15 decembrie 2026, iar proiectele pot începe din ianuarie 2027.",
       "link": "https://www.fundatiacomunitaratimisoara.ro/cautam-idei-pe-biciclete-am-deschis-apelul-de-proiecte-ro-bike-valley/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "stiintescu-alba-4",
@@ -2946,7 +2923,7 @@
       "rezumat": "Finanțare pentru proiecte educaționale care apropie copiii și tinerii de știință, tehnologie, inginerie, artă și matematică, cu accent pe inteligență artificială și robotică. Câștigătorii se anunță pe 11 decembrie 2026.",
       "link": "https://alba24.ro/fondul-stiintescu-alba-bani-pentru-proiecte-care-aduc-stiinta-si-tehnologia-mai-aproape-de-copii-si-tineri-cum-poti-aplica-1163234.html",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "stiintescu-brasov",
@@ -3547,6 +3524,32 @@
       "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2027-MFP",
       "link_tip": "oficial",
       "verificat": "2026-11-15"
+    },
+    {
+      "id": "fami-azil-migratie-integrare",
+      "titlu": "Fondul pentru Azil, Migrație și Integrare (FAMI): apeluri pentru integrarea migranților și refugiaților",
+      "finantator": "Ministerul Afacerilor Interne, Organismul Intermediar FAMI (Inspectoratul General pentru Imigrări)",
+      "sursa": "UE prin România",
+      "domenii": [
+        "Social",
+        "Migrație și refugiați"
+      ],
+      "solicitanti": [
+        "Asociații și fundații din România (la apelurile care le prevăd)",
+        "Instituții publice",
+        "Instituții de învățământ și cercetare"
+      ],
+      "ong_mic": false,
+      "valoare": "variază de la un apel la altul; vezi ghidul fiecărui apel",
+      "cofinantare": "conform ghidului fiecărui apel",
+      "arie": "Național",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "apeluri lansate pe parcursul anului, după calendarul publicat de MAI; ultimul apel deschis ONG-urilor: AM22K (locuințe pentru resortisanții statelor terțe), termen 16 aprilie 2026",
+      "rezumat": "Bani europeni pentru proiecte de primire, integrare și sprijin pentru migranți și refugiați. Nu toate apelurile sunt deschise ONG-urilor: verifică la fiecare apel lista solicitanților eligibili.",
+      "link": "https://fed.mai.gov.ro/fed-2021-2027/calendare-apeluri-proiecte-programele-nationale-afaceri-interne/",
+      "link_tip": "oficial",
+      "verificat": "2026-11-17"
     }
   ]
 }
