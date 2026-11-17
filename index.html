@@ -164,6 +164,11 @@ input:focus, select:focus, textarea:focus { border-color: var(--brand); outline:
 .go small { font-weight: 600; color: #fde4d6; font-size: .78rem; }
 .go:hover { background: var(--btn-dark); }
 .ver { color: var(--muted); font-size: .82rem; }
+.side { display: inline-flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.share { font: inherit; font-size: .86rem; font-weight: 800; color: var(--ink); background: transparent; border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 14px; min-height: 40px; cursor: pointer; }
+.share:hover { border-color: var(--ink); }
+.dosar { scroll-margin-top: 150px; }
+.dosar.hit { outline: 3px solid #e8a93a; outline-offset: 4px; }
 .code { font-size: .82rem; color: var(--muted); overflow-wrap: anywhere; }
 .more { display: none; }
 .empty b { color: var(--ink); font-weight: 900; }
@@ -246,6 +251,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
   .foot { flex-direction: column; align-items: stretch; }
   .go { justify-content: center; text-align: center; min-height: 50px; }
   .ver { text-align: center; }
+  .side { justify-content: center; }
   .row2 { grid-template-columns: 1fr; }
   .btn { width: 100%; }
 }
@@ -266,7 +272,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     <div class="intro">
       <p class="kicker">Gratuit, pentru toate ONG‑urile din România</p>
       <h1>Toți banii pentru proiecte, <em>într‑un singur loc.</em></h1>
-      <p class="lead">Fonduri europene, primării, consilii județene, companii, fundații, ambasade. Le căutăm noi în fiecare dimineață, tu vezi doar ce e deschis, cât dă și până când.</p>
+      <p class="lead">Fonduri europene, primării, consilii județene, companii, fundații, ambasade. Le căutăm noi în fiecare dimineață. Tu vezi dintr-o privire ce e deschis acum, ce urmează și ce revine în fiecare an, cât dă și până când.</p>
       <div class="cta-row">
         <a class="cta" href="#apeluri" id="cta">Vezi apelurile deschise</a>
         <p class="cta-note">fără cont, fără abonament</p>
@@ -453,7 +459,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
         '<button class="more" type="button" aria-expanded="false">Detalii: sumă, eligibilitate, termen ▾</button>' +
         '<dl class="facts">' + facts + "</dl>" +
         '<div class="foot"><a class="go" href="' + esc(a.link) + '" target="_blank" rel="noopener"><span>' + label + ' →</span><small>' + esc(host(a.link)) + (a.link_tip === "presa" ? " · presă" : " · oficial") + "</small></a>" +
-        '<span class="ver">verificat ' + esc(fmtDate(a.verificat)) + "</span></div>" +
+        '<span class="side"><button class="share" type="button" data-id="' + esc(a.id) + '">Copiază linkul</button><span class="ver">verificat ' + esc(fmtDate(a.verificat)) + "</span></span></div>" +
       "</div></article>";
   }
 
@@ -528,7 +534,30 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     doms.sort(function (a, b) { return a.localeCompare(b, "ro"); });
     fill("f-src", srcs); fill("f-dom", doms);
     summary(); render();
+    showHash();
   }
+
+  // Link direct spre un apel: undeaplic.ro/#id-apel deschide și arată fișa.
+  function showHash() {
+    var id = decodeURIComponent((location.hash || "").slice(1));
+    if (!id || !all.some(function (a) { return a.id === id; })) return;
+    var el = document.getElementById(id);
+    if (!el) { $("q").value = ""; $("f-src").value = ""; $("f-dom").value = ""; $("f-mic").value = ""; $("f-status").value = ""; quick = ""; render(); el = document.getElementById(id); }
+    if (!el) return;
+    el.classList.add("open", "hit");
+    var b = el.querySelector(".more"); if (b) { b.setAttribute("aria-expanded", "true"); b.textContent = "Ascunde detaliile ▴"; }
+    setTimeout(function () { el.scrollIntoView({ block: "start" }); }, 60);
+  }
+  window.addEventListener("hashchange", showHash);
+
+  // Butonul „Copiază linkul” de pe fiecare fișă
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest(".share"); if (!b) return;
+    var url = location.origin + location.pathname + "#" + b.getAttribute("data-id");
+    var done = function () { b.textContent = "Link copiat ✓"; setTimeout(function () { b.textContent = "Copiază linkul"; }, 2200); };
+    try { navigator.clipboard.writeText(url).then(done, function () { prompt("Copiază linkul:", url); }); }
+    catch (err) { prompt("Copiază linkul:", url); }
+  });
 
   // Panou de filtre (pe telefon e o foaie care urcă de jos)
   function openPanel(open) {
@@ -625,5 +654,6 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     });
 })();
 </script>
+<script data-goatcounter="https://undeaplic.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
