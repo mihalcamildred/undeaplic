@@ -315,16 +315,16 @@
         "PFA"
       ],
       "ong_mic": true,
-      "valoare": "10.000–100.000 € / proiect",
+      "valoare": "până la 100.000 € / proiect, acoperă 80% din cheltuieli",
       "cofinantare": "",
       "arie": "Național",
-      "status": "anuntat",
+      "status": "recurent",
       "termen": "",
-      "termen_text": "ministerul a anunțat că următorul apel va avea depunere până spre începutul lui decembrie 2026",
+      "termen_text": "apeluri periodice până în 2029 (cel mult 15); în 2026 au fost sesiuni în iulie–septembrie și septembrie–octombrie; depunere pe fonduri-cultura.ro",
       "rezumat": "Până la 15 apeluri până în 2029, cu depunere pe fonduri-cultura.ro. Primul apel, din vara lui 2026, s-a închis repede, așa că ține proiectul pregătit.",
-      "link": "https://www.fonduri-cultura.ro",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "link": "https://www.rubinian.com/articole/schema-minimis-sector-cultural-independent-2939-2026",
+      "link_tip": "presa",
+      "verificat": "2026-11-17"
     },
     {
       "id": "cerv-2027-anunt",
@@ -376,9 +376,9 @@
       "termen": "",
       "termen_text": "estimat: început de martie 2027 (în 2026 a fost 5 martie)",
       "rezumat": "Poarta de intrare în proiectele europene pentru organizațiile mici. Acum e momentul să-ți cauți partenerul din altă țară.",
-      "link": "http://ec.europa.eu/programmes/erasmus-plus/resources/programme-guide",
+      "link": "https://erasmus-plus.ec.europa.eu/programme-guide/erasmusplus-programme-guide",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "erasmus-ka220-2027",
@@ -403,9 +403,9 @@
       "termen": "",
       "termen_text": "estimat: început de martie 2027",
       "rezumat": "Proiecte mai ample de cooperare europeană în educație, formare și tineret, pentru organizații care au deja parteneri externi.",
-      "link": "http://ec.europa.eu/programmes/erasmus-plus/resources/programme-guide",
+      "link": "https://erasmus-plus.ec.europa.eu/programme-guide/erasmusplus-programme-guide",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "esc-2027",
@@ -532,11 +532,11 @@
       "arie": "Proiecte pentru cetățenii din Republica Moldova",
       "status": "recurent",
       "termen": "",
-      "termen_text": "sesiune anuală, primăvara (ghidul 2026 a apărut în aprilie)",
+      "termen_text": "sesiune anuală, primăvara (2026: ghid publicat în aprilie, termen 3 mai)",
       "rezumat": "Proiecte educaționale, culturale și civice în sprijinul cetățenilor din Republica Moldova.",
-      "link": "https://drrm.gov.ro",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "link": "https://startupcafe.ro/finantari-2026-pfa-ong-organizatii-depun-proiecte-drrm-termen-3-mai-descarca-ghid-oficial-finantare-97776",
+      "link_tip": "presa",
+      "verificat": "2026-11-17"
     },
     {
       "id": "eea-civil-society-fund",
@@ -561,9 +561,9 @@
       "termen": "",
       "termen_text": "prima rundă (7 apeluri, 34,5 mil. €) s-a închis pe 8 octombrie 2026; programul merge până în 2031",
       "rezumat": "Cel mai mare program dedicat societății civile din România, cu granturi mici (4–9 luni) și mari (36–48 luni). Urmărește rundele următoare.",
-      "link": "https://www.eeacivilsocietyfund.ro",
+      "link": "https://www.fdsc.ro/?p=9710",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "elvetia-implicare-civica",
@@ -609,9 +609,9 @@
       "termen": "",
       "termen_text": "anual, până în ultima zi lucrătoare din septembrie, pentru anul următor",
       "rezumat": "Pentru asociațiile cu servicii sociale licențiate: o parte din costurile lunare pe beneficiar e acoperită de stat.",
-      "link": "https://www.mmuncii.ro",
-      "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "link": "https://e-juridic.manager.ro/articole/subventii-2023-pentru-asociatii-si-fundatii-acreditate-ca-furnizori-de-servicii-sociale-29082.html",
+      "link_tip": "presa",
+      "verificat": "2026-11-17"
     },
     {
       "id": "cluj-napoca-l350",
