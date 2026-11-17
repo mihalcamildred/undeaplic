@@ -3550,6 +3550,82 @@
       "link": "https://fed.mai.gov.ro/fed-2021-2027/calendare-apeluri-proiecte-programele-nationale-afaceri-interne/",
       "link_tip": "oficial",
       "verificat": "2026-11-17"
+    },
+    {
+      "id": "pids-persoane-fara-adapost",
+      "titlu": "PIDS 8.2: servicii de sprijin pentru incluziunea socială a persoanelor fără adăpost",
+      "finantator": "Programul Incluziune și Demnitate Socială (PIDS), Ministerul Investițiilor și Proiectelor Europene",
+      "sursa": "UE prin România",
+      "domenii": [
+        "Social"
+      ],
+      "solicitanti": [
+        "Furnizori de servicii sociale acreditați, publici și privați (inclusiv ONG-uri acreditate)",
+        "DGASPC, DAS, UAT"
+      ],
+      "ong_mic": false,
+      "valoare": "201.000 – 1.000.000 € / proiect",
+      "cofinantare": "0–5% (finanțare 95–100%)",
+      "arie": "Național",
+      "status": "deschis",
+      "termen": "2026-11-30",
+      "termen_text": "30 noiembrie 2026, conform RCG Consulting; confirmă termenul în ghidul oficial (mfe.gov.ro) înainte să aplici",
+      "rezumat": "Bani europeni pentru identificarea persoanelor fără adăpost sau în excluziune locativă și pentru servicii sociale care să le ajute să iasă din stradă. ONG-urile pot aplica dacă sunt furnizori de servicii sociale acreditați.",
+      "link": "https://rcgconsulting.ro/pids-servicii-sociale-persoane-fara-adapost/",
+      "link_tip": "presa",
+      "verificat": "2026-11-17"
+    },
+    {
+      "id": "peo-restart-femei",
+      "cod": "PEO 3.c.3",
+      "titlu": "PEO: ReSTART, sprijin pentru întoarcerea femeilor pe piața muncii",
+      "finantator": "Programul Educație și Ocupare (PEO), Ministerul Investițiilor și Proiectelor Europene",
+      "sursa": "UE prin România",
+      "domenii": [
+        "Social",
+        "Ocupare"
+      ],
+      "solicitanti": [
+        "ONG-uri",
+        "Furnizori de formare și de servicii de ocupare",
+        "AJOFM"
+      ],
+      "ong_mic": false,
+      "valoare": "de la 500.000 € / proiect (conform ghidului în consultare)",
+      "cofinantare": "0–5% (finanțare 95–100%)",
+      "arie": "Național",
+      "status": "anuntat",
+      "termen": "",
+      "termen_text": "ghidul a fost în consultare publică până pe 30 octombrie 2026; apelul nu e lansat încă",
+      "rezumat": "Proiecte mari pentru femei care vor să revină la muncă: consiliere, formare și sprijin la angajare. Merită pregătit de acum parteneriatul și grupul țintă.",
+      "link": "https://rcgconsulting.ro/peo-restart-femei-piata-muncii/",
+      "link_tip": "presa",
+      "verificat": "2026-11-17"
+    },
+    {
+      "id": "pids-persoane-eliberate-detentie",
+      "titlu": "PIDS 8.2: servicii integrate pentru persoanele eliberate din detenție",
+      "finantator": "Programul Incluziune și Demnitate Socială (PIDS), Ministerul Investițiilor și Proiectelor Europene",
+      "sursa": "UE prin România",
+      "domenii": [
+        "Social"
+      ],
+      "solicitanti": [
+        "Furnizori de servicii sociale (publici și privați)",
+        "Administrația Națională a Penitenciarelor",
+        "Furnizori de formare și de servicii de ocupare"
+      ],
+      "ong_mic": false,
+      "valoare": "201.000 – 1.000.000 € / proiect (conform ghidului în consultare)",
+      "cofinantare": "0–5% (finanțare 95–100%)",
+      "arie": "Național",
+      "status": "anuntat",
+      "termen": "",
+      "termen_text": "ghidul a fost în consultare publică până pe 30 octombrie 2026; apelul nu e lansat încă",
+      "rezumat": "Sprijin pentru reintegrarea oamenilor care ies din închisoare: servicii sociale, consiliere, formare și ajutor la angajare. Verifică în ghidul final dacă ONG-ul tău trebuie să fie furnizor acreditat.",
+      "link": "https://rcgconsulting.ro/pids-8-2-persoane-eliberate-din-inchisoare/",
+      "link_tip": "presa",
+      "verificat": "2026-11-17"
     }
   ]
 }
