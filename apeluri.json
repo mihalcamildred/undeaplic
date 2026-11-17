@@ -115,7 +115,7 @@
         "Organizație media"
       ],
       "ong_mic": false,
-      "valoare": "vezi documentul apelului",
+      "valoare": "până la 500.000 € / proiect (așa a fost în 2026, buget total 3 mil. €); UE acoperă max. 70% din costuri",
       "cofinantare": "",
       "arie": "UE, parteneriate internaționale",
       "status": "deschis",
@@ -124,7 +124,7 @@
       "rezumat": "Proiecte transnaționale care îi ajută pe oameni să recunoască dezinformarea și să citească presa critic. Se scrie în engleză, cu parteneri din alte țări.",
       "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2027-MEDIALITERACY",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "eu4health-og-2027",
@@ -164,7 +164,7 @@
         "ONG"
       ],
       "ong_mic": false,
-      "valoare": "vezi documentul apelului",
+      "valoare": "buget total 7 mil. €; în edițiile anterioare, până la 2 mil. € / proiect",
       "cofinantare": "",
       "arie": "UE, parteneriate internaționale",
       "status": "deschis",
@@ -173,7 +173,7 @@
       "rezumat": "Pentru redacții și organizații de jurnalism de interes public care vor să lucreze împreună peste granițe.",
       "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2027-JOURPART-COLLABORATIONS",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "horizon-disabilities-2027",
@@ -190,7 +190,7 @@
         "ONG ca partener într-un consorțiu (primește bani din proiect)"
       ],
       "ong_mic": false,
-      "valoare": "vezi documentul apelului",
+      "valoare": "6–8 mil. € / proiect (aprox. 5 proiecte, buget total 39,3 mil. €)",
       "cofinantare": "",
       "arie": "UE, consorții internaționale",
       "status": "deschis",
@@ -199,7 +199,7 @@
       "rezumat": "Cercetare despre sprijinul pentru persoanele cu dizabilități. Un ONG nu conduce un astfel de proiect, dar poate intra ca partener alături de universități.",
       "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-STAYHLTH-01",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cerv-citizens-values",
@@ -215,7 +215,7 @@
         "ONG"
       ],
       "ong_mic": false,
-      "valoare": "vezi documentul apelului",
+      "valoare": "buget total 114 mil. €; granturi mari (2,5–6 mil. €) pentru organizații care redistribuie banii mai departe către ONG-uri",
       "cofinantare": "",
       "arie": "UE, de obicei cu parteneri din mai multe țări",
       "status": "deschis",
@@ -224,7 +224,7 @@
       "rezumat": "Proiecte care cresc participarea oamenilor la viața democratică. Se scrie în engleză și cere de obicei parteneri din alte țări.",
       "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cerv-rem-transition",
@@ -482,7 +482,7 @@
       "rezumat": "Pentru cărți, reviste culturale și alte proiecte de cultură scrisă.",
       "link": "https://www.afcn.ro/finantari.html",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "drp-2026",
@@ -510,7 +510,7 @@
       "rezumat": "Șapte programe pentru proiecte cu și pentru românii din diaspora: educație, cultură, spiritualitate, societate civilă, media, comunitate.",
       "link": "https://dprp.gov.ro/ro/finantare/departamentul-pentru-romanii-de-pretutindeni-lanseaza-sesiunea-de-finantare-nerambursabila-2026/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "drrm-2026",
@@ -588,7 +588,7 @@
       "rezumat": "Advocacy, participare publică și sprijin pentru grupurile vulnerabile, cu depunere în două etape.",
       "link": "https://elvetiaromania.ro/apel/apel-2/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "legea-34-subventii",
@@ -637,7 +637,7 @@
       "rezumat": "Unul dintre cele mai mari bugete locale pentru ONG-uri din țară, pe cultură, tineret, social și sport.",
       "link": "https://primariaclujnapoca.ro/informatii-publice/comunicate/primaria-cluj-napoca-sustine-cultura-sportul-si-ong-urile-lansarea-apelului-pentru-finantari-nerambursabile-de-la-bugetul-local-in-anul-2026/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-cluj-l350",
@@ -662,7 +662,7 @@
       "rezumat": "Sesiunea județeană de finanțări nerambursabile pentru organizațiile din județul Cluj.",
       "link": "https://actualdecluj.ro/cj-cluj-a-dat-startul-finantarilor-pentru-ong-uri-sport-si-culte-peste-67-milioane-de-lei-pusi-la-bataie-anul-acesta/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "bistrita-l350",
@@ -691,7 +691,7 @@
       "rezumat": "Exemplu tipic de apel local pe Legea 350: opt domenii, ghiduri publicate pe site-ul primăriei.",
       "link": "https://www.primariabistrita.ro/primaria/integrare-europeana/finantari-nerambursabile/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "onjn-constient-si-liber",
@@ -720,7 +720,7 @@
       "rezumat": "Campanii de prevenire, inclusiv online (YouTube, TikTok, Instagram), pentru dependența de jocuri de noroc.",
       "link": "https://startupcafe.ro/finantari-2026-100000-euro-proiect-ong-onjn-campanii-youtube-tiktok-instagram-media-prevenire-dependenta-jocuri-noroc-ghid-oficial-98096",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "fundatia-telus-digital",
@@ -745,7 +745,7 @@
       "rezumat": "Granturi mici pentru ONG-uri din educație, sănătate și mediu, potrivite pentru organizațiile locale.",
       "link": "https://www.revistabiz.ro/fundatia-telus-digital-romania-lanseaza-cea-de-a-doua-sesiune-de-granturi-din-2026/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "fundatia-dacia-mobilitatea-conteaza",
@@ -771,7 +771,7 @@
       "rezumat": "Proiecte care elimină o barieră concretă în accesul la educație, muncă sau cultură.",
       "link": "https://startupcafe.ro/?p=101757",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "fundatia-omv-petrom-azi-impreuna",
@@ -796,7 +796,7 @@
       "rezumat": "Pentru ONG-uri care lucrează în comunități defavorizate pe educație timpurie, sănătate timpurie sau biodiversitate.",
       "link": "https://www.revistabiz.ro/fundatia-omv-petrom-cauta-sa-finanteze-proiecte-de-educatie-mediu-sau-sanatate/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "mol-spatii-verzi",
@@ -820,7 +820,7 @@
       "rezumat": "Două componente: arii naturale protejate și permacultură în zone urbane. Merită pregătit din decembrie.",
       "link": "https://startupcafe.ro/inscrieri-2026-finantari-de-850-000-de-lei-pentru-ong-uri-romanesti-93629",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "lidl-ffcr-viitor-mai-bun",
@@ -843,7 +843,7 @@
       "rezumat": "Proiecte educaționale în rural și urban mic, cu direcții stabilite local de fundația comunitară din zonă.",
       "link": "https://fondulpentruunviitormaibun.ro/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "storia-fcb-bucuresti",
@@ -868,7 +868,7 @@
       "rezumat": "Proiecte urbane în București: spații verzi, mobilitate, siguranță. Urmărește o eventuală ediție nouă.",
       "link": "https://startupcafe.ro/finantari-de-pana-la-100-000-eur-pentru-ong-uri-si-scoli-din-bucuresti-proiecte-pentru-spatii-verzi-mobilitate-si-siguranta-105879",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "ing-fcc-in-zona-ta",
@@ -893,7 +893,7 @@
       "rezumat": "Granturi mici pentru idei verzi de cartier, parte din Platforma de Mediu ING.",
       "link": "https://actualdecluj.ro/?p=304570",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cercul-donatori-brasov",
@@ -917,7 +917,7 @@
       "rezumat": "Trei cauze locale își prezintă proiectele în fața donatorilor, într-o singură seară. Format bun pentru ONG-urile mici cu o poveste clară.",
       "link": "https://zilesinopti.ro/2026/09/07/cercul-de-donatori-brasov-apel-proiecte/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cultura-face-bine",
@@ -940,7 +940,7 @@
       "rezumat": "Fond din bani privați pentru inițiative culturale locale. Ca să aplici, organizația trebuie să fie afiliată mișcării Cultura Face Bine.",
       "link": "https://www.icr.ro/pagini/lansarea-fondului-cultura-face-bine-finantari-culturale-din-bani-privati/en",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "comon-cluj-napoca",
@@ -964,7 +964,7 @@
       "rezumat": "Tinerii propun idei pentru oraș, comunitatea votează, iar cele mai apreciate primesc bani de implementare.",
       "link": "https://actualdecluj.ro/?p=301087",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "european-youth-foundation",
@@ -989,7 +989,7 @@
       "rezumat": "Întâlniri, tabere, cursuri și campanii internaționale pentru tineri pe drepturile omului și democrație. Înregistrează-te din timp.",
       "link": "https://www.coe.int/en/web/european-youth-foundation/calls",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "visegrad-grants",
@@ -1015,7 +1015,7 @@
       "rezumat": "Proiecte de cooperare regională. O organizație din România intră doar alături de cel puțin trei parteneri din țări V4.",
       "link": "https://www.visegradfund.org/visegrad-grants-apply",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "rova-nevo-parudimos",
@@ -1039,7 +1039,7 @@
       "rezumat": "Granturi și sprijin pentru organizațiile rome și pro-rome care promovează valorile UE și cooperarea dintre romi și ne-romi.",
       "link": "https://ergonetwork.org/wp-content/uploads/2026/01/ROVA2026_RO_Call-for-proposals.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "arcub-bucuresti",
@@ -1065,7 +1065,7 @@
       "rezumat": "Principalul program prin care Primăria Capitalei finanțează proiecte culturale independente. Cere surse complementare de finanțare.",
       "link": "https://arcub.ro/storage/uploads/f03eeb78-d50a-4658-9863-56115e6b24ad/Anunt-public-de-lansare-2026.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "pmb-legea-350",
@@ -1085,11 +1085,11 @@
       "arie": "București",
       "status": "recurent",
       "termen": "",
-      "termen_text": "sesiuni anuale, de obicei vara",
+      "termen_text": "sesiuni anuale, de obicei vara. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Pe lângă cultură, Primăria Capitalei finanțează proiecte de mediu, protecția animalelor și asistență socială. Sesiunea socială trece prin Direcția Generală de Asistență Socială.",
       "link": "https://www.pmb.ro/programe/menu-page/finantari-nerambursabile-sesiunea-2024",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "sector1-legea-350",
@@ -1117,7 +1117,7 @@
       "rezumat": "Unul dintre cele mai generoase bugete de sector din București, cu o linie dedicată proiectelor care întăresc viața de cartier.",
       "link": "https://primariasector1.ro/sectorul-1-deschide-finantarile-nerambursabile-in-2026-cu-un-buget-total-de-8-milioane-de-lei/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "sector2-legea-350",
@@ -1139,11 +1139,11 @@
       "arie": "Sectorul 2, București",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual (în 2025 s-au depus 59 de proiecte)",
+      "termen_text": "anual (în 2025 s-au depus 59 de proiecte, pe social, sport, educație și mediu)",
       "rezumat": "Sesiune anuală pentru proiecte sociale, sportive, educaționale și de mediu în Sectorul 2.",
       "link": "https://public.ps2.ro/Public/Legea%20350/Arhiva/2025/Raport%20anual/Raport_anual_L350_2025_detaliat_2.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "timisoara-tineret-in-actiune",
@@ -1168,7 +1168,7 @@
       "rezumat": "Proiecte culturale gândite de și pentru tineri, din bugetul local al Timișoarei.",
       "link": "https://centruldeproiecte.ro/wp-content/uploads/2026/04/Anexa-1-Anuntul-de-lansare-a-programului-de-finantare_Tineret-in-actiune-2026_actualizat_020620261700.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "timisoara-cultura-in-prezent",
@@ -1188,11 +1188,11 @@
       "arie": "Timișoara",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara",
+      "termen_text": "anual, primăvara. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Programul general pentru cultură al Timișoarei: evenimente, festivaluri, activarea spațiilor publice.",
       "link": "https://centruldeproiecte.ro/wp-content/uploads/2026/04/Anexa-2-Ghidul-solicitantului_Cultura-in-prezent-2026_.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "timisoara-obiectiv-cinema",
@@ -1216,7 +1216,7 @@
       "rezumat": "Singurul program local din țară dedicat exclusiv festivalurilor și evenimentelor de film, în cinematografele administrate de oraș.",
       "link": "https://zilesinopti.ro/2026/04/01/finantare-evenimente-cinematografice/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "timisoara-mobilitati",
@@ -1240,7 +1240,7 @@
       "rezumat": "Bani de drum: pentru profesioniști din Timișoara care pleacă la rezidențe sau conferințe și pentru cei invitați în oraș.",
       "link": "https://centruldeproiecte.ro/wp-content/uploads/2026/07/Anexa-1-Anuntul-de-lansare-a-programului-de-finantare_Mobilitati-2026.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "timisoara-orasul-in-miscare",
@@ -1263,7 +1263,7 @@
       "rezumat": "Finanțare din bugetul local pentru proiecte sportive și sport de masă în Timișoara.",
       "link": "https://proiecte.scmtimisoara.ro/wp-content/uploads/2026/04/Anexa-2-Ghidul-solicitantului_Orasul-in-miscare-2026.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-timis-timcultura",
@@ -1287,7 +1287,7 @@
       "rezumat": "Programul județean pentru proiecte cultural-artistice și de tineret în Timiș.",
       "link": "https://timcultura.cjtimis.ro/wp-content/uploads/2020/07/anunt-de-participare.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "sibiu-agenda-culturala",
@@ -1307,11 +1307,11 @@
       "arie": "Sibiu",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual; selecția se face înainte de sezonul de festivaluri",
+      "termen_text": "anual; agenda 2026 a fost finanțată normal, iar selecția se face înainte de sezonul de festivaluri",
       "rezumat": "Agenda care ține în viață festivalurile Sibiului de aproape 20 de ani. Există și agende separate pentru sport și comunitate.",
       "link": "https://zilesinopti.ro/?p=475268",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-sibiu-agende",
@@ -1335,11 +1335,11 @@
       "arie": "Județul Sibiu",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara (în 2022: martie)",
+      "termen_text": "anual, primăvara (în 2022: martie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Patru agende județene cu depunere separată. Agenda educațională încurajează școlile din rural și din orașele mici.",
       "link": "https://zilesinopti.ro/?p=247902",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-mures-legea-350",
@@ -1365,7 +1365,7 @@
       "rezumat": "Sume mici pe proiect, dar și dosar mai simplu. În 2026 s-au depus 173 de proiecte doar la cultură.",
       "link": "https://ro.cjmures.ro/wp-content/uploads/2026/07/raport-intermediar-cultura-2026.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-constanta-legea-350",
@@ -1386,11 +1386,11 @@
       "arie": "Județul Constanța",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, la începutul anului (programul 2024: februarie)",
+      "termen_text": "anual, la începutul anului (programul 2024: februarie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Unul dintre cele mai mari bugete județene pentru ONG-uri, cu accent pe cultură și turism.",
       "link": "https://www.ziuaconstanta.ro/images/stories/2024/02/28/01-program-finantari-nerambursabile.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-iasi-legea-350",
@@ -1411,11 +1411,11 @@
       "arie": "Județul Iași",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara (în 2023: termen 18 aprilie)",
+      "termen_text": "anual, primăvara (în 2023: termen 18 aprilie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Sesiune județeană anuală pe Legea 350, inclusiv pentru sportul de performanță.",
       "link": "https://www.bzi.ro/s-a-dat-startul-sesiunii-de-selectie-a-proiectelor-cu-finantare-nerambursabila-valoarea-totala-este-de-18-milioane-de-lei-4667719",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "iasi-legea-350",
@@ -1442,7 +1442,7 @@
       "rezumat": "Programul anual al municipiului Iași pentru proiectele ONG-urilor din oraș.",
       "link": "https://www.primaria-iasi.ro/dm_iasi/portal.nsf/atasament/7E96C47584BD9FA2C2258DFD002F1D10/$FILE/Regulament%20Lege%20350%20-%202026.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "brasov-ghid-unic",
@@ -1468,7 +1468,7 @@
       "rezumat": "Ghid comun pentru mai multe domenii. Finanțarea pentru cultura independentă a fost suspendată, iar organizațiile locale cer reluarea ei.",
       "link": "https://www.brasovcity.ro/file-zone/proiecte/hotarare/PFNBV/4.%20Ghidul_Unic_al_solicitantului_Legea%20350.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "oradea-legea-350",
@@ -1496,7 +1496,7 @@
       "rezumat": "Buget mic, procedură scurtă: dosarul se trimite pe email de pe adresa oficială a organizației.",
       "link": "https://oradea.ro/primaria-oradea/informatii-financiare/finantari-nerambursabile/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-bihor-legea-350",
@@ -1517,11 +1517,11 @@
       "arie": "Județul Bihor",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual",
+      "termen_text": "anual. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Sesiunea județeană pentru asociațiile și fundațiile din Bihor.",
       "link": "https://www.cjbihor.ro/informatii-publice/finantari-nerambursabile-pentru-activitati-non-profit/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "craiova-legea-350",
@@ -1547,7 +1547,7 @@
       "rezumat": "Depunere pe platforma 350.primariacraiova.ro. Proiectele eligibile trec și printr-un vot al craiovenilor, care aduce puncte în plus.",
       "link": "http://350.primariacraiova.ro/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-galati-legea-350",
@@ -1571,7 +1571,7 @@
       "rezumat": "Unul dintre puținele consilii județene cu buget consistent pentru proiecte sociale ale ONG-urilor.",
       "link": "https://cjgalati.ro/legea-350/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "ploiesti-legea-350",
@@ -1599,7 +1599,7 @@
       "rezumat": "Program anual cu domenii largi, de la incluziune socială la cultură și sport.",
       "link": "https://ploiesti.ro/stiri/noi-proiecte-pentru-comunitate-supuse-aprobarii-consiliului-local-ploiesti/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-arad-cultura",
@@ -1613,16 +1613,16 @@
         "ONG"
       ],
       "ong_mic": true,
-      "valoare": "vezi anunțul anual",
+      "valoare": "3.488.000 lei în total (2026), împărțiți pe direcții de finanțare",
       "cofinantare": "",
       "arie": "Județul Arad (și organizații din afara județului, cu activități în Arad)",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara (ultimul anunț găsit: aprilie 2025)",
+      "termen_text": "anual, primăvara; în 2026 bugetul (3,488 mil. lei) a fost aprobat în aprilie, pe direcții precum educație și sănătate, cultură tradițională etc.",
       "rezumat": "Pot aplica și organizații din alte județe, dacă proiectul se desfășoară în Arad.",
       "link": "https://www.cjarad.ro/wp-content/uploads/2025/04/Anexa-1-3.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-suceava-legea-350",
@@ -1650,7 +1650,7 @@
       "rezumat": "Cea mai mare parte merge la sport, dar există linii separate pentru social, cultură, tineret și sănătate publică.",
       "link": "https://www.monitorulsv.ro/cj-suceava-a-aprobat-programul-de-finantari-nerambursabile-pentru-anul-2026_7d2e88/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "radauti-legea-350",
@@ -1673,7 +1673,7 @@
       "rezumat": "Sumă mică, dar program recent aprobat. Verifică pagina primăriei pentru termen.",
       "link": "https://primariaradauti.ro/finantari-nerambursabile/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "bacau-tineret",
@@ -1696,7 +1696,7 @@
       "rezumat": "Buget modest, dar singura linie municipală dedicată tinerilor la Bacău.",
       "link": "https://municipiulbacau.ro/finantari-nerambursabile/legea-350-2005/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-bacau-legea-350",
@@ -1720,7 +1720,7 @@
       "rezumat": "Sesiune județeană anuală pentru proiecte educaționale și sociale.",
       "link": "https://csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/finantari-nerambursabile-pentru-activitati-nonprofit-de-interes-public-judetean-pentru-anul-2026-00038396?OpenDocument=",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "pitesti-sport",
@@ -1739,11 +1739,11 @@
       "arie": "Pitești",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara",
+      "termen_text": "anual, primăvara. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Pentru asociațiile sportive din Pitești care lucrează cu copii și juniori.",
       "link": "https://www.primariapitesti.ro/anunt-de-participare-sport-copii-i-juniori-p1818",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-vaslui-legea-350",
@@ -1769,7 +1769,7 @@
       "rezumat": "Sesiune scurtă, de două săptămâni, la începutul lui mai.",
       "link": "https://cjvs.eu/finantari-nerambursabile-2026/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-vrancea-legea-350",
@@ -1797,7 +1797,7 @@
       "rezumat": "Program județean cu domenii largi și buget mic, deci proiecte de dimensiuni modeste.",
       "link": "https://cjvrancea.ro/en/finantari-pe-legea-350-2005/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "lupeni-legea-350",
@@ -1822,7 +1822,7 @@
       "rezumat": "Majoritatea banilor merg la sport; restul de 200.000 lei acoperă alte domenii.",
       "link": "https://www.municipiullupeni.ro/dm_lupeni/portal.nsf/AllByUNID/legea-nr-3502005-privind-regimul-finantarilor-nerambursabile-din-fonduri-publice-alocate-pentru-activitati-nonprofit-de-interes-general-0000c48a?OpenDocument=",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "roman-legea-350",
@@ -1847,7 +1847,7 @@
       "rezumat": "Sume mici, potrivite pentru proiecte locale de cultură și tineret.",
       "link": "https://primariaroman.ro/wp-content/uploads/2026/05/008-Program-finantari-350.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "dej-legea-350",
@@ -1868,11 +1868,11 @@
       "arie": "Dej",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual",
+      "termen_text": "anual. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Pagina primăriei are anunțul, ghidul și formularele pentru anul curent.",
       "link": "https://primariadej.ro/Informa%C8%9Bii-de-interes-public/Finan%C8%9B%C4%83ri-nerambursabile",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-braila-cultura",
@@ -1895,7 +1895,7 @@
       "rezumat": "În 2026 programul județean e dedicat exclusiv culturii.",
       "link": "https://news-braila.ro/programul-de-finantare-nerambursabila-pentru-cultura-din-braila-buget-de-200-000-lei-in-2026-ce-conditii-vizeaza-sectorul-nonprofit/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-buzau-tineret",
@@ -1918,7 +1918,7 @@
       "rezumat": "Depunere și prin portalul online al Consiliului Județean Buzău.",
       "link": "https://laramnicusarat.ro/consiliul-judetean-buzau-invita-persoanele-juridice-fara-scop-patrimonial-respectiv-asociatii-ori-fundatii-constituite-conform-legii-sa-depuna-oferta-in-scopul-atribuirii-contractelor-de-finantare-ne",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-satu-mare-legea-350",
@@ -1943,7 +1943,7 @@
       "rezumat": "La cultură există o linie separată pentru evenimente mari și una pentru proiecte mai mici.",
       "link": "https://www.cjsm.ro/finantari-nerambursabile-cultura-2026",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "satu-mare-legea-350",
@@ -1968,7 +1968,7 @@
       "rezumat": "Concursul anual al orașului pentru ONG-urile din Satu Mare.",
       "link": "https://gmz.ro/finantari-legea-350",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "zalau-cultura",
@@ -1991,7 +1991,7 @@
       "rezumat": "Linie municipală dedicată exclusiv culturii.",
       "link": "https://zalausj.ro/portal/zalau/portal.nsf/1D59A845E074E517C2258E100043D171/$FILE/08062026.pdf",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-salaj-teatru",
@@ -2014,7 +2014,7 @@
       "rezumat": "O linie rară: bani doar pentru trupele de teatru amator.",
       "link": "https://www.ztv.ro/social/asociatiile-si-fundatiile-pot-accesa-o-noua-linie-de-finantare-nerambursabila",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "alba-iulia-legea-350",
@@ -2043,7 +2043,7 @@
       "rezumat": "Unul dintre puținele programe municipale cu linie pentru protecția și bunăstarea animalelor.",
       "link": "https://www.apulum.ro/index.php/primaria/finantari_detail/10752",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "deva-legea-350",
@@ -2069,7 +2069,7 @@
       "rezumat": "Proiectele se derulează până la sfârșitul lui noiembrie.",
       "link": "https://www.primariadeva.ro/index.php/primaria/finantari_nerambursabile",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "piatra-neamt-legea-350",
@@ -2094,7 +2094,7 @@
       "rezumat": "Din 2026, finanțarea poate acoperi o parte mai mare din proiectele sociale și culturale.",
       "link": "https://www.primariapn.ro/anunturi",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-valcea-legea-350",
@@ -2118,7 +2118,7 @@
       "rezumat": "Sesiuni separate pentru programe sportive și pentru tineret.",
       "link": "https://cjvalcea.ro/2026/07/23/anunt-privind-rezultatul-final-al-procedurii-de-evaluare-si-selectie-a-proiectelor-depuse-in-vederea-acordarii-finantarii-nerambursabile-in-baza-legii-nr-350-2005-din-bugetul-propriu-al-judetului-v-5/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-harghita-programe",
@@ -2143,7 +2143,7 @@
       "rezumat": "Mai multe programe mici, cu pagini separate pe site-ul județului.",
       "link": "https://judetulharghita.ro/proiecte/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "anabi-victime",
@@ -2167,7 +2167,7 @@
       "rezumat": "Bani confiscați de la infractori, redistribuiți către ONG-urile care sprijină victimele. Proiectele durează cel mult 4 luni.",
       "link": "https://anabi.just.ro/info/finantari-nerambursabile-asociatii-si-fundatii",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "arad-cmca",
@@ -2193,7 +2193,7 @@
       "rezumat": "Unul dintre cele mai generoase programe municipale, cu linii separate pentru cultură, tineret și sport.",
       "link": "https://www.actualitati-arad.ro/anunt-de-participare-privind-finantarea-nerambursabila-a-unor-proiecte-culturale/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "sector3-legea-350",
@@ -2214,11 +2214,11 @@
       "arie": "Sectorul 3, București",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara (ultimul termen anunțat: 1 aprilie)",
+      "termen_text": "anual, primăvara (ultimul termen anunțat: 1 aprilie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Sesiune devreme în an, deci merită pregătit dosarul din iarnă.",
       "link": "https://www.primarie3.ro/index.php/informatii_publice/finantari_ong",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "constanta-subventii-sociale",
@@ -2241,7 +2241,7 @@
       "rezumat": "Pentru ONG-urile acreditate care au unități de asistență socială în Constanța.",
       "link": "https://primaria-constanta.ro/pagina-dgas/subventii-asociatii-si-fundatii/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "sector6-subventii-sociale",
@@ -2264,7 +2264,7 @@
       "rezumat": "Pentru asociațiile acreditate ca furnizori de servicii sociale care lucrează în Sectorul 6.",
       "link": "https://www.asistentasociala6.ro/noutati/anunt-l34-2026",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "sebes-legea-350",
@@ -2290,7 +2290,7 @@
       "rezumat": "Program municipal cu mai multe linii, pentru asociațiile care lucrează în Sebeș.",
       "link": "https://ziarulunirea.ro/primaria-sebes-anunt-de-participare-privind-acordarea-de-finantari-nerambursabile-legea-350-2005-994022/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "deta-legea-350",
@@ -2317,7 +2317,7 @@
       "rezumat": "Exemplu bun că și orașele mici au bani pe Legea 350, cu concurență mică.",
       "link": "https://www.ziuadevest.ro/anunt-de-participare/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "sfantu-gheorghe-cultura",
@@ -2340,7 +2340,7 @@
       "rezumat": "Linie municipală dedicată exclusiv culturii.",
       "link": "https://www.sfantugheorgheinfo.ro/anunturi-homepage/anunt-de-participare-proiecte-culturale-2026",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-dambovita-legea-350",
@@ -2366,7 +2366,7 @@
       "rezumat": "Programul județean are mai multe sesiuni pe an; urmărește pagina pentru sesiunea următoare.",
       "link": "https://cjd.ro/finantari-nerambursabile-l3502005",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "targoviste-legea-350",
@@ -2392,7 +2392,7 @@
       "rezumat": "Două regulamente: unul pentru tineret și unul pentru restul domeniilor.",
       "link": "https://www.pmtgv.ro/DirEPMT/fin_pa.html",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "onesti-legea-350",
@@ -2417,7 +2417,7 @@
       "rezumat": "Pagină dedicată ONG-urilor pe site-ul primăriei.",
       "link": "https://onesti.ro/primarie_onesti/finantare-ong",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-arges-legea-350",
@@ -2443,7 +2443,7 @@
       "rezumat": "Buget județean consistent, cu ghiduri aprobate încă din martie.",
       "link": "https://agerpres.ro/administratie/2026/05/13/arges-finantari-nerambursabile-de-5-6-milioane-de-lei-de-la-cj-pentru-proiecte-de-tineret-cultura-me--1555773",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-ilfov-legea-350",
@@ -2472,7 +2472,7 @@
       "rezumat": "Domenii largi, inclusiv social și sănătate. Urmărește pagina pentru sesiunea următoare.",
       "link": "https://cjilfov.ro/informare-publica/finantari-nerambursabile-din-bugetul-local-al-judetului-ilfov/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-prahova-legea-350",
@@ -2494,11 +2494,11 @@
       "arie": "Județul Prahova",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara",
+      "termen_text": "anual, primăvara. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Sesiune județeană anuală; în 2025 au fost finanțate și numeroase cluburi sportive.",
       "link": "https://cjph.ro/wp-content/uploads/2024/03/ANEXA-1-GHID.doc",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-calarasi-legea-350",
@@ -2522,7 +2522,7 @@
       "rezumat": "Ghiduri separate pentru sport și tineret.",
       "link": "https://www.calarasi.ro/ova_por/finantari-nerambursabile-2026-conform-legii-350-2005-privind-regimul-finantarilor-nerambursabile-din-fonduri-publice-alocate-pentru-activitati-nonprofit-de-interes-general-pe-anul-2026/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "tulcea-legea-350",
@@ -2544,11 +2544,11 @@
       "arie": "Tulcea",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual, primăvara (2025: anunț în aprilie)",
+      "termen_text": "anual, primăvara (2025: anunț în aprilie). Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Ghid al solicitantului publicat pe pagina primăriei.",
       "link": "https://www.primariatulcea.ro/finantari/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "campina-legea-350",
@@ -2573,7 +2573,7 @@
       "rezumat": "Anunțul și regulamentul se descarcă de pe site-ul primăriei.",
       "link": "https://www.primariacampina.ro/anunturi/anunt-de-participare-pentru-acordarea-de-finantari-nerambursabile-pentru-anul-in-executie-financiara-2026-in-baza-legii-350-2005-privind-regimul-finantarilor-nerambursabile-din-fonduri-publice-alocate/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-bistrita-legea-350",
@@ -2600,7 +2600,7 @@
       "rezumat": "Buget mic, cu cea mai mare parte pentru sport.",
       "link": "https://portalbn.ro/portal/bistrita-nasaud/portal.nsf/AllByUNID/2026-00024eaa?OpenDocument=",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-neamt-legea-350",
@@ -2625,7 +2625,7 @@
       "rezumat": "Sesiune târzie în an, utilă dacă ai ratat apelurile de primăvară.",
       "link": "https://www.stiri-neamt.ro/consiliul-judetean-neamt-a-prezentat-stadiul-principalelor-investitii-si-proiecte-aflate-in-derulare/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "alexandria-legea-350",
@@ -2651,7 +2651,7 @@
       "rezumat": "Pagina primăriei are programul anual și documentele sesiunii.",
       "link": "https://alexandria.ro/program-finantari-nerambursabile-2026/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-covasna-legea-350",
@@ -2677,7 +2677,7 @@
       "rezumat": "O organizație poate depune maximum două proiecte. Consiliul organizează și sesiuni de informare în orașele județului.",
       "link": "https://www.kvmt.ro/ro/apel-de-proiecte-2026:-consiliul-judetean-covasna-anunta-deschiderea-sesiunii-de-finantare-nerambursabila-pentru-organizatii-civile-si-unitati-de-cult-.html",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-hunedoara-legea-350",
@@ -2701,7 +2701,7 @@
       "rezumat": "Mai multe sesiuni pe an, cu formulare separate pe domenii.",
       "link": "https://www.cjhunedoara.ro/index.php/documente-publice/9-uncategorised/916-hotarari-2026",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "cj-caras-severin-tineret",
@@ -2724,7 +2724,7 @@
       "rezumat": "Sumă foarte mică, dar concurență pe măsură.",
       "link": "https://reper24.ro/cjcs-anunt-de-participare-2/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "calan-legea-350",
@@ -2749,7 +2749,7 @@
       "rezumat": "Sesiune de toamnă, cu proiecte derulate până la sfârșitul anului.",
       "link": "https://www.replicahd.ro/anunt-de-participare/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "orange-afcn-dizabilitate",
@@ -2773,7 +2773,7 @@
       "rezumat": "Proiecte culturale cu și pentru persoanele cu dizabilități, fără grija cofinanțării proprii.",
       "link": "https://www.csrmedia.ro/fundatia-orange-sprijin-pentru-persoanele-cu-dizabilitati-care-vor-sa-realizeze-proiecte-culturale/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "ambasada-sua-small-grants",
@@ -2794,11 +2794,11 @@
       "arie": "Național (bonus pentru activități în afara Bucureștiului)",
       "status": "recurent",
       "termen": "",
-      "termen_text": "anual (în 2025 termenul a fost 31 iulie); depinde de bugetul disponibil",
+      "termen_text": "anual (în 2025 termenul a fost 31 iulie); depinde de bugetul disponibil. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Proiecte care întăresc legăturile dintre România și SUA prin educație și cultură.",
       "link": "https://www2.fundsforngos.org/economic-development/u-s-embassy-bucharest-public-diplomacy-small-grants-program-romania/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "ambasada-frantei-societate-civila",
@@ -2822,7 +2822,7 @@
       "rezumat": "Proiecte care întăresc spațiul civic și democratic; în 2026 au fost sprijinite cinci ONG-uri.",
       "link": "https://ro.diplomatie.gouv.fr/ro/rezultatele-apelului-la-proiecte-2026-sprijin-pentru-organizatiile-societatii-civile",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "european-cultural-foundation",
@@ -2846,7 +2846,7 @@
       "rezumat": "Granturi pentru cultură și solidaritate europeană. Verifică pagina de apeluri lunar.",
       "link": "https://culturalfoundation.eu/open-calls/culture-of-solidarity-fund/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "pids-victime-trafic-persoane",
@@ -2947,7 +2947,7 @@
       "rezumat": "Fond care finanțează și mentorează proiecte ce dezvoltă pasiunea copiilor pentru științe. A ajuns la ediția a noua.",
       "link": "https://brasov.stiintescu.ro/detalii-inscriere/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "synevo-solutii-pentru-comunitate",
@@ -2972,7 +2972,7 @@
       "rezumat": "Campanie anuală prin care Synevo sponsorizează 10 proiecte ale ONG-urilor în sănătate, educație și mediu. Ediția 2026 a fost a cincea, iar câștigătorii se anunță pe 9 decembrie 2026.",
       "link": "https://www.csrmedia.ro/synevo-romania-finantari-150-000-euro-pentru-ong-uri-prin-programul-solutii-pentru-comunitate/",
       "link_tip": "presa",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "fundatia-orange-super-coders",
@@ -2993,11 +2993,11 @@
       "arie": "Național",
       "status": "recurent",
       "termen": "",
-      "termen_text": "Anual, vara; în 2025 apelul a fost deschis între 23 iulie și 2 septembrie",
+      "termen_text": "Anual, vara; în 2025 apelul a fost deschis între 23 iulie și 2 septembrie. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Concurs de finanțare pentru proiecte care dezvoltă competențele digitale ale elevilor și profesorilor, parte din programul Digitaliada. Aplicarea se face doar pe platforma proiecte.fundatiaorange.ro.",
       "link": "https://www.fundatiaorange.ro/finantare/",
       "link_tip": "oficial",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "sursa": "Public local",
@@ -3005,7 +3005,7 @@
       "status": "recurent",
       "termen": "",
       "link_tip": "oficial",
-      "verificat": "2026-11-15",
+      "verificat": "2026-11-17",
       "id": "baia-mare-legea-350",
       "titlu": "Baia Mare: finanțări nerambursabile pentru cultură, tineret, mediu și sport (Legea 350)",
       "finantator": "Primăria Municipiului Baia Mare",
@@ -3032,7 +3032,7 @@
       "status": "recurent",
       "termen": "",
       "link_tip": "oficial",
-      "verificat": "2026-11-15",
+      "verificat": "2026-11-17",
       "id": "cj-botosani-tineret",
       "titlu": "Județul Botoșani: Concursul de proiecte pentru tineret",
       "finantator": "Consiliul Județean Botoșani",
@@ -3055,7 +3055,7 @@
       "status": "recurent",
       "termen": "",
       "link_tip": "oficial",
-      "verificat": "2026-11-15",
+      "verificat": "2026-11-17",
       "id": "cj-maramures-cultura-sport",
       "titlu": "Județul Maramureș: finanțări pentru proiecte culturale și sportive",
       "finantator": "Consiliul Județean Maramureș",
@@ -3069,7 +3069,7 @@
       "valoare": "Pentru cultură, până la 90% din valoarea proiectului",
       "cofinantare": "Minimum 10% la proiectele culturale",
       "arie": "Județul Maramureș",
-      "termen_text": "Anual; ghidul pentru sport 2025 a fost aprobat în aprilie",
+      "termen_text": "Anual; ghidul pentru sport 2025 a fost aprobat în aprilie. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Consiliul Județean Maramureș finanțează proiecte culturale (OG 51/1998) și sportive (Legea 350/2005) din bugetul județului, prin ghiduri publicate pe cjmaramures.ro.",
       "link": "https://www.cjmaramures.ro/attachments/ghiduri-finantare/Ghid-finantare-nerambursabila-sport-2025.doc"
     },
@@ -3097,7 +3097,7 @@
       "link_tip": "presa",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "icr-cantemir",
@@ -3122,7 +3122,7 @@
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "leader-gal",
@@ -3147,7 +3147,7 @@
       "link_tip": "presa",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "interreg-ro-bg",
@@ -3166,13 +3166,13 @@
       "valoare": "Buget total program 207 milioane €",
       "cofinantare": "Conform apelului",
       "arie": "Județele Mehedinți, Dolj, Olt, Teleorman, Giurgiu, Călărași, Constanța și districtele din Bulgaria",
-      "termen_text": "Apeluri periodice, cu parteneri din Bulgaria",
+      "termen_text": "apeluri periodice; programul a fost revizuit în 2026, iar apelurile noi se anunță pe site-ul programului",
       "rezumat": "Program de cooperare transfrontalieră care finanțează proiecte comune România–Bulgaria. ONG-urile pot participa ca parteneri sau lideri, în funcție de apel.",
       "link": "https://keep.eu/programmes/342",
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "interreg-ro-md",
@@ -3198,33 +3198,7 @@
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
-    },
-    {
-      "id": "interreg-danube",
-      "titlu": "Interreg Regiunea Dunării (Danube Region Programme)",
-      "finantator": "Uniunea Europeană",
-      "sursa": "UE direct",
-      "domenii": [
-        "Cooperare transnațională",
-        "Mediu",
-        "Social",
-        "Guvernanță"
-      ],
-      "solicitanti": [
-        "Autorități publice, ONG-uri, universități, alte organizații din aria programului"
-      ],
-      "ong_mic": false,
-      "valoare": "Proiecte transnaționale mari, în parteneriat",
-      "cofinantare": "Conform apelului",
-      "arie": "14 țări din bazinul Dunării, inclusiv România",
-      "termen_text": "Apeluri periodice; al treilea apel a fost lansat în septembrie 2025",
-      "rezumat": "Program transnațional pentru proiecte în parteneriat cu organizații din țările dunărene. ONG-urile pot fi parteneri.",
-      "link": "https://interreg-danube.eu/what-we-finance",
-      "link_tip": "oficial",
-      "termen": "",
-      "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "interreg-huskroua",
@@ -3243,13 +3217,13 @@
       "valoare": "Conform apelului",
       "cofinantare": "Conform apelului",
       "arie": "Zona de graniță Ungaria–Slovacia–România–Ucraina (în România, inclusiv Maramureș și Satu Mare; vezi ghidul)",
-      "termen_text": "Apeluri periodice; al doilea apel s-a încheiat în februarie 2026",
+      "termen_text": "al doilea apel s-a încheiat în februarie 2026; e posibil să nu mai fie apeluri noi până la programul 2028–2034",
       "rezumat": "Program transfrontalier pentru proiecte în parteneriat cu organizații din Ungaria, Slovacia și Ucraina.",
       "link": "https://next.huskroua-cbc.eu/wp-content/uploads/2025/09/Guide-for-Applicants_HUSKROUA-NEXT_RO-translation_2nd-CfP_final.pdf",
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "life-ngo-operating-grants",
@@ -3274,7 +3248,7 @@
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "erasmus-tineret-sport-ka1",
@@ -3299,7 +3273,7 @@
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "citi-global-innovation-challenge",
@@ -3324,7 +3298,7 @@
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "european-ai-society-fund",
@@ -3349,7 +3323,7 @@
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "fcb-orange-rezilienta-climatica",
@@ -3374,7 +3348,7 @@
       "link_tip": "presa",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "brasov-heroes",
@@ -3419,13 +3393,13 @@
       "valoare": "Între 15.000 și 25.000 lei pe proiect (ediția 6.0)",
       "cofinantare": "Conform ghidului",
       "arie": "Județul Bihor",
-      "termen_text": "Anual, de obicei toamna",
+      "termen_text": "Anual, de obicei toamna. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Fond pentru proiecte care fac știința mai atractivă pentru copiii și tinerii între 6 și 19 ani. Participarea la cel puțin două sesiuni de consultare este obligatorie.",
       "link": "https://fundatiacomunitaraoradea.ro/wp-content/uploads/2023/10/Ghidul-aplicantului-Stiintescu-Oradea-6.0-.docx-1.pdf",
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "boardul-sustenabilitate-ploiesti",
@@ -3443,13 +3417,13 @@
       "valoare": "Micro-granturi",
       "cofinantare": "Nespecificată",
       "arie": "Ploiești",
-      "termen_text": "Program lansat în 2025; urmărește apelurile noi",
+      "termen_text": "Program lansat în 2025; urmărește apelurile noi. Nu am găsit încă un anunț pentru 2026; verifică pe site-ul instituției înainte să te bazezi pe el.",
       "rezumat": "Apel de micro-granturi pentru micro-comunități verzi în Ploiești, parte dintr-un program național de sustenabilitate urbană.",
       "link": "https://www.revistabiz.ro/penny-contribuie-la-dezvoltarea-unui-model-colaborativ-de-sustenabilitate-urbana/",
       "link_tip": "presa",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "unhcr-grant-agreements",
@@ -3474,7 +3448,7 @@
       "link_tip": "oficial",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "anpdpd-proiecte-ong",
@@ -3498,7 +3472,7 @@
       "link_tip": "presa",
       "termen": "",
       "status": "recurent",
-      "verificat": "2026-11-15"
+      "verificat": "2026-11-17"
     },
     {
       "id": "crea-media-freedom-2027",
