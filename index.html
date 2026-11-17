@@ -186,6 +186,11 @@ textarea { min-height: 80px; resize: vertical; }
 .sent.show { display: grid; gap: 8px; }
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .privacy { font-size: .84rem; color: var(--muted); margin: 0; }
+.consent { display: flex; gap: 10px; align-items: flex-start; font-size: .9rem; line-height: 1.45; cursor: pointer; }
+.consent[hidden], .consent-err[hidden] { display: none; }
+.consent input { width: 22px; height: 22px; min-height: 0; margin: 1px 0 0; flex: 0 0 auto; accent-color: #b8452a; }
+.consent-err { margin: 0; font-size: .88rem; font-weight: 700; color: #a8341c; }
+footer.site a { color: #fbf4ea; }
 .sent pre { white-space: pre-wrap; font-family: ui-monospace, Menlo, monospace; font-size: .82rem; margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
 
 footer.site { background: var(--ink); color: #efe2d2; margin: 0 -22px; padding: 28px 22px 44px; font-size: .94rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; border-radius: 24px 24px 0 0; }
@@ -353,9 +358,11 @@ footer.site .fmark svg { width: 30px; height: 30px; }
         <div class="field"><label for="s-date">Termen limită</label><input type="date" id="s-date"></div>
       </div>
       <div class="field"><label for="s-note">Ceva ce ar trebui să știm?</label><textarea id="s-note" placeholder="ex. e doar pentru ONG-uri din județul Sălaj"></textarea></div>
-      <div class="field"><label for="s-email">Emailul tău (opțional, ca să-ți spunem când apare)</label><input type="email" id="s-email" placeholder="nume@organizatie.ro" inputmode="email"></div>
+      <div class="field"><label for="s-email">Emailul tău (opțional, ca să-ți spunem când apare)</label><input type="email" id="s-email" placeholder="nume@organizatie.ro" inputmode="email" aria-describedby="consent-help"></div>
+      <label class="consent" id="consent-wrap" hidden><input type="checkbox" id="s-consent"> <span>Sunt de acord ca emailul meu să fie folosit doar ca să fiu anunțat(ă) când apelul apare pe site. Îl ștergeți după aceea sau la cererea mea.</span></label>
+      <p class="consent-err" id="consent-err" hidden>Bifează acordul de mai sus sau șterge emailul ca să poți trimite.</p>
       <div class="hp" aria-hidden="true"><label for="s-website">Nu completa acest câmp</label><input type="text" id="s-website" name="website" tabindex="-1" autocomplete="off"></div>
-      <p class="privacy">Emailul îl folosim doar ca să-ți spunem când apelul apare pe site. Nu-l dăm nimănui și îl ștergem oricând ne scrii la contact@undeaplic.ro.</p>
+      <p class="privacy" id="consent-help">Nu ai nevoie de cont și nu ești obligat(ă) să lași emailul. Detalii în <a href="/confidentialitate.html">nota de confidențialitate</a>.</p>
       <button class="btn" type="submit" id="send-btn">Trimite apelul</button>
       <div class="sent" id="sent-ok" role="status">
         <strong>Mulțumim, l-am primit!</strong>
@@ -374,6 +381,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     <span class="fmark"><svg viewBox="13 13 74 82" aria-hidden="true"><path d="M22 38 V58 A28 28 0 0 0 78 58 V38" fill="none" stroke="#e9704c" stroke-width="18" stroke-linecap="round"/><circle cx="50" cy="24" r="11" fill="#f0bd5a"/></svg>unde aplic?</span>
     <span>Actualizat: <b id="updated">–</b>. Verificăm sursele zilnic.</span>
     <span>Termenele se mai schimbă. Înainte să aplici, citește ghidul oficial.</span>
+    <span><a href="/confidentialitate.html">Confidențialitate</a> · <a href="mailto:contact@undeaplic.ro">contact@undeaplic.ro</a></span>
   </footer>
 </div>
 
@@ -566,12 +574,19 @@ footer.site .fmark svg { width: 30px; height: 30px; }
 
   // Formular
   // Unde ajung propunerile: aplicația web Google Apps Script legată de tabelul „Propuneri”.
+  $("s-email").addEventListener("input", function () {
+    var has = !!this.value.trim();
+    $("consent-wrap").hidden = !has;
+    if (!has) { $("s-consent").checked = false; $("consent-err").hidden = true; }
+  });
+  $("s-consent").addEventListener("change", function () { if (this.checked) $("consent-err").hidden = true; });
   var FORM_URL = "https://script.google.com/macros/s/AKfycbxivAMGjzxk2D2YyF5DNeggCgsr8IIF2GKm8fR-olOA3-Ad45PdWmywZ7zIAqFhH6iQIA/exec";
   $("send-form").addEventListener("submit", function (e) {
     e.preventDefault();
     var t = $("s-title"), l = $("s-link"), btn = $("send-btn");
     t.setAttribute("aria-invalid", !t.value.trim()); l.setAttribute("aria-invalid", !l.value.trim());
     if (!t.value.trim() || !l.value.trim()) { (t.value.trim() ? l : t).focus(); return; }
+    if ($("s-email").value.trim() && !$("s-consent").checked) { $("consent-err").hidden = false; $("s-consent").focus(); return; }
     var d = {
       titlu: t.value.trim(), link: l.value.trim(), finantator: $("s-funder").value.trim(),
       termen: $("s-date").value, note: $("s-note").value.trim(), email: $("s-email").value.trim(),
@@ -588,7 +603,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     btn.disabled = true; btn.textContent = "Se trimite…";
     fetch(FORM_URL, { method: "POST", mode: "no-cors", body: new URLSearchParams(d) })
       .then(function () {
-        $("send-form").reset();
+        $("send-form").reset(); $("consent-wrap").hidden = true;
         $("sent-ok").classList.add("show");
       })
       .catch(fallback)
