@@ -184,6 +184,8 @@ textarea { min-height: 80px; resize: vertical; }
 .btn.ghost { background: #fff; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
 .sent { display: none; border-radius: 14px; padding: 16px; background: var(--bg); font-size: .94rem; }
 .sent.show { display: grid; gap: 8px; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.privacy { font-size: .84rem; color: var(--muted); margin: 0; }
 .sent pre { white-space: pre-wrap; font-family: ui-monospace, Menlo, monospace; font-size: .82rem; margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
 
 footer.site { background: var(--ink); color: #efe2d2; margin: 0 -22px; padding: 28px 22px 44px; font-size: .94rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; border-radius: 24px 24px 0 0; }
@@ -352,10 +354,16 @@ footer.site .fmark svg { width: 30px; height: 30px; }
       </div>
       <div class="field"><label for="s-note">Ceva ce ar trebui să știm?</label><textarea id="s-note" placeholder="ex. e doar pentru ONG-uri din județul Sălaj"></textarea></div>
       <div class="field"><label for="s-email">Emailul tău (opțional, ca să-ți spunem când apare)</label><input type="email" id="s-email" placeholder="nume@organizatie.ro" inputmode="email"></div>
-      <button class="btn" type="submit">Trimite apelul</button>
+      <div class="hp" aria-hidden="true"><label for="s-website">Nu completa acest câmp</label><input type="text" id="s-website" name="website" tabindex="-1" autocomplete="off"></div>
+      <p class="privacy">Emailul îl folosim doar ca să-ți spunem când apelul apare pe site. Nu-l dăm nimănui și îl ștergem oricând ne scrii la contact@undeaplic.ro.</p>
+      <button class="btn" type="submit" id="send-btn">Trimite apelul</button>
+      <div class="sent" id="sent-ok" role="status">
+        <strong>Mulțumim, l-am primit!</strong>
+        <span>Îl verificăm la sursă și, dacă e un apel la care pot aplica ONG-urile, îl punem pe site, de obicei în aceeași zi.</span>
+      </div>
       <div class="sent" id="sent" role="status">
-        <strong>Mulțumim! Deocamdată formularul nu trimite automat.</strong>
-        <span>Îl legăm de un formular real în zilele următoare. Până atunci, copiază textul de mai jos și trimite-l la <b>contact@undeaplic.ro</b>.</span>
+        <strong>Hopa, nu s-a putut trimite automat.</strong>
+        <span>Copiază textul de mai jos și trimite-l la <b>contact@undeaplic.ro</b>. Îl preluăm de acolo.</span>
         <pre id="sent-text"></pre>
         <button class="btn ghost" type="button" id="copy">Copiază textul</button>
       </div>
@@ -557,15 +565,34 @@ footer.site .fmark svg { width: 30px; height: 30px; }
   });
 
   // Formular
+  // Unde ajung propunerile: aplicația web Google Apps Script legată de tabelul „Propuneri”.
+  var FORM_URL = "";
   $("send-form").addEventListener("submit", function (e) {
     e.preventDefault();
-    var t = $("s-title"), l = $("s-link");
+    var t = $("s-title"), l = $("s-link"), btn = $("send-btn");
     t.setAttribute("aria-invalid", !t.value.trim()); l.setAttribute("aria-invalid", !l.value.trim());
     if (!t.value.trim() || !l.value.trim()) { (t.value.trim() ? l : t).focus(); return; }
-    $("sent-text").textContent = "Apel propus pentru Unde Aplic?\n\nNume: " + t.value.trim() + "\nLink: " + l.value.trim() +
-      "\nFinanțator: " + ($("s-funder").value.trim() || "-") + "\nTermen: " + ($("s-date").value ? fmtDate($("s-date").value) : "-") +
-      "\nNote: " + ($("s-note").value.trim() || "-") + "\nEmail: " + ($("s-email").value.trim() || "-");
-    $("sent").classList.add("show");
+    var d = {
+      titlu: t.value.trim(), link: l.value.trim(), finantator: $("s-funder").value.trim(),
+      termen: $("s-date").value, note: $("s-note").value.trim(), email: $("s-email").value.trim(),
+      website: $("s-website").value
+    };
+    $("sent").classList.remove("show"); $("sent-ok").classList.remove("show");
+    function fallback() {
+      $("sent-text").textContent = "Apel propus pentru Unde Aplic?\n\nNume: " + d.titlu + "\nLink: " + d.link +
+        "\nFinanțator: " + (d.finantator || "-") + "\nTermen: " + (d.termen ? fmtDate(d.termen) : "-") +
+        "\nNote: " + (d.note || "-") + "\nEmail: " + (d.email || "-");
+      $("sent").classList.add("show");
+    }
+    if (!FORM_URL) { fallback(); return; }
+    btn.disabled = true; btn.textContent = "Se trimite…";
+    fetch(FORM_URL, { method: "POST", mode: "no-cors", body: new URLSearchParams(d) })
+      .then(function () {
+        $("send-form").reset();
+        $("sent-ok").classList.add("show");
+      })
+      .catch(fallback)
+      .then(function () { btn.disabled = false; btn.textContent = "Trimite apelul"; });
   });
   $("copy").addEventListener("click", function () {
     var btn = this;
