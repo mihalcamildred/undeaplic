@@ -588,7 +588,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     if (!t.value.trim() || !l.value.trim()) { (t.value.trim() ? l : t).focus(); return; }
     if ($("s-email").value.trim() && !$("s-consent").checked) { $("consent-err").hidden = false; $("s-consent").focus(); return; }
     var d = {
-      titlu: t.value.trim(), link: l.value.trim(), finantator: $("s-funder").value.trim(),
+      titlu: t.value.trim(), link: (/^https?:\/\//i.test(l.value.trim()) ? "" : "https://") + l.value.trim(), finantator: $("s-funder").value.trim(),
       termen: $("s-date").value, note: $("s-note").value.trim(), email: $("s-email").value.trim(),
       website: $("s-website").value
     };
