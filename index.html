@@ -255,7 +255,13 @@ footer.site .fmark svg { width: 30px; height: 30px; }
   .row2 { grid-template-columns: 1fr; }
   .btn { width: 100%; }
 }
-@media (prefers-reduced-motion: reduce) { .panel, .scrim { transition: none; } }
+
+/* Înapoi sus */
+.to-top { position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom)); z-index: 20; width: 52px; height: 52px; border: 0; border-radius: 50%; background: var(--btn); color: #fff; display: grid; place-items: center; cursor: pointer; box-shadow: 0 6px 18px rgba(43, 29, 23, .28); opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity 180ms ease, transform 180ms ease; }
+.to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+.to-top:hover { background: var(--btn-dark); }
+.to-top svg { width: 22px; height: 22px; }
+@media (prefers-reduced-motion: reduce) { .panel, .scrim, .to-top { transition: none; } }
 </style>
 </head>
 <body>
@@ -386,7 +392,6 @@ footer.site .fmark svg { width: 30px; height: 30px; }
   <footer class="site">
     <span class="fmark"><svg viewBox="13 13 74 82" aria-hidden="true"><path d="M22 38 V58 A28 28 0 0 0 78 58 V38" fill="none" stroke="#e9704c" stroke-width="18" stroke-linecap="round"/><circle cx="50" cy="24" r="11" fill="#f0bd5a"/></svg>unde aplic?</span>
     <span>Actualizat: <b id="updated">–</b>. Verificăm sursele zilnic.</span>
-    <a href="/brand/" style="color:#f0bd5a;font-weight:800">Logo și materiale</a>
     <span>Termenele se mai schimbă. Înainte să aplici, citește ghidul oficial.</span>
     <span><a href="/confidentialitate.html">Confidențialitate</a> · <a href="mailto:contact@undeaplic.ro">contact@undeaplic.ro</a></span>
   </footer>
@@ -656,5 +661,24 @@ footer.site .fmark svg { width: 30px; height: 30px; }
 })();
 </script>
 <script data-goatcounter="https://undeaplic.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<button class="to-top" id="to-top" type="button" aria-label="Înapoi sus" title="Înapoi sus" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script>
+(function () {
+  var b = document.getElementById("to-top");
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var on = false;
+  function check() {
+    var show = window.scrollY > window.innerHeight * 1.2;
+    if (show !== on) { on = show; b.classList.toggle("show", on); b.tabIndex = on ? 0 : -1; }
+  }
+  window.addEventListener("scroll", check, { passive: true });
+  check();
+  b.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    var brand = document.querySelector(".brand");
+    if (brand) brand.focus({ preventScroll: true });
+  });
+})();
+</script>
 </body>
 </html>
