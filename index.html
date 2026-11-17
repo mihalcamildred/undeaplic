@@ -9,6 +9,18 @@
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://undeaplic.ro/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Unde Aplic?">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:url" content="https://undeaplic.ro/">
+<meta property="og:title" content="Unde Aplic? Toți banii pentru proiecte, într-un singur loc">
+<meta property="og:description" content="Apelurile de finanțare pentru ONG-urile din România, verificate zilnic: fonduri europene, primării, consilii județene, companii și fundații. Gratuit, fără cont.">
+<meta property="og:image" content="https://undeaplic.ro/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Unde Aplic? Toți banii pentru proiecte, într-un singur loc.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -154,6 +166,7 @@ input:focus, select:focus, textarea:focus { border-color: var(--brand); outline:
 .ver { color: var(--muted); font-size: .82rem; }
 .code { font-size: .82rem; color: var(--muted); overflow-wrap: anywhere; }
 .more { display: none; }
+.empty b { color: var(--ink); font-weight: 900; }
 .empty { background: var(--card); padding: 28px; text-align: center; color: var(--muted); border-radius: 20px; box-shadow: var(--shadow); }
 
 /* Trimite un apel */
@@ -255,7 +268,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     <aside class="soon-box" aria-labelledby="soon-title">
       <h2 id="soon-title">Se închid primele</h2>
       <div class="notes" id="notes" aria-live="polite">
-        <div class="note ghost"><p class="t">Se încarcă apelurile…</p></div>
+        <div class="note ghost"><p class="t">Căutăm prin sertare…</p></div>
       </div>
     </aside>
   </section>
@@ -317,7 +330,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
 
 <div class="wrap">
   <div class="result-line">
-    <span id="result-count" aria-live="polite">Se încarcă…</span>
+    <span id="result-count" aria-live="polite">Căutăm prin sertare…</span>
     <button class="linkish" id="reset" type="button">Resetează filtrele</button>
   </div>
 
@@ -454,7 +467,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     $("result-count").textContent = txt;
     $("apply-n").textContent = txt;
     $("list").innerHTML = rows.length ? rows.map(card).join("") :
-      '<div class="empty">Niciun apel nu se potrivește. Încearcă alt domeniu sau alege „Toate” la status.</div>';
+      '<div class="empty"><b>Nimic aici.</b> Încearcă alt cuvânt sau scoate un filtru. Banii se mai ascund.</div>';
     var nf = ["f-src", "f-dom", "f-mic"].filter(function (id) { return $(id).value; }).length + ($("f-status").value !== "activ" ? 1 : 0);
     $("nfilters").textContent = nf ? nf : "";
   }
@@ -565,7 +578,7 @@ footer.site .fmark svg { width: 30px; height: 30px; }
     .then(boot)
     .catch(function () {
       $("result-count").textContent = "Nu am putut încărca apelurile.";
-      $("list").innerHTML = '<div class="empty">Lista de apeluri nu s-a încărcat. Reîncarcă pagina.</div>';
+      $("list").innerHTML = '<div class="empty"><b>Hopa, lista nu s-a încărcat.</b> Reîncarcă pagina; de obicei merge din a doua.</div>';
       $("notes").innerHTML = '<div class="note ghost"><p class="t">Lista nu s-a încărcat. Reîncarcă pagina.</p></div>';
     });
 })();
