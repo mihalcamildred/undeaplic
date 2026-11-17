@@ -3560,25 +3560,26 @@
         "Social"
       ],
       "solicitanti": [
-        "Furnizori de servicii sociale acreditați, publici și privați (inclusiv ONG-uri acreditate)",
-        "DGASPC, DAS, UAT"
+        "Furnizori de servicii sociale acreditați, publici și privați (ONG-urile pot aplica dacă sunt acreditate pe Legea 197/2012)",
+        "DGASPC",
+        "Servicii publice de asistență socială"
       ],
       "ong_mic": false,
-      "valoare": "201.000 – 1.000.000 € / proiect",
-      "cofinantare": "0–5% (finanțare 95–100%)",
+      "valoare": "201.000 – 1.000.000 € / proiect, minimum 150 beneficiari; buget total 26,8 milioane €",
+      "cofinantare": "0% pentru ONG-uri",
       "arie": "Național",
       "status": "deschis",
       "termen": "2026-11-30",
-      "termen_text": "30 noiembrie 2026, conform RCG Consulting; confirmă termenul în ghidul oficial (mfe.gov.ro) înainte să aplici",
-      "rezumat": "Bani europeni pentru identificarea persoanelor fără adăpost sau în excluziune locativă și pentru servicii sociale care să le ajute să iasă din stradă. ONG-urile pot aplica dacă sunt furnizori de servicii sociale acreditați.",
-      "link": "https://rcgconsulting.ro/pids-servicii-sociale-persoane-fara-adapost/",
-      "link_tip": "presa",
+      "termen_text": "deschis din 29 septembrie 2026; depunere în MySMIS 2021 până pe 30 noiembrie 2026, ora 16:00",
+      "rezumat": "Bani europeni pentru identificarea persoanelor fără adăpost sau în excluziune locativă și pentru servicii sociale care să le ajute să iasă din stradă. În fiecare proiect trebuie să fie implicat un DGASPC sau un serviciu public de asistență socială, ca solicitant sau partener.",
+      "link": "https://mfe.gov.ro/ghiduri_pids/apelurile-de-tip-competitiv-servicii-de-sprijin-pentru-incluziunea-sociala-a-persoanelor-fara-adapost-finantate-din-programul-incluziune-si-demnitate-sociala-2021-2027-prioritatea-p/",
+      "link_tip": "oficial",
       "verificat": "2026-11-17"
     },
     {
       "id": "peo-restart-femei",
       "cod": "PEO 3.c.3",
-      "titlu": "PEO: ReSTART, sprijin pentru întoarcerea femeilor pe piața muncii",
+      "titlu": "PEO: ReSTART, femei pe piața muncii",
       "finantator": "Programul Educație și Ocupare (PEO), Ministerul Investițiilor și Proiectelor Europene",
       "sursa": "UE prin România",
       "domenii": [
@@ -3586,20 +3587,21 @@
         "Ocupare"
       ],
       "solicitanti": [
-        "ONG-uri",
+        "Asociații și fundații care lucrează pentru egalitate de șanse, sprijinul femeilor, incluziune socială sau protecția familiei",
         "Furnizori de formare și de servicii de ocupare",
-        "AJOFM"
+        "Centre de evaluare a competențelor",
+        "ANOFM și agențiile județene"
       ],
       "ong_mic": false,
-      "valoare": "de la 500.000 € / proiect (conform ghidului în consultare)",
-      "cofinantare": "0–5% (finanțare 95–100%)",
-      "arie": "Național",
+      "valoare": "minimum 500.000 € / proiect (pentru 222 de participante); buget total 4,2 milioane €",
+      "cofinantare": "0% pentru asociații și fundații",
+      "arie": "Cele 7 regiuni mai puțin dezvoltate (fără București-Ilfov)",
       "status": "anuntat",
       "termen": "",
-      "termen_text": "ghidul a fost în consultare publică până pe 30 octombrie 2026; apelul nu e lansat încă",
-      "rezumat": "Proiecte mari pentru femei care vor să revină la muncă: consiliere, formare și sprijin la angajare. Merită pregătit de acum parteneriatul și grupul țintă.",
-      "link": "https://rcgconsulting.ro/peo-restart-femei-piata-muncii/",
-      "link_tip": "presa",
+      "termen_text": "apel în pregătire; ghidul a fost în consultare publică între 12 și 30 octombrie 2026, iar datele de depunere nu sunt anunțate",
+      "rezumat": "Proiecte pentru femei inactive sau șomere care vor să revină la muncă: consiliere, formare și sprijin la angajare. Merită pregătit de acum parteneriatul și grupul țintă de minimum 222 de femei.",
+      "link": "https://mfe.gov.ro/peo-consultare-publica-ghidul-solicitantului-conditii-specifice-restart-femei-pe-piata-muncii/",
+      "link_tip": "oficial",
       "verificat": "2026-11-17"
     },
     {
@@ -3611,20 +3613,20 @@
         "Social"
       ],
       "solicitanti": [
-        "Furnizori de servicii sociale (publici și privați)",
-        "Administrația Națională a Penitenciarelor",
-        "Furnizori de formare și de servicii de ocupare"
+        "Furnizori de servicii sociale acreditați, publici și privați (inclusiv ONG-uri acreditate)",
+        "Administrația Națională a Penitenciarelor (participă obligatoriu)",
+        "Furnizori de formare autorizați și de servicii de ocupare acreditați"
       ],
       "ong_mic": false,
-      "valoare": "201.000 – 1.000.000 € / proiect (conform ghidului în consultare)",
-      "cofinantare": "0–5% (finanțare 95–100%)",
+      "valoare": "201.000 – 1.000.000 € / proiect, minimum 200 de participanți (cifre din ghidul în consultare)",
+      "cofinantare": "0% pentru ONG-uri în regiunile mai puțin dezvoltate",
       "arie": "Național",
       "status": "anuntat",
       "termen": "",
-      "termen_text": "ghidul a fost în consultare publică până pe 30 octombrie 2026; apelul nu e lansat încă",
+      "termen_text": "apel în pregătire; ghidul a fost în consultare publică între 12 și 30 octombrie 2026, iar datele de depunere nu sunt anunțate",
       "rezumat": "Sprijin pentru reintegrarea oamenilor care ies din închisoare: servicii sociale, consiliere, formare și ajutor la angajare. Verifică în ghidul final dacă ONG-ul tău trebuie să fie furnizor acreditat.",
-      "link": "https://rcgconsulting.ro/pids-8-2-persoane-eliberate-din-inchisoare/",
-      "link_tip": "presa",
+      "link": "https://mfe.gov.ro/ghiduri_pids/ghidul-solicitantului-conditii-specifice-sprijin-pentru-incluziune-oferit-persoanelor-care-sunt-eliberate-din-inchisoare/",
+      "link_tip": "oficial",
       "verificat": "2026-11-17"
     }
   ]
