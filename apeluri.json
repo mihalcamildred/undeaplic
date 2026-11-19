@@ -1,5 +1,5 @@
 {
-  "actualizat": "2026-11-18",
+  "actualizat": "2026-11-19",
   "apeluri": [
     {
       "id": "pids-familii-monoparentale-iti",
@@ -2841,13 +2841,13 @@
       "valoare": "Până la 20.000 lei pe proiect (buget total 125.000 lei)",
       "cofinantare": "Nespecificată în anunț",
       "arie": "Județul Alba (beneficiarii trebuie să fie din Alba)",
-      "status": "deschis",
-      "termen": "2026-11-18",
-      "termen_text": "18 noiembrie 2026, ora 12:00, pe sibiu.grantmanager.ro",
+      "status": "recurent",
+      "termen": null,
+      "termen_text": "anual; ediția 2026 (Științescu Alba 4.0) s-a încheiat pe 18 noiembrie 2026. Urmărește Fundația Comunitară Sibiu pentru ediția următoare",
       "rezumat": "Finanțare pentru proiecte educaționale care apropie copiii și tinerii de știință, tehnologie, inginerie, artă și matematică, cu accent pe inteligență artificială și robotică. Câștigătorii se anunță pe 11 decembrie 2026.",
       "link": "https://alba24.ro/fondul-stiintescu-alba-bani-pentru-proiecte-care-aduc-stiinta-si-tehnologia-mai-aproape-de-copii-si-tineri-cum-poti-aplica-1163234.html",
       "link_tip": "presa",
-      "verificat": "2026-11-18"
+      "verificat": "2026-11-19"
     },
     {
       "id": "stiintescu-brasov",
