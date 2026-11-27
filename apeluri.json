@@ -1,5 +1,5 @@
 {
-  "actualizat": "2026-11-26",
+  "actualizat": "2026-11-27",
   "apeluri": [
     {
       "id": "pids-familii-monoparentale-iti",
@@ -40,13 +40,13 @@
       "valoare": "250.000–350.000 lei / proiect (buget total 4 mil. lei)",
       "cofinantare": "",
       "arie": "Național + comunități din diaspora",
-      "status": "deschis",
-      "termen": "2026-11-26",
-      "termen_text": "ora 17:00, se depune o schiță de proiect",
+      "status": "recurent",
+      "termen": "",
+      "termen_text": "anual, toamna; ediția a 16-a s-a încheiat pe 26 noiembrie 2026",
       "rezumat": "Trei organizații non-profit lucrează împreună pe o nevoie reală a comunității, legată de un Obiectiv de Dezvoltare Durabilă. Include incubare și mentorat, iar românii din diaspora pot fi parteneri.",
       "link": "https://www.raiffeisencomunitati.org/",
       "link_tip": "oficial",
-      "verificat": "2026-11-17"
+      "verificat": "2026-11-27"
     },
     {
       "id": "start-ong-2026",
