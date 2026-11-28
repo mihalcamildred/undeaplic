@@ -1,30 +1,6 @@
 {
-  "actualizat": "2026-11-27",
+  "actualizat": "2026-11-28",
   "apeluri": [
-    {
-      "id": "pids-familii-monoparentale-iti",
-      "titlu": "Familii monoparentale în ITI Țara Făgărașului și ITI Moții (PIDS 5.5)",
-      "finantator": "Programul Incluziune și Demnitate Socială (PIDS), MIPE",
-      "sursa": "UE prin România",
-      "domenii": [
-        "Social",
-        "Copii"
-      ],
-      "solicitanti": [
-        "Furnizori de servicii sociale acreditați, inclusiv ONG-uri (verifică ghidul)"
-      ],
-      "ong_mic": false,
-      "valoare": "până la 534.932 € / proiect",
-      "cofinantare": "",
-      "arie": "ITI Țara Făgărașului și ITI Moții – Țara de Piatră",
-      "status": "deschis",
-      "termen": "2026-11-27",
-      "termen_text": "ora 16:00, în MySMIS2021",
-      "rezumat": "Varianta teritorială a apelului pentru familii monoparentale, pentru cele două zone ITI din Regiunea Centru. Potrivit organizațiilor care lucrează deja acolo.",
-      "link": "https://rcgconsulting.ro/pids-5-5-familii-monoparentale-iti-fagaras-motii/",
-      "link_tip": "presa",
-      "verificat": "2026-11-18"
-    },
     {
       "id": "raiffeisen-comunitati-16",
       "titlu": "Raiffeisen Comunități, ediția a 16-a",
@@ -3366,13 +3342,13 @@
       "valoare": "Conform apelului",
       "cofinantare": "Nu",
       "arie": "România",
-      "termen_text": "Anual; în 2026 apelul a fost publicat pe 20 ianuarie, cu termen pe 7 februarie",
-      "rezumat": "Granturi pentru organizațiile de la firul ierbii care oferă advocacy, protecție și asistență comunitară persoanelor refugiate și apatride. Aplicarea se face pe UN Partner Portal.",
-      "link": "https://www.unhcr.org/ro/node/427",
+      "termen_text": "Runda a 4-a a fost lansată pe 17 noiembrie 2026; termenul exact apare în anunțul de pe UN Partner Portal (alege Romania, apoi Partnership Opportunities)",
+      "rezumat": "A patra rundă de granturi pentru organizațiile de la firul ierbii care oferă advocacy, protecție și asistență comunitară persoanelor refugiate și apatride, în linia strategiei UNHCR 2024–2027. Aplicarea se face pe UN Partner Portal, unde găsești și nota de concept.",
+      "link": "https://www.unhcr.org/ro/stiri/comunicate-de-presa/ro-eng-call-expression-interest-grant-agreements-creating-new",
       "link_tip": "oficial",
       "termen": "",
-      "status": "recurent",
-      "verificat": "2026-11-17"
+      "status": "deschis",
+      "verificat": "2026-11-28"
     },
     {
       "id": "anpdpd-proiecte-ong",
